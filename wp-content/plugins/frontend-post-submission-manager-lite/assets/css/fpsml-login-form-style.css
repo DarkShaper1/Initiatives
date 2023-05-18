@@ -1,0 +1,815 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+[class*="fpsml-login-form-template-"]{
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 28px;
+    box-shadow: rgba(0,0,0,.24) 0 0 24px;
+}
+
+[class*="fpsml-login-form-template-"] p{
+    margin: 0 0 20px 0;
+}
+[class*="fpsml-login-form-template-"] p:last-child{
+    margin-bottom: 0;
+}
+
+.fpsml-login-msg{
+    display: inline-block;
+    background-color:#f5e0e0;
+    color:#c43434;
+    padding: 8px 20px;
+    font-size: 14px;
+    border: solid 1px #e4a0a0;
+    border-radius: 3px;
+}
+
+[class*="fpsml-login-form-template-"] input[type="text"],
+[class*="fpsml-login-form-template-"] input[type="password"]{
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,.04);
+    border:solid 1px rgba(0,0,0,.08);
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+    width: 100%;
+}
+[class*="fpsml-login-form-template-"] input[type="submit"]{
+    background-color: #0083f8;
+    padding: 5px 38px;
+    color: white;
+    border-radius: 2px;
+    line-height: 42px;
+    transition: all .3s ease;
+}
+
+[class*="fpsml-login-form-template-"] input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.8);
+}
+
+[class*="fpsml-login-form-template-"] .login-remember label{
+    font-weight: 400;
+    color: rgba(0,0,0,.68);
+}
+
+[class*="fpsml-login-form-template-"] label{
+    font-size: 15px;
+    font-weight: 800;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/*=================================================================Template 2*/
+[class*="fpsml-login-form-template-2"]{
+    background-color: #f9fafb;
+}
+
+[class*="fpsml-login-form-template-2"] input[type="text"],
+[class*="fpsml-login-form-template-2"] input[type="password"]{
+    border-radius: 68px;
+    background-color: white;
+    border:solid 1px rgba(0,0,0,.08);
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+}
+[class*="fpsml-login-form-template-2"] input[type="submit"]{
+    background-color: #e2b24b;
+}
+
+[class*="fpsml-login-form-template-2"] input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.8);
+}
+
+[class*="fpsml-login-form-template-2"] .login-remember label{
+    font-weight: 400;
+    color: rgba(0,0,0,.68);
+}
+
+[class*="fpsml-login-form-template-2"] label{
+    font-size: 15px;
+    font-weight: 800;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+/*=================================================================Template 3*/
+[class*="fpsml-login-form-template-3"]{
+    background-color: white;
+}
+
+[class*="fpsml-login-form-template-3"] input[type="text"],
+[class*="fpsml-login-form-template-3"] input[type="password"]{
+    border-radius: 0;
+    background-color: white;
+    border:solid 1px rgba(0,0,0,.08);
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+}
+[class*="fpsml-login-form-template-3"] input[type="submit"]{
+    background-color: #e2b24b;
+}
+
+[class*="fpsml-login-form-template-3"] input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.8);
+}
+
+[class*="fpsml-login-form-template-3"] .login-remember label{
+    font-weight: 400;
+    color: rgba(0,0,0,.68);
+}
+
+[class*="fpsml-login-form-template-3"] label{
+    font-size: 15px;
+    font-weight: 800;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/*=================================================================Template 4*/
+[class*="fpsml-login-form-template-4"]{
+    background-color: white;
+}
+
+[class*="fpsml-login-form-template-4"] #fpsml-login-form p{
+    display: flex;
+    flex-wrap: nowrap;
+}
+[class*="fpsml-login-form-template-4"] #fpsml-login-form p .input{
+    flex: 1;
+}
+[class*="fpsml-login-form-template-4"] #fpsml-login-form p > label{
+    max-width: 150px;
+    flex: 0 0 150px;
+}
+
+[class*="fpsml-login-form-template-4"] .login-remember,
+[class*="fpsml-login-form-template-4"] .login-submit{
+    padding-left: 150px;
+}
+
+[class*="fpsml-login-form-template-4"] input[type="text"],
+[class*="fpsml-login-form-template-4"] input[type="password"]{
+    border-radius: 0;
+    background-color: white;
+    border:solid 1px rgba(0,0,0,.08);
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+}
+[class*="fpsml-login-form-template-4"] input[type="submit"]{
+    background-color: #ef7272;
+    padding: 10px 24px;
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0;
+}
+
+[class*="fpsml-login-form-template-4"] input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.8);
+}
+
+[class*="fpsml-login-form-template-4"] .login-remember label{
+    font-weight: 400;
+    color: rgba(0,0,0,.68);
+}
+
+[class*="fpsml-login-form-template-4"] label{
+    font-size: 15px;
+    font-weight: 800;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/*=================================================================Template 5*/
+[class*="fpsml-login-form-template-5"]{
+    background-color: #f8f9fb;
+}
+
+[class*="fpsml-login-form-template-5"] input[type="text"],
+[class*="fpsml-login-form-template-5"] input[type="password"]{
+    border-radius: 0;
+    background-color: transparent;
+    border:solid 1px rgba(0,0,0,.2);
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+}
+[class*="fpsml-login-form-template-5"] input[type="submit"]{
+    background-color: #8265ca;
+    padding: 10px 24px;
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0;
+    color: white;
+}
+
+[class*="fpsml-login-form-template-5"] input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.8);
+}
+
+[class*="fpsml-login-form-template-5"] .login-remember label{
+    font-weight: 400;
+    color: rgba(0,0,0,.68);
+}
+
+
+/*=================================================================Template 6*/
+[class*="fpsml-login-form-template-6"]{
+    background-color: #f8f9fb;
+}
+
+[class*="fpsml-login-form-template-6"] input[type="text"],
+[class*="fpsml-login-form-template-6"] input[type="password"]{
+    border-radius: 68px;
+    background-color: #ebebec;
+    border:none;
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+}
+[class*="fpsml-login-form-template-6"] input[type="submit"]{
+    background-color: #8265ca;
+    padding: 10px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 68px;
+    color: white;
+    letter-spacing: 0;
+}
+
+[class*="fpsml-login-form-template-6"] input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.8);
+}
+
+[class*="fpsml-login-form-template-6"] .login-remember label{
+    font-weight: 400;
+    color: rgba(0,0,0,.68);
+}
+
+
+/*=================================================================Template 7*/
+[class*="fpsml-login-form-template-7"]{
+    background-color: white;
+}
+
+[class*="fpsml-login-form-template-7"] p:not(.login-remember) label{
+    font-size: 14px;
+    font-weight: 800;
+    display: inline-block;
+    width: auto;
+    margin-bottom: 15px;
+    position: relative;
+    background-color: rgba(0,0,0,.08);
+    padding: 8px 12px;
+}
+
+[class*="fpsml-login-form-template-7"] p label:before{
+    content:'';
+    position: absolute;
+    left: 10px;
+    bottom: -14px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgba(0,0,0,.08) transparent transparent transparent;
+}
+
+[class*="fpsml-login-form-template-7"] input[type="text"],
+[class*="fpsml-login-form-template-7"] input[type="password"]{
+    background-color: transparent;
+    border:none;
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+    border:solid 1px rgba(0,0,0,.18);
+}
+[class*="fpsml-login-form-template-7"] input[type="submit"]{
+    background-color: #7fd383;
+    font-size: 14px;
+}
+
+[class*="fpsml-login-form-template-7"] input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.8);
+}
+
+[class*="fpsml-login-form-template-7"] .login-remember label{
+    font-weight: 400;
+    color: rgba(0,0,0,.68);
+}
+
+/*=================================================================Template 8*/
+[class*="fpsml-login-form-template-8"] input[type="text"],
+[class*="fpsml-login-form-template-8"] input[type="password"]{
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+    border:none;
+    border-bottom:solid 1px rgba(0,0,0,.08);
+}
+
+[class*="fpsml-login-form-template-8"] input[type="submit"]{
+    background-color: #7fd383;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0;
+}
+
+/*=================================================================Template 9*/
+[class*="fpsml-login-form-template-9"] input[type="text"],
+[class*="fpsml-login-form-template-9"] input[type="password"]{
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+    border-width: 2px;
+    padding: 0 15px;
+}
+
+[class*="fpsml-login-form-template-9"] p.login-username,
+[class*="fpsml-login-form-template-9"] p.login-password{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px rgba(0,0,0,.18);
+}
+
+[class*="fpsml-login-form-template-9"] input[type="submit"]{
+    background-color: #7fd383;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0;
+}
+
+/*=================================================================Template 10*/
+[class*="fpsml-login-form-template-10"]{
+    background-color: white;
+    padding: 0;
+}
+[class*="fpsml-login-form-template-10"] input[type="text"],
+[class*="fpsml-login-form-template-10"] input[type="password"]{
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+    border-width: 2px;
+    padding: 0 15px;
+}
+[class*="fpsml-login-form-template-10"] p{padding: 20px;}
+[class*="fpsml-login-form-template-10"] p.login-remember,
+[class*="fpsml-login-form-template-10"] p.login-submit{padding: 0 20px;}
+[class*="fpsml-login-form-template-10"] p.login-submit{padding-bottom: 20px;}
+[class*="fpsml-login-form-template-10"] p.login-username,
+[class*="fpsml-login-form-template-10"] p.login-password{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px rgba(0,0,0,.18);
+}
+[class*="fpsml-login-form-template-10"] p.login-password{
+    background-color: rgba(0,0,0,.05);
+}
+
+[class*="fpsml-login-form-template-10"] input[type="submit"]{
+    background-color: #7fd383;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0;
+}
+
+/*========================================= Template 11 ============================*/
+
+[class*="fpsml-login-form-template-11"]{
+    background-color: #617283;
+    padding: 24px;
+    color: white;
+}
+[class*="fpsml-login-form-template-11"] input[type="text"],
+[class*="fpsml-login-form-template-11"] input[type="password"]{
+    padding: 0;
+    border-radius: 0;
+    border:none;
+    padding: 0 15px;
+    background-color: rgba(255,255,255,.08);
+    color: inherit;
+}
+
+[class*="fpsml-login-form-template-11"] #fpsml-login-form p{
+    display: flex;
+    flex-wrap: nowrap;
+}
+[class*="fpsml-login-form-template-11"] #fpsml-login-form p .input{
+    flex: 1;
+}
+[class*="fpsml-login-form-template-11"] #fpsml-login-form p > label{
+    max-width: 150px;
+    flex: 0 0 150px;
+}
+
+[class*="fpsml-login-form-template-11"] p{padding: 20px;background-color: rgba(255,255,255,.08);margin: 0;}
+[class*="fpsml-login-form-template-11"] p.login-submit{padding-bottom: 20px;}
+[class*="fpsml-login-form-template-11"] p.login-username,
+[class*="fpsml-login-form-template-11"] p.login-password{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px rgba(0,0,0,.18);
+}
+
+[class*="fpsml-login-form-template-11"] p.login-remember{background-color: transparent;color: inherit}
+[class*="fpsml-login-form-template-11"] p.login-remember label{color: inherit}
+
+
+[class*="fpsml-login-form-template-11"] input[type="submit"]{
+    background-color: white;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    color: #617283;
+    letter-spacing: 0;
+    border-radius: 0;
+}
+[class*="fpsml-login-form-template-11"] input[type="submit"]:hover{
+    color: white;
+}
+
+/*========================================= Template 11==============================*/
+
+
+/*========================================= Template 12 ===============================*/
+[class*="fpsml-login-form-template-12"]{
+    background-color: white;
+    overflow: hidden;
+}
+[class*="fpsml-login-form-template-12"] #fpsml-login-form p > label{
+    font-size: 14px;
+    font-weight: 800;
+    display: inline-block;
+    width: auto;
+    margin-bottom: 15px;
+    position: relative;
+    background-color: rgba(0,0,0,.8);
+    padding: 5px 12px;
+    color: white;
+}
+[class*="fpsml-login-form-template-12"] #fpsml-login-form p > label:after{
+    width: 100%;
+    content: '';
+    position: absolute;
+    top:0;
+    left: -100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+}
+
+[class*="fpsml-login-form-template-12"] input[type="text"],
+[class*="fpsml-login-form-template-12"] input[type="password"]{
+    background-color: transparent;
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+    border:solid 2px rgba(0,0,0,.18);
+    border-radius: 68px;
+}
+
+[class*="fpsml-login-form-template-12"] input[type="submit"]{
+    background-color: #3ec34d;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0;
+    border-radius:68px;
+}
+/*========================================= Template 12 ===============================*/
+
+/*========================================= Template 13 ============================*/
+
+[class*="fpsml-login-form-template-13"]{
+    background-color: #efeded;
+    padding: 24px;
+    color: rgba(0,0,0,.8);
+}
+[class*="fpsml-login-form-template-13"] input[type="text"],
+[class*="fpsml-login-form-template-13"] input[type="password"]{
+
+}
+
+[class*="fpsml-login-form-template-13"] p{padding: 20px;background-color: rgba(255,255,255,0.68);margin: 0;}
+[class*="fpsml-login-form-template-13"] p.login-submit{padding-bottom: 20px;}
+[class*="fpsml-login-form-template-13"] p.login-username,
+[class*="fpsml-login-form-template-13"] p.login-password{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+[class*="fpsml-login-form-template-13"] input[type="submit"]{
+    background-color: #3ec34d;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0;
+    border-radius:0;
+}
+
+
+/*========================================= Template 13 ==============================*/
+
+
+/*========================================= Template 14 ============================*/
+
+[class*="fpsml-login-form-template-14"]{
+    background-color: #efeded;
+    padding: 24px;
+    color: rgba(0,0,0,.8);
+}
+[class*="fpsml-login-form-template-14"] input[type="text"],
+[class*="fpsml-login-form-template-14"] input[type="password"]{
+    border-radius: 68px;
+    background-color: #403872;
+    color: white;
+}
+
+[class*="fpsml-login-form-template-14"] p{padding: 20px;background-color: rgba(255,255,255,0.68);margin: 0;}
+[class*="fpsml-login-form-template-14"] p.login-submit{padding-bottom: 20px;}
+[class*="fpsml-login-form-template-14"] p.login-username,
+[class*="fpsml-login-form-template-14"] p.login-password{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+[class*="fpsml-login-form-template-14"] input[type="submit"]{
+    background-color: #3186d5;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0;
+    border-radius:68px;
+}
+
+
+/*========================================= Template 14 ==============================*/
+
+
+/*========================================= Template 15 ============================*/
+
+[class*="fpsml-login-form-template-15"]{
+    background-color: #efeded;
+    padding: 24px;
+    color: rgba(0,0,0,.8);
+}
+[class*="fpsml-login-form-template-15"] input[type="text"],
+[class*="fpsml-login-form-template-15"] input[type="password"]{
+    background-color: transparent;
+    border:none;
+    border-bottom: solid 1px rgba(0,0,0,.18);
+}
+
+[class*="fpsml-login-form-template-15"] p{padding: 20px;background-color: rgba(255,255,255,0.68);margin: 0;}
+[class*="fpsml-login-form-template-15"] p.login-submit{padding-bottom: 20px;}
+[class*="fpsml-login-form-template-15"] p.login-username,
+[class*="fpsml-login-form-template-15"] p.login-password{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+[class*="fpsml-login-form-template-15"] input[type="submit"]{
+    background-color: #697e92;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0;
+}
+
+
+/*========================================= Template 15 ==============================*/
+
+
+/*========================================= Template 16 ==============================*/
+[class*="fpsml-login-form-template-16"] input[type="text"],
+[class*="fpsml-login-form-template-16"] input[type="password"]{
+    background-color: transparent;
+    border-color: rgba(0,0,0,.18);
+}
+[class*="fpsml-login-form-template-16"] input[type="submit"]{
+    background-color: #7fd383;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0;
+}
+/*========================================= Template 16 ==============================*/
+
+
+/*========================================= Template 17 ==============================*/
+[class*="fpsml-login-form-template-17"] input[type="text"],
+[class*="fpsml-login-form-template-17"] input[type="text"]:focus,
+[class*="fpsml-login-form-template-17"] input[type="password"],
+[class*="fpsml-login-form-template-17"] input[type="password"]:focus
+{
+    background-color: transparent;
+    border:none;
+    border-bottom:solid 1px rgba(0,0,0,.18);
+    border-left: solid 4px #fa7575;
+}
+[class*="fpsml-login-form-template-17"] input[type="submit"]{
+    background-color: black;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0;
+}
+/*========================================= Template 17 ==============================*/
+
+
+/*========================================= Template 18 ==============================*/
+[class*="fpsml-login-form-template-18"]{
+    background-color: white;
+    overflow: hidden;
+    color: #697e92;
+}
+[class*="fpsml-login-form-template-18"] #fpsml-login-form p > label{
+    font-size: 14px;
+    font-weight: 800;
+    display: inline-block;
+    width: auto;
+    margin-bottom: -2px;
+    position: relative;
+    background-color: #697e92;
+    padding: 5px 12px;
+    color: white;
+    position: relative;
+    vertical-align: bottom;
+}
+
+[class*="fpsml-login-form-template-18"] input[type="text"],
+[class*="fpsml-login-form-template-18"] input[type="password"]{
+    background-color: transparent;
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+    border:solid 1px #697e92;
+    border-radius: 0;
+}
+
+[class*="fpsml-login-form-template-18"] input[type="submit"]{
+    background-color: #697e92;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0;
+    border-radius:2px;
+}
+[class*="fpsml-login-form-template-18"] #fpsml-login-form p.login-remember > label{background-color: transparent;color: inherit;padding: 0;}
+/*========================================= Template 18 ==============================*/
+
+
+/*========================================= Template 19 ==============================*/
+[class*="fpsml-login-form-template-19"]{
+    background-color: white;
+    overflow: hidden;
+    color: #bc61b7;
+    font-family: 'Coming Soon', cursive;
+}
+[class*="fpsml-login-form-template-19"] p > label{
+    color: inherit;
+}
+[class*="fpsml-login-form-template-19"] input[type="text"],
+[class*="fpsml-login-form-template-19"] input[type="password"]{
+    background-color: #fbfcfc;
+}
+[class*="fpsml-login-form-template-19"] input[type="submit"]{
+    background-color: #bc61b7;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+}
+/*========================================= Template 19 ==============================*/
+
+
+/*========================================= Template 20 ==============================*/
+[class*="fpsml-login-form-template-20"]{
+    background-image: url("../images/child-bg-2.png");
+    background-size: 100%;
+    color: #a4ae51;
+    padding: 58px;
+    position: relative;
+}
+[class*="fpsml-login-form-template-20"] #fpsml-login-form p{
+    display: flex;
+    flex-wrap: nowrap;
+}
+[class*="fpsml-login-form-template-20"] #fpsml-login-form p .input{
+    flex: 1;
+}
+[class*="fpsml-login-form-template-20"] #fpsml-login-form p > label{
+    max-width: 150px;
+    flex: 0 0 150px;
+}
+[class*="fpsml-login-form-template-20"] p{padding: 20px;background-color: rgba(255,255,255,1);margin: 0;}
+[class*="fpsml-login-form-template-20"] input[type="text"],
+[class*="fpsml-login-form-template-20"] input[type="password"]{
+    background-color: #edf0e9;
+    border: none;
+    border-radius: 0;
+}
+
+[class*="fpsml-login-form-template-20"] input[type="submit"]{
+    background-color: #a4ae51;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*========================================= Template 20 ==============================*/
+
+
+/*========================================= Template 21 ==============================*/
+[class*="fpsml-login-form-template-21"] input[type="text"],
+[class*="fpsml-login-form-template-21"] input[type="password"]
+{
+    background-color: transparent;
+    border:none;
+    border:solid 1px rgba(0,0,0,.18);
+    border-radius: 0;
+}
+[class*="fpsml-login-form-template-21"] input[type="submit"]{
+    background-color: #d82e05;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0;
+}
+/*========================================= Template 21 ==============================*/
+
+
+/*========================================= Template 22 ==============================*/
+[class*="fpsml-login-form-template-22"]{
+    background-color: #2b364c;
+    padding: 24px;
+    color: white;
+}
+[class*="fpsml-login-form-template-22"] #fpsml-login-form p > label{
+    font-size: 14px;
+    font-weight: 800;
+    display: inline-block;
+    width: auto;
+    margin-bottom: 15px;
+    position: relative;
+    background-color: rgba(255,255,255,.08);
+    padding: 5px 12px;
+    color: white;
+}
+[class*="fpsml-login-form-template-22"] input[type="text"],
+[class*="fpsml-login-form-template-22"] input[type="password"]
+{
+    background-color: rgba(255,255,255,.08);
+    border:none;
+    border-radius: 0;
+    color: inherit;
+}
+[class*="fpsml-login-form-template-22"] #fpsml-login-form p.login-remember > label{background-color: transparent;color: inherit;padding: 0;}
+
+[class*="fpsml-login-form-template-22"] input[type="submit"]{
+    background-color: #c5b871;
+    padding: 12px 24px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0;
+}
+/*========================================= Template 22 ==============================*/
+.fpsml-login-note {
+    margin-top: 10px;
+    font-style: italic;
+    padding: 5px;
+}

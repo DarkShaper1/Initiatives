@@ -1,0 +1,297 @@
+# Translation of Plugins - Cyr-To-Lat - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Cyr-To-Lat - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-07-29 11:03:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Cyr-To-Lat - Stable (latest release)\n"
+
+#: src/php/Settings/Tables.php:78
+msgid "Tables"
+msgstr "Таблицы"
+
+#: src/php/Settings/Converter.php:287
+msgid "Upon conversion of attachments, please regenerate thumbnails."
+msgstr "После конвертации вложений, пожалуйста, пересоздайте миниатюры. "
+
+#: src/php/Settings/Converter.php:278
+msgid ""
+"Also, you have to make a copy of your media files if the attachment post type is selected for\n"
+"\t\t\t\tconversion."
+msgstr "Также, вам надо сделать копию ваших медиафайлов, если тип записи attachment был выбран для конвертации. "
+
+#: src/php/Settings/Converter.php:245
+msgid "Existing <strong>product attribute</strong> slugs will <strong>NOT</strong> be converted."
+msgstr "Существующие слаги <strong>атрибутов товара</strong> конвертированы <strong>НЕ</strong> будут."
+
+#: src/php/Settings/Converter.php:239
+msgid "Existing Slugs Conversion Settings"
+msgstr "Опции конвертации существующих слагов"
+
+#: src/php/Settings/Converter.php:140
+msgid "Post statuses included in the conversion."
+msgstr "Статусы записей, включаемых в конвертацию."
+
+#: src/php/Settings/Converter.php:136
+msgid "Post Statuses"
+msgstr "Статусы записей"
+
+#: src/php/Settings/Converter.php:117
+msgid "Post types included in the conversion."
+msgstr "Типы записей, включаемые в конвертацию."
+
+#: src/php/Settings/Converter.php:113
+msgid "Post Types"
+msgstr "Типы записей"
+
+#: src/php/Settings/Converter.php:69
+msgid "Converter"
+msgstr "Конвертер"
+
+#: src/php/Settings/Converter.php:300
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/php/Settings/Converter.php:297
+msgid "OK"
+msgstr "OK"
+
+#: src/php/Settings/Converter.php:293
+msgid "Are you sure to continue?"
+msgstr "Вы уверены, что хотите продолжить?"
+
+#: src/php/Settings/Converter.php:270
+msgid "This operation is irreversible. Please make sure that you have made a backup copy of your database."
+msgstr "Эта операция необратима. Пожалуйста, убедитесь, что вы сделали копию базы данных."
+
+#: src/php/Settings/Converter.php:268
+msgid "Important:"
+msgstr "Важно:"
+
+#: src/php/Settings/Tables.php:251
+msgid "Error saving options."
+msgstr "Ошибка сохранения настроек."
+
+#: src/php/Settings/Tables.php:250
+msgid "Options saved."
+msgstr "Настройки сохранены."
+
+#: src/php/background-processes/class-post-conversion-process.php:129
+msgid "Cannot rename thumbnail file:"
+msgstr "Невозможно переименовать файл миниатюры:"
+
+#: src/php/background-processes/class-post-conversion-process.php:126
+msgid "Thumbnail file renamed:"
+msgstr "Файл миниатюры переименован:"
+
+#: src/php/background-processes/class-post-conversion-process.php:108
+msgid "Cannot convert attachment file for attachment id:"
+msgstr "Невозможно сконвертировать файл вложения для вложения с id:"
+
+#: src/php/background-processes/class-post-conversion-process.php:102
+msgid "Attachment file converted:"
+msgstr "Файл вложения сконвертирован:"
+
+#: src/php/Settings/Tables.php:130
+msgid "hy Table"
+msgstr "Таблица hy"
+
+#: src/php/Settings/Tables.php:127
+msgid "el Table"
+msgstr "Таблица el"
+
+#: src/php/Settings/Tables.php:169
+msgid "(current)"
+msgstr "(текущая)"
+
+#: src/php/class-requirements.php:238
+msgid "See: <a href=\"https://sevenspark.com/docs/ubermenu-3/faqs/menu-item-limit\" target=\"_blank\">Increasing max input vars limit.</a>"
+msgstr "См.: <a href=\"https://sevenspark.com/docs/ubermenu-3/faqs/menu-item-limit\" target=\"_blank\">Увеличение лимита max input vars.</a>"
+
+#: src/php/class-requirements.php:235
+msgid "Please increase max input vars limit up to 1500."
+msgstr "Пожалуйста, увеличьте лимит max input vars до 1500."
+
+#. translators: 1: Wait time in seconds
+#: src/php/class-requirements.php:170
+msgid "Please try again in %d s."
+msgstr "Пожалуйста, попробуйте снова через %d сек."
+
+#. translators: 1: .user.ini filename
+#: src/php/class-requirements.php:167
+msgid "We have updated settings in %s."
+msgstr "Мы обновили настройки в %s."
+
+#. translators: 1: max_input_vars value, 2: Cyr To Lat version, 3: Minimum
+#. required max_input_vars
+#: src/php/class-requirements.php:163
+msgid "Your server is running PHP with max_input_vars=%1$d but Cyr To Lat %2$s requires at least %3$d."
+msgstr "На сервере установлен PHP с max_input_vars=%1$d, однако для Cyr To Lat %2$s требуется хотя бы %3$d."
+
+#: src/php/class-requirements.php:110
+msgid "Cyr To Lat plugin has been deactivated."
+msgstr "Плагин деактивирован."
+
+#: src/php/class-requirements.php:146
+msgid "Unable to get filesystem access."
+msgstr "Невозможно получить доступ к файловой системе."
+
+#: src/php/Settings/Tables.php:142
+msgid "zh_CN Table"
+msgstr "Таблица zh_CN"
+
+#. translators: %d: cron interval
+#: lib/wp-background-processing/class-wp-background-process.php:399
+msgid "Every %d Minutes"
+msgstr "Каждые %d минут"
+
+#: src/php/Settings/Tables.php:124
+msgid "sr_RS Table"
+msgstr "Таблица sr_RS"
+
+#. translators: 1: Current PHP version number, 2: Cyr To Lat version, 3:
+#. Minimum required PHP version number
+#: src/php/class-requirements.php:125
+msgid "Your server is running PHP version %1$s but Cyr To Lat %2$s requires at least %3$s."
+msgstr "На сервере установлен PHP версии %1$s, однако для Cyr To Lat %2$s требуется хотя бы %3$s."
+
+#: src/php/Settings/Tables.php:139
+msgid "he_IL Table"
+msgstr "Таблица he_IL"
+
+#: src/php/class-converter.php:254
+msgid "Cyr To Lat has not found existing term slugs for conversion."
+msgstr "Cyr To Lat не нашёл существующих ярлыков терминов для конвертации."
+
+#: src/php/class-converter.php:267
+msgid "Cyr To Lat started conversion of existing term slugs."
+msgstr "Cyr To Lat начал конвертацию существующих ярлыков терминов."
+
+#: src/php/class-converter.php:265
+msgid "Term slugs conversion started."
+msgstr "Начата конвертация ярлыков терминов."
+
+#: src/php/class-converter.php:217
+msgid "Cyr To Lat has not found existing post slugs for conversion."
+msgstr "Cyr To Lat не нашёл существующих ярлыков записей для конвертации."
+
+#: src/php/class-converter.php:230
+msgid "Cyr To Lat started conversion of existing post slugs."
+msgstr "Cyr To Lat начал конвертацию существующих ярлыков записей."
+
+#: src/php/class-converter.php:228
+msgid "Post slugs conversion started."
+msgstr "Начата конвертация ярлыков записей."
+
+#: src/php/class-converter.php:130
+msgid "Cyr To Lat completed conversion of existing term slugs."
+msgstr "Cyr To Lat завершил конвертацию существующих ярлыков терминов."
+
+#: src/php/class-converter.php:123
+msgid "Cyr To Lat completed conversion of existing post slugs."
+msgstr "Cyr To Lat завершил конвертацию существующих ярлыков записей."
+
+#: src/php/class-converter.php:116
+msgid "Cyr To Lat converts existing term slugs in the background process."
+msgstr "Cyr To Lat конвертирует существующие ярлыки терминов в фоновом процессе."
+
+#: src/php/class-converter.php:109
+msgid "Cyr To Lat converts existing post slugs in the background process."
+msgstr "Cyr To Lat конвертирует существующие ярлыки записей в фоновом процессе."
+
+#: src/php/background-processes/class-post-conversion-process.php:200
+msgid "Post slugs conversion completed."
+msgstr "Конвертация ярлыков записей завершена."
+
+#: src/php/background-processes/class-post-conversion-process.php:73
+msgid "Post slug converted:"
+msgstr "Ярлык записи сконвертирован:"
+
+#: src/php/background-processes/class-term-conversion-process.php:86
+msgid "Term slugs conversion completed."
+msgstr "Конвертация ярлыков терминов завершена."
+
+#: src/php/background-processes/class-term-conversion-process.php:72
+msgid "Term slug converted:"
+msgstr "Ярлык термина сконвертирован:"
+
+#: src/php/Settings/Tables.php:211
+msgid "Leave a ★★★★★ plugin review on WordPress.org"
+msgstr "Оставьте ★★★★★ обзор плагина на WordPress.org"
+
+#: src/php/Settings/Tables.php:206
+msgid "Your Appreciation"
+msgstr "Ваша оценка"
+
+#: src/php/Settings/Converter.php:206 src/php/Settings/Tables.php:192
+msgid "Cyr To Lat Plugin Options"
+msgstr "Опции плагина Cyr To Lat"
+
+#: src/php/Settings/Converter.php:78 src/php/Settings/Tables.php:87
+msgid "Cyr To Lat"
+msgstr "Cyr To Lat"
+
+#: src/php/Settings/Tables.php:136
+msgid "kk Table"
+msgstr "Таблица kk"
+
+#: src/php/Settings/Tables.php:133
+msgid "ka_GE Table"
+msgstr "Таблица ka_GE"
+
+#: src/php/Settings/Tables.php:121
+msgid "mk_MK Table"
+msgstr "Таблица mk_MK"
+
+#: src/php/Settings/Tables.php:118
+msgid "bg_BG Table"
+msgstr "Таблица bg_BG"
+
+#: src/php/Settings/Tables.php:115
+msgid "uk Table"
+msgstr "Таблица uk"
+
+#: src/php/Settings/Tables.php:112
+msgid "bel Table"
+msgstr "Таблица bel"
+
+#: src/php/Settings/Tables.php:109
+msgid "ISO9 Table"
+msgstr "Таблица ISO9"
+
+#: src/php/Settings/Converter.php:222
+msgid "Convert Existing Slugs"
+msgstr "Конвертировать существующие ярлыки"
+
+#: src/php/Settings/PluginSettingsBase.php:61
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/php/Settings/PluginSettingsBase.php:52
+msgid "View Cyr To Lat settings"
+msgstr "Посмотреть настройки Cyr To Lat"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/sergeybiryukov/"
+msgstr "https://profiles.wordpress.org/sergeybiryukov/"
+
+#. Author of the plugin
+msgid "Sergey Biryukov, Mikhail Kobzarev, Igor Gergel"
+msgstr "Сергей Бирюков, Михаил Кобзарёв, Игорь Гергель"
+
+#. Description of the plugin
+msgid "Convert Non-Latin characters in post and term slugs to Latin characters. Useful for creating human-readable URLs. Based on the original plugin by Anton Skorobogatov."
+msgstr "Преобразует не-латинские символы в ярлыках записей, страниц и рубрик в латинские. Полезно для создания человекопонятных URL (ЧПУ). Основано на оригинальном плагине Rus-To-Lat от Антона Скоробогатова."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/cyr2lat/"
+msgstr "https://wordpress.org/plugins/cyr2lat/"
+
+#. Plugin Name of the plugin
+msgid "Cyr-To-Lat"
+msgstr "Cyr-To-Lat"

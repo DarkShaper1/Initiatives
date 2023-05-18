@@ -1,0 +1,111 @@
+/* new payment form*/
+
+.rcl-payment-form {
+    width: 380px;
+    margin: 10px auto;
+    max-width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.rcl-payment-form .title-form {
+    padding: 5px 5px 5px 45px;
+    background-size: 38px;
+    background-position: top 0 left 0;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+
+.rcl-payment-form .title-form .rcli {
+    float: right;
+    padding: 7px 10px;
+}
+
+.rcl-payment-form .title-form .rcli:before {
+    content: "\f067"
+}
+
+.rcl-payment-form.display-form .title-form .rcli:before {
+    content: "\f068";
+}
+
+.rcl-payment-form .rcl-form {
+    margin: 0;
+    padding-top: 5px;
+}
+
+.rcl-payment-form.fixed-sum .rcl-form {
+    display: none;
+}
+
+.rcl-payment-form.display-form .rcl-form {
+    display: block;
+}
+
+.rcl-payment-form .rcl-form .submit-box {
+    background: none;
+}
+
+.rcl-payment-form .rcl-field-core .block-label {
+    padding: 10px 10px 10px 50px;
+    background-size: 40px;
+    background-position: top 0 left 0;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.rcl-payment-form .rcl-field-gateway_id .rcl-radio-box {
+    display: block;
+    padding: 3px 0 3px 40px;
+    background-size: 35px;
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+.rcl-payment-form .rcl-field-gateway_id .rcl-radio-box label {
+    display: block;
+    background: none;
+    border: 0;
+}
+
+/****/
+
+/* balance-widget */
+
+.rcl-balance-widget {
+    max-width: 350px;
+}
+
+.rcl-balance-widget .balance-amount {
+    text-align: center;
+}
+
+.rcl-balance-widget .amount-title {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+}
+
+.rcl-balance-widget .amount-size {
+    font-size: 18px;
+}
+
+.rcl-balance-widget .update-link {
+    text-decoration: none;
+    border: 0;
+    font-size: 13px;
+    vertical-align: middle;
+    margin-left: 15px;
+    color: #4c8cbd;
+}
+
+.rcl-balance-widget .balance-form {
+    display: none;
+}
+
+/****/

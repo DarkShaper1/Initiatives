@@ -1,0 +1,1105 @@
+
+div#fpsml-preview-wrap {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.fpsml-preview-note {
+    text-align: center;
+}
+
+.fpsml-front-form *,
+.fpsml-front-form *:before,
+.fpsml-front-form *:after{
+    box-sizing: border-box;
+}
+
+.fpsml-front-form .fpsml-has-submit-btn .fpsml-field input[type="submit"]{
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.fpsml-field-wrap .ui-autocomplete.ui-menu{border: none;}
+.fpsml-field-wrap .ui-autocomplete.ui-menu .ui-menu-item{
+    padding: 10px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+}
+
+.fpsml-field-wrap .qq-upload-list{margin: 0;}
+.fpsml-field-wrap .qq-upload-list li {
+    height: 18px !important;
+    line-height: 1.2 !important;
+    padding: 0 10px !important;
+    border-radius: 60px !important;
+    display: flex;
+    align-items: center;
+}
+.fpsml-field-wrap .qq-upload-list li > span,
+.fpsml-field-wrap .qq-upload-list li > a{
+    flex: 1;
+}
+.fpsml-field-wrap .qq-upload-list li > a:nth-last-child(2),
+.fpsml-field-wrap .qq-upload-list li > span:nth-last-child(3){text-align: right}
+/*.qq-upload-list li:before{*/
+    /*content: '';*/
+    /*height: 100%;*/
+    /*width: 50%;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top:0;*/
+    /*background-color: rgba(255,255,255,.34);*/
+    /*border-radius: 60px;*/
+/*}*/
+.fpsml-field-wrap .qq-upload-file,
+.fpsml-field-wrap .qq-upload-spinner,
+.fpsml-field-wrap .qq-upload-size,
+.fpsml-field-wrap .qq-upload-cancel,
+.fpsml-field-wrap .qq-upload-failed-text {
+    margin-right: 12px;
+    z-index: 250;
+    position: relative;
+    font-size: 12px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.fpsml-field-wrap .qq-upload-size,
+.fpsml-field-wrap .qq-upload-cancel {
+    font-size: 12px;
+    font-weight: normal;
+}
+.fpsml-field-wrap .qq-upload-failed-text {
+    display: none;
+}
+.fpsml-field-wrap .qq-upload-fail .qq-upload-failed-text {
+    display: inline;
+}
+
+.fpsml-field-wrap .qq-upload-button:hover {
+    background: #0F5BBB;
+}
+.fpsml-field-wrap .qq-upload-button:active {
+    top: 2px;
+}
+.fpsml-field-wrap .qq-upload-spinner, .qq-upload-size, .qq-upload-cancel, .qq-upload-failed-text {
+    float: right;
+}
+.fpsml-field-wrap .qq-upload-spinner {
+    display: none;
+}
+.fpsml-field-wrap .qq-progress-bar {
+    width: 51%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+.fpsml-field-wrap .qq-upload-cancel {
+    color: #800000;
+}
+.fpsml-field-wrap .qq-upload-success .qq-progress-bar {
+    display: none;
+}
+
+.fpsml-field-wrap select[multiple="multiple"]{
+    padding: 15px;
+    min-height: 80px;
+}
+
+.fpsml-multiple-select{
+    height: auto !important;
+    padding: 10px 0;
+}
+.fpsml-multiple-select:before{display: none}
+
+.fpsml-display-none{display:none;}
+.fpsml-each-tag {
+    display: inline-block;
+    background: #eee;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+span.fpsml-tag-remove-trigger {
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.fpsml-auto-complete-tags {
+    margin-top: 10px;
+}
+
+.fpsml-file-preview-column input.fpsml-media-delete-button{border: none}
+
+/* ========================= Global styling ============================ */
+/*.fpsml-front-form{max-width: 100% !important;width: 100% !important;}*/
+
+.fpsml-ajax-loader{display:none;}
+.fpsml-preview-note {
+    padding: 10px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.fpsml-front-form{
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.fpsml-front-form .fpsml-field-note{
+    color: inherit;
+    opacity: 0.58;
+}
+
+.fpsml-front-form .fpsml-field-wrap.fpsml-taxonomy-checkbox .fpsml-block-checkbox label{display: inline-block}
+.fpsml-front-form .fpsml-field-wrap.fpsml-taxonomy-checkbox .fpsml-block-checkbox:first-child{margin-top: 15px;}
+
+.fpsml-front-form .fpsml-field-wrap.fpsml-taxonomy-checkbox .fpsml-inline-checkbox label{display: inline-block}
+.fpsml-inline-checkbox{margin-top: 15px;display: inline-block !important;}
+
+/*medial upload*/
+.media-frame{color: rgba(0,0,0,.8);}
+.media-frame button{font-weight: 300;}
+.media-frame button:hover{background-color: transparent}
+button.media-menu-item{color: rgba(0,0,0,.68);}
+.fpsml-front-form .wp-switch-editor{font-size: 14px;font-weight: 300;text-transform: none;height: auto !important;}
+.fpsml-front-form .wp-switch-editor:hover{background-color: rgba(0,0,0,.06);}
+.media-frame select{min-height: 8px !important;}
+.fpsml-front-form .mce-container button:hover{background-color: transparent}
+.wp-editor-wrap button:not(.toggle){background-color: transparent !important;}
+
+
+.fpsml-field-wrap{margin-bottom: 24px;}
+.fpsml-field-note{font-size: 13px;font-style: italic;color: rgba(0,0,0,.58);margin-top: 5px}
+.qq-upload-button{height: 40px;background-color: rgba(0,0,0,.08);border-radius: 4px;line-height: 40px;font-size: 14px;text-transform: uppercase;font-weight: 800;padding: 0 15px;cursor: pointer;display: inline-block}
+input[type="file"]{
+    cursor: pointer;
+}
+
+.fpsml-file-preview-row{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0,0,0,.04);
+    border-top:solid 1px rgba(0,0,0,.08);
+}
+
+.fpsml-file-preview-row:nth-child(1){border: none;}
+.fpsml-file-preview-row span{display: inline-block;flex: 1 1 auto;}
+.fpsml-file-preview-row span:last-child{text-align: right}
+.fpsml-file-preview-column{
+    margin-right: 10px;
+    overflow: hidden;
+    max-width: 238px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.fpsml-file-preview-column input.fpsml-media-delete-button{
+    padding: 0 8px;
+    line-height: 18px;
+    border-radius: 64px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    cursor: pointer;
+}
+.fpsml-file-preview-column img{
+    height: 38px;
+    width: 38px;
+    object-fit: cover;
+}
+.fpsml-file-preview-column{font-size: 13px;color: inherit}
+
+.fpsml-tag-text{font-size: 12px;}
+.fpsml-tag-remove-trigger{font-size: 11px;}
+.fpsml-each-tag{line-height: 4px;padding: 5px 8px;}
+
+.fpsml-select-field{
+    height: 42px;
+    position: relative;
+    /*border:solid 1px rgba(0,0,0,.14);*/
+    cursor: pointer;
+}
+.fpsml-select-field:before{
+    content:'';
+    position: absolute;
+    top:18px;
+    right: 13px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: rgba(0,0,0,.68) transparent transparent transparent;
+}
+.fpsml-select-field select{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance:none;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
+.fpsml-front-form > h2{margin: 0 0 20px 0 !important;font-size: 32px !important;letter-spacing: 0 !important;}
+.fpsml-radio{margin-right: 20px;position: relative}
+.fpsml-radio input[type="radio"]{position: absolute;opacity: 0;z-index: 5;height: 100%;width: 100%;cursor: pointer}
+.fpsml-front-form .fpsml-field-wrap .fpsml-radio label{
+    position: relative;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 24px;
+}
+.fpsml-radio label:before{
+    position: absolute;
+    top:2px;
+    left: 0;
+    content: '';
+    height: 16px;
+    width: 16px;
+    border: solid 5px rgba(0,0,0,.18);
+    transition: all .3s ease;
+    border-radius: 50%;
+}
+.fpsml-radio input[type="radio"]:checked + label:before{
+    border-color: #3ea8de;
+}
+
+.fpsml-checkbox{margin-right: 20px;position: relative}
+.fpsml-checkbox input[type="checkbox"]{position: absolute;opacity: 0;z-index: 5;height: 100%;width: 100%;cursor: pointer}
+.fpsml-front-form .fpsml-field-wrap .fpsml-checkbox label{
+    position: relative;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 24px;
+    margin: 0;
+}
+.fpsml-checkbox label:before{
+    position: absolute;
+    top:2px;
+    left: 0;
+    content: '\f00c';
+    height: 16px;
+    width: 16px;
+    background-color: rgba(0,0,0,.18);
+    transition: all .3s ease;
+    border-radius: 2px;
+    color: rgba(0,0,0, 0.2);
+    text-align: center;
+    line-height: 16px;
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    font-size: 12px;
+}
+.fpsml-checkbox input[type="checkbox"]:checked + label:before{
+    background-color: #3ea8de;
+    color: white;
+}
+
+.fpsml-checkbox-block .fpsml-checkbox{margin-bottom: 15px;}
+.fpsml-checkbox-block .fpsml-checkbox label,
+.fpsml-checkbox-block .fpsml-checkbox input[type="checkbox"]{display: inline-block}
+.fpsml-checkbox-inline{display: flex;flex-wrap: wrap}
+.fpsml-checkbox-inline .fpsml-checkbox{margin-right: 30px; margin-bottom: 15px;}
+
+.fpsml-radio-block .fpsml-radio{margin-bottom: 10px;}
+.fpsml-radio-block .fpsml-radio:last-child{margin-bottom: 0;}
+.fpsml-radio-inline{display: flex;flex-wrap: wrap}
+.fpsml-radio-inline .fpsml-radio{margin-right: 30px; margin-bottom: 15px;}
+
+.fpsml-custom-field-datepicker .fpsml-field{
+    position: relative;
+}
+.fpsml-front-form .fpsml-custom-field-datepicker .fpsml-field:before{
+    position: absolute;
+    top:1px;
+    right: 0;
+    content: '\f133';
+    height: auto;
+    width: 40px;
+    color: rgba(0,0,0, 0.28);
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Font Awesome\ 5 Free';
+    font-size: 14px;
+    font-weight: 900;/*for fixing*/
+    color: rgba(0,0,0,.68);
+    z-index: 99;
+}
+
+.fpsml-front-form .fpsml-custom-field-datepicker .fpsml-field .fpsml-date-picker >input{
+    padding-right: 50px;
+    position: relative;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.fpsml-field input[type="submit"]{
+    background-color: rgba(0,0,0,.48);
+    padding: 5px 38px;
+    color: white;
+    border-radius: 2px;
+    line-height: 42px;
+    transition: all .3s ease;
+}
+.fpsml-field input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.8);
+    text-decoration: none;
+}
+
+
+.fpsml-front-form .insert-media{
+    border-radius: 68px !important;
+    margin-bottom: 10px !important;
+    border-color: rgba(0,0,0,.18) !important;
+}
+.fpsml-date-picker .fpsml-datepicker{width: auto}
+
+.fpsml-front-form {
+    background-color: #fff;
+    padding: 35px;
+}
+.fpsml-front-form .fpsml-field-wrap label{
+    font-size: 15px;
+    font-weight: 800;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.fpsml-has-submit-btn .fpsml-field{
+    display: flex;
+    align-items: center;
+}
+
+.fpsml-has-submit-btn .fpsml-field > img{
+    margin-left: 15px;
+}
+
+.fpsml-front-form input[type="text"],
+.fpsml-front-form input[type="email"],
+.fpsml-front-form input[type="number"],
+.fpsml-front-form input[type="password"],
+.fpsml-front-form input[type="tel"],
+.fpsml-front-form input[type="url"],
+.fpsml-front-form textarea{
+    border-radius: 2px;
+    background-color: rgba(0,0,0,.04);
+    border:solid 1px rgba(0,0,0,.08);
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+    width: 100%;
+}
+.fpsml-front-form select{
+    color: inherit;
+}
+.fpsml-front-form textarea{
+    line-height: 1.4;
+    padding: 15px;
+    height: 80px;
+    resize: none;
+}
+.fpsml-front-form input[type="text"]:focus,
+.fpsml-front-form input[type="email"]:focus,
+.fpsml-front-form textarea:focus{
+    border-color:rgba(0,0,0,.14);
+}
+
+.fpsml-front-form .qq-upload-button{
+    background-color: #0083f8;
+    padding: 5px 38px;
+    color: white;
+    line-height: 32px;
+    transition: all .3s ease;
+    cursor: pointer !important;
+}
+.fpsml-front-form .qq-upload-button input{
+    width: 100%;
+    height: 40px;
+
+}
+.fpsml-field input[type="submit"]{cursor: pointer !important;}
+/*.fpsml-front-form .qq-upload-list{display: none}*/
+.fpsml-front-form .fpsml-custom-field-select .fpsml-field .fpsml-select-field,
+.fpsml-front-form .fpsml-taxonomy-select .fpsml-field .fpsml-select-field{
+    border-radius: 2px;
+    background-color: rgba(0,0,0,.04);
+    border:solid 1px rgba(0,0,0,.08);
+}
+
+.fpsml-front-form .fpsml-taxonomy-select .fpsml-field .fpsml-select-field select,
+.fpsml-front-form .fpsml-custom-field-select .fpsml-field .fpsml-select-field select{position: relative;z-index: 4}
+
+.fpsml-front-form .fpsml-field input[type="submit"]{
+    background-color: #0083f8;
+    border: none;
+}
+.fpsml-front-form .fpsml-field input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.8);
+}
+
+button.add_media{
+    font-size: 10px !important;
+}
+
+
+.fpsml-front-form .fpsml-custom-field-checkbox{margin-bottom: 24px;}
+.fpsml-front-form .fpsml-custom-field-radio{margin-bottom: 24px;}
+
+.fpsml-form-message{
+    font-size: 16px;
+    padding: 8px 15px;
+    background-color: #f7f7f7;
+    border:solid 1px rgba(0,0,0,.08);
+    font-weight: bold;
+}
+.fpsml-form-error,
+.fpsml-login-message{
+    background-color:#ffe3e3;
+    border: solid 1px rgba(244, 90, 90, 0.37);
+    color:#c42727;
+}
+.fpsml-login-message{
+    padding: 15px;
+}
+.fpsml-form-success{
+    background-color:#dae8cf;
+    border: solid 1px rgba(93, 134, 32, 0.37);
+    color:#4d9919;
+}
+
+.fpsml-front-form .fpsml-form-title{padding: 24px 24px;margin: 0 !important;}
+.fpsml-front-form .fpsml-form-title{
+    padding: 0 0 15px !important;
+}
+
+/*============================= Template 1 ========================*/
+.fpsml-template-1{
+    background-color: #fff;
+    padding: 35px;
+}
+.fpsml-template-1 .fpsml-field-wrap label{
+    font-weight: 800;
+}
+
+.fpsml-template-1 input[type="text"],
+.fpsml-template-1 input[type="email"],
+.fpsml-template-1 input[type="number"],
+.fpsml-template-1 input[type="tel"],
+.fpsml-template-1 input[type="url"],
+.fpsml-template-1 textarea{
+    border-radius: 2px;
+    background-color: rgba(0,0,0,.04);
+    border:solid 1px rgba(0,0,0,.08);
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.fpsml-template-1 textarea{
+    line-height: 1.4;
+    padding: 15px;
+    height: 80px;
+    resize: none;
+}
+.fpsml-template-1 input[type="text"]:focus,
+.fpsml-template-1 input[type="email"]:focus,
+.fpsml-template-1 textarea:focus{
+    border:solid 1px rgba(0,0,0,.14);
+}
+
+.fpsml-template-1 .qq-upload-button{
+    background-color: #0083f8;
+    padding: 5px 38px;
+    color: white;
+    line-height: 32px;
+}
+
+.fpsml-template-1 .fpsml-custom-field-select .fpsml-field .fpsml-select-field,
+.fpsml-template-1 .fpsml-taxonomy-select .fpsml-field .fpsml-select-field{
+    border-radius: 2px;
+    background-color: rgba(0,0,0,.04);
+    border:solid 1px rgba(0,0,0,.08);
+}
+
+.fpsml-template-1 .fpsml-field input[type="submit"]{
+    background-color: #0083f8;
+}
+.fpsml-template-1 .fpsml-field input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.8);
+}
+
+.fpsml-template-1 .qq-upload-list li{
+    background-color: #0083f8 !important;
+    /*background: #0083f8 -moz-linear-gradient(-45deg, rgba(45, 170, 60, 0), rgba(45, 170, 60, 0) 10%, rgba(146, 209, 0, 0.4) 30%, rgba(146, 209, 0, 0.4) 50%, rgba(45, 170, 60, 0) 50%, rgba(45, 170, 60, 0));*/
+}
+/*============================= Template 1 ========================*/
+
+
+
+/*============================= Template 2 ========================*/
+.fpsml-template-2{
+    background-color: #f9fafb;
+    padding: 35px;
+}
+
+.fpsml-template-2 input[type="text"],
+.fpsml-template-2 input[type="email"],
+.fpsml-template-2 input[type="number"],
+.fpsml-template-2 input[type="tel"],
+.fpsml-template-2 input[type="url"],
+.fpsml-template-2 textarea{
+    border-radius: 68px;
+    background-color: white;
+    border:solid 1px rgba(0,0,0,.08);
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.fpsml-template-2 textarea{
+    line-height: 1.4;
+    padding: 15px;
+    height: 80px;
+    resize: none;
+    border-radius: 4px;
+}
+.fpsml-template-2 input[type="text"]:focus,
+.fpsml-template-2 input[type="email"]:focus,
+.fpsml-template-2 textarea:focus{
+    border:solid 1px rgba(0,0,0,.14);
+}
+
+.fpsml-template-2 .qq-upload-button{
+    background-color: rgba(0,0,0,.88);
+    padding: 5px 38px;
+    color: white;
+    line-height: 32px;
+    border-radius: 68px;
+}
+
+.fpsml-template-2 .fpsml-custom-field-select .fpsml-field .fpsml-select-field,
+.fpsml-template-2 .fpsml-taxonomy-select .fpsml-field .fpsml-select-field{
+    border-radius: 68px;
+    background-color: white;
+    border:solid 1px rgba(0,0,0,.08);
+}
+
+.fpsml-template-2 .fpsml-field input[type="submit"]{
+    background-color: #e2b24b;
+}
+.fpsml-template-2 .fpsml-field input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.8);
+}
+/*============================= Template 2 ========================*/
+
+/*============================= Template 3 ========================*/
+.fpsml-template-3{
+    background-color: white;
+    padding: 0;
+}
+
+.fpsml-front-form.fpsml-template-3 .fpsml-form-title{padding: 15px 25px !important;}
+
+.fpsml-template-3 .fpsml-field-wrap{
+    padding: 28px;
+    margin-bottom: 0;
+}
+.fpsml-template-3 .fpsml-field-wrap:nth-child(odd){
+    background-color: #f5f5f5;
+}
+
+.fpsml-template-3 input[type="text"],
+.fpsml-template-3 input[type="email"],
+.fpsml-template-3 input[type="number"],
+.fpsml-template-3 input[type="tel"],
+.fpsml-template-3 input[type="url"],
+.fpsml-template-3 textarea{
+    border-radius: 0;
+    background-color: white;
+    border:solid 1px rgba(0,0,0,.08);
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.fpsml-template-3 textarea{
+    line-height: 1.4;
+    padding: 15px;
+    height: 80px;
+    resize: none;
+    border-radius: 0;
+}
+.fpsml-template-3 input[type="text"]:focus,
+.fpsml-template-3 input[type="email"]:focus,
+.fpsml-template-3 textarea:focus{
+    border:solid 1px rgba(0,0,0,.14);
+}
+
+.fpsml-template-3 .qq-upload-button{
+    background-color: rgba(0,0,0,.88);
+    padding: 5px 38px;
+    color: white;
+    line-height: 32px;
+    border-radius: 0;
+}
+
+.fpsml-template-3 .fpsml-custom-field-select .fpsml-field .fpsml-select-field,
+.fpsml-template-3 .fpsml-taxonomy-select .fpsml-field .fpsml-select-field{
+    border-radius: 0;
+    background-color: white;
+    border:solid 1px rgba(0,0,0,.08);
+}
+
+.fpsml-template-3 .fpsml-field input[type="submit"]{
+    background-color: #e2b24b;
+    padding: 10px 24px;
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: 700;
+}
+.fpsml-template-3 .fpsml-field input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.8);
+}
+/*============================= Template 3 ========================*/
+
+
+
+/*============================= Template 4 ========================*/
+.fpsml-template-4{
+    background-color: white;
+}
+
+.fpsml-template-4 .fpsml-field-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fpsml-template-4 .fpsml-field-wrap > div{
+    flex: 0 0 100%;
+}
+
+.fpsml-template-4 .fpsml-field-wrap label{
+    max-width: 150px;
+    flex: 0 0 150px;
+}
+.fpsml-template-4 .fpsml-field-wrap .fpsml-field{
+    flex: 0 0 calc(100% - 150px);
+}
+
+.fpsml-template-4 input[type="text"],
+.fpsml-template-4 input[type="email"],
+.fpsml-template-4 input[type="number"],
+.fpsml-template-4 input[type="tel"],
+.fpsml-template-4 input[type="url"],
+.fpsml-template-4 textarea{
+    border-radius: 0;
+    background-color: white;
+    border:solid 1px rgba(0,0,0,.08);
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.fpsml-template-4 textarea{
+    line-height: 1.4;
+    padding: 15px;
+    height: 80px;
+    resize: none;
+    border-radius: 0;
+}
+.fpsml-template-4 input[type="text"]:focus,
+.fpsml-template-4 input[type="email"]:focus,
+.fpsml-template-4 textarea:focus{
+    border:solid 1px rgba(0,0,0,.14);
+}
+
+.fpsml-template-4 .qq-upload-button{
+    background-color: #f2f2f3;
+    padding: 5px 24px;
+    color: rgba(0,0,0,.48);
+    line-height: 32px;
+    border-radius: 0;
+    cursor: pointer;
+}
+.fpsml-front-form .qq-upload-button:hover{
+    background-color: rgba(0,0,0,.8);
+    color: white;
+}
+
+.fpsml-template-4 .fpsml-custom-field-select .fpsml-field .fpsml-select-field,
+.fpsml-template-4 .fpsml-taxonomy-select .fpsml-field .fpsml-select-field{
+    border-radius: 0;
+    background-color: white;
+    border:solid 1px rgba(0,0,0,.08);
+}
+
+.fpsml-template-4 .fpsml-field input[type="submit"]{
+    background-color: #ef7272;
+    padding: 10px 24px;
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0;
+}
+.fpsml-template-4 .fpsml-field input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.8);
+}
+/*============================= Template 4 ========================*/
+
+
+
+/*============================= Template 5 ========================*/
+.fpsml-template-5{
+    background-color: #f8f9fb;
+}
+
+.fpsml-template-5 input[type="text"],
+.fpsml-template-5 input[type="email"],
+.fpsml-template-5 input[type="number"],
+.fpsml-template-5 input[type="tel"],
+.fpsml-template-5 input[type="url"],
+.fpsml-template-5 textarea{
+    border-radius: 0;
+    background-color: transparent;
+    border:solid 1px rgba(0,0,0,.2);
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.fpsml-template-5 textarea{
+    line-height: 1.4;
+    padding: 15px;
+    height: 80px;
+    resize: none;
+    border-radius: 0;
+}
+.fpsml-template-5 div.mce-panel{
+    background: transparent;
+}
+.fpsml-template-5 input[type="text"]:focus,
+.fpsml-template-5 input[type="email"]:focus,
+.fpsml-template-5 textarea:focus{
+    border:solid 1px rgba(0,0,0,.14);
+}
+
+.fpsml-template-5 .qq-upload-button{
+    background-color: #f2f2f3;
+    padding: 5px 24px;
+    color: rgba(0,0,0,.48);
+    line-height: 32px;
+    border-radius: 0;
+    cursor: pointer;
+}
+.fpsml-front-form .qq-upload-button:hover{
+    background-color: rgba(0,0,0,.8);
+    color: white;
+}
+
+.fpsml-template-5 .fpsml-custom-field-select .fpsml-field .fpsml-select-field,
+.fpsml-template-5 .fpsml-taxonomy-select .fpsml-field .fpsml-select-field{
+    border-radius: 0;
+    background-color: transparent;
+    border:solid 1px rgba(0,0,0,.2);
+}
+
+.fpsml-template-5 .fpsml-field input[type="submit"]{
+    background-color: #8265ca;
+    padding: 10px 24px;
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0;
+    color: white;
+}
+.fpsml-template-5 .fpsml-field input[type="submit"]:hover{
+    background-color: rgba(0,0,0,.8);
+}
+/*============================= Template 5 ========================*/
+
+
+
+/*============================================== Max 1023px responsive mobile ======================================*/
+
+@media all and (max-width: 1023px){
+    .fpsml-front-form{
+        box-shadow: rgba(0,0,0,.24) 0 0 24px;
+        padding: 25px !important;
+    }
+    .fpsml-file-preview-column input.fpsml-media-delete-button{
+        background-color: transparent;
+        color: red;
+    }
+    .fpsml-file-preview-column{
+        max-width: 140px;
+    }
+
+    .fpsml-template-3,
+    .fpsml-template-9,
+    .fpsml-template-10,
+    .fpsml-template-18,
+    .fpsml-template-19{
+        padding: 0 !important;
+    }
+
+    .fpsml-template-3 .fpsml-field-wrap,
+    .fpsml-template-11 .fpsml-field-wrap,
+    .fpsml-template-13 .fpsml-field-wrap,
+    .fpsml-template-14 .fpsml-field-wrap,
+    .fpsml-template-15 .fpsml-field-wrap,
+    .fpsml-template-18 .fpsml-field-wrap,
+    .fpsml-template-19 .fpsml-field-wrap,
+    .fpsml-template-20 .fpsml-field-wrap{
+        padding: 20px;
+    }
+
+    .fpsml-template-4 .fpsml-field-wrap,
+    .fpsml-template-11 .fpsml-field-wrap,
+    .fpsml-template-20 .fpsml-field-wrap{display: block}
+}
+
+
+
+/*============================================== Max 767px responsive mobile ======================================*/
+
+@media all and (max-width: 767px){
+    .fpsml-front-form{
+        box-shadow: rgba(0,0,0,.24) 0 0 24px;
+        padding: 20px !important;
+    }
+    .fpsml-file-preview-column input.fpsml-media-delete-button{
+        background-color: transparent;
+        color: red;
+    }
+    .fpsml-file-preview-column{
+        max-width: 88px;
+    }
+
+    .fpsml-template-3,
+    .fpsml-template-9,
+    .fpsml-template-10,
+    .fpsml-template-18,
+    .fpsml-template-19{
+        padding: 0 !important;
+    }
+
+    .fpsml-template-3 .fpsml-field-wrap,
+    .fpsml-template-11 .fpsml-field-wrap,
+    .fpsml-template-13 .fpsml-field-wrap,
+    .fpsml-template-14 .fpsml-field-wrap,
+    .fpsml-template-15 .fpsml-field-wrap,
+    .fpsml-template-18 .fpsml-field-wrap,
+    .fpsml-template-19 .fpsml-field-wrap,
+    .fpsml-template-20 .fpsml-field-wrap{
+        padding: 15px;
+    }
+
+    .fpsml-template-4 .fpsml-field-wrap,
+    .fpsml-template-11 .fpsml-field-wrap,
+    .fpsml-template-20 .fpsml-field-wrap{display: block}
+}
+
+
+/*================================ User Dashboard ============================================*/
+.fpsml-dashboard-wrap{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+}
+.fpsml-dashboard-row{
+    display: flex;
+    width: 100%;
+}
+.fpsml-dashboard-row > div{
+    flex: 1;
+    padding: 15px;
+}
+
+.fpsml-dashboard-header .fpsml-dashboard-row{
+    background-color: #edf0f7;
+    border-bottom: solid 1px #dfe3ec;
+}
+
+.fpsml-dashboard-header > .fpsml-dashboard-row > div{
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.fpsml-dashboard-row .fpsml-dashboard-column:first-child{
+    max-width: 70px;
+}
+
+.fpsml-dashboard-column a{
+    display: inline-block;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+.fpsml-dashboard-row .fpsml-dashboard-column{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(0,0,0,.68);
+    line-height: 1.2;
+}
+
+.fpsml-dashboard-body > .fpsml-dashboard-row{
+    border-bottom: solid 1px rgba(0,0,0,.08);
+    transition: all .3s ease;
+}
+
+.fpsml-dashboard-column:last-child{
+    text-align: right;
+}
+
+.fpsml-dashboard-column:last-child a{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    line-height: 22px;
+    color: black;
+    transition: all .3s ease;
+    text-shadow: none !important;
+}
+.fpsml-dashboard-column:last-child a i{
+    font-size: 11px;
+
+}
+
+.fpsml-dashboard-column:last-child a:hover{
+   color: rgba(0,0,0,.18);
+}
+
+.fpsml-dashboard-column:last-child a.fpsml-edit-post:hover{
+    color: #3ea8de;
+}
+
+.fpsml-dashboard-column:last-child a.fpsml-delete-post:hover{
+    color: #c43434;
+}
+
+.fpsml-dashboard-column:last-child a.fpsml-view-post:hover{
+    color: #c4a833;
+}
+
+.fpsml-pagination-wrap{padding: 15px;}
+.fpsml-pagination-wrap a,
+.fpsml-pagination-wrap span{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none !important;
+    padding: 10px 12px;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,.06);
+    margin-right: 0;
+    line-height: 1;
+}
+.fpsml-pagination-wrap a{color: rgba(0,0,0,.68) !important;}
+.fpsml-pagination-wrap span,
+.fpsml-pagination-wrap a:hover{background-color: rgba(0,0,0,.68);color: white !important;}
+
+.fpsml-status-draft,
+.fpsml-status-pending,
+.fpsml-status-publish{
+    display: inline-block;
+    line-height: 18px;
+    font-size: 11px;
+    background-color: #3ea8de;
+    border-radius: 48px;
+    padding: 0 10px;
+    color: white;
+    text-transform: capitalize;
+}
+.fpsml-status-pending{
+     background-color: #e39e59;
+ }
+.fpsml-status-publish{
+    background-color: #75d068;
+}
+
+.fpsml-error{
+    margin-top: 4px;
+    background-color: #FF696928;
+    color: #FF6969;
+    padding: 0 5px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+
+/*Post details front design*/
+.fpsml-custom-fields-content-wrap{}
+.fpsml-each-display-field{margin-bottom: 20px;}
+.fpsml-each-display-field label{
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 4px;
+    line-height: 1;
+}
+.fpsml-display-value{font-size: 14px;}
+
+
+.fpsml-display-each-image{
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.fpsml-display-each-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/*Front end post details templates*/
+.fpsml-custom-template-2 .fpsml-each-display-field{display: flex;flex-wrap: wrap}
+.fpsml-custom-template-2 .fpsml-each-display-field > label{flex: 1;max-width: 180px;font-size: 14px;}
+.fpsml-custom-template-2 .fpsml-each-display-field > div{flex: 2;max-width: 100%}
+
+.fpsml-custom-template-3 .fpsml-each-display-field{display: flex;flex-wrap: wrap;margin-bottom: 0;}
+.fpsml-custom-template-3 .fpsml-each-display-field > label{flex: 1;max-width: 180px;font-size: 14px;padding: 15px;border:solid 1px rgba(0,0,0,.48);border-right: none;margin: 0;border-bottom:none;border-left:0;border-right: 0;}
+.fpsml-custom-template-3 .fpsml-each-display-field > div{flex: 2;max-width: 100%;padding: 15px;border:solid 1px rgba(0,0,0,.48);border-bottom: none;border-right: 0;}
+.fpsml-custom-template-3 .fpsml-each-display-field:last-child{border-bottom:solid 1px rgba(0,0,0,.48);}
+
+.fpsml-custom-template-4 .fpsml-each-display-field{display: block;flex-wrap: wrap;margin-bottom: 0;border:solid 1px rgba(0,0,0,.48);border-bottom: none;padding: 15px;border-left:0;border-right: 0;}
+.fpsml-custom-template-4 .fpsml-each-display-field:last-child{border-bottom:solid 1px rgba(0,0,0,.48);}
+
+
+.fpsml-custom-template-5 .fpsml-each-display-field label{display: inline-block;padding: 5px 10px;background-color: rgba(0,0,0,.48);color:white;font-size: 14px;}
+
+.fpsml-custom-template-6 .fpsml-each-display-field{display: flex;flex-wrap: wrap}
+.fpsml-custom-template-6 .fpsml-each-display-field > label{flex: 1;max-width: 150px;font-size: 14px;margin-right: 24px;}
+.fpsml-custom-template-6 .fpsml-each-display-field > div{flex: 2;max-width: 100%}
+.fpsml-custom-template-6 .fpsml-each-display-field label{display: inline-block;padding: 5px 10px;background-color: rgba(0,0,0,.48);color:white;font-size: 14px;}
+
+.fpsml-page-title{
+    text-align: center;
+    padding: 120px 0 40px;
+    background-image: linear-gradient(to right, #35312d, #504336);
+    margin-bottom: 24px;
+
+}
+.fpsml-page-title h2{
+    color: white;
+    font-size: 44px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 1;
+}
+

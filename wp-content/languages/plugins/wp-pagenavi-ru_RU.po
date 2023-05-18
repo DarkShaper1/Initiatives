@@ -1,0 +1,212 @@
+# Translation of Plugins - WP-PageNavi - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - WP-PageNavi - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-28 19:10:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - WP-PageNavi - Stable (latest release)\n"
+
+#: core.php:190
+msgid "Last Page"
+msgstr "Последняя страница"
+
+#: core.php:182
+msgid "Next Page"
+msgstr "Следующая страница"
+
+#: core.php:110
+msgid "Previous Page"
+msgstr "Предыдущая страница"
+
+#: core.php:101
+msgid "First Page"
+msgstr "Первая страница"
+
+#: core.php:130 core.php:149 core.php:161
+msgid "Page %s"
+msgstr "Страница %s"
+
+#. Author URI of the plugin
+msgid "https://lesterchan.net"
+msgstr "https://lesterchan.net"
+
+#. Author of the plugin
+msgid "Lester 'GaMerZ' Chan"
+msgstr "Lester 'GaMerZ' Chan"
+
+#. Description of the plugin
+msgid "Adds a more advanced paging navigation to your WordPress blog"
+msgstr "Добавляет более продвинутую навигацию по страницам в ваш блог WordPress."
+
+#. Plugin URI of the plugin
+msgid "https://lesterchan.net/portfolio/programming/php/"
+msgstr "https://lesterchan.net/portfolio/programming/php/"
+
+#. Plugin Name of the plugin
+msgid "WP-PageNavi"
+msgstr "WP-PageNavi"
+
+#: wp-pagenavi.php:27 wp-pagenavi.php:28
+msgid "..."
+msgstr "..."
+
+#: wp-pagenavi.php:26
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-pagenavi.php:25
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: wp-pagenavi.php:24
+msgid "Last &raquo;"
+msgstr "Последняя &raquo;"
+
+#: wp-pagenavi.php:23
+msgid "&laquo; First"
+msgstr "&laquo; Первая"
+
+#: wp-pagenavi.php:20
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Страница %CURRENT_PAGE% из %TOTAL_PAGES%"
+
+#: scb/AdminPage.php:514
+msgid "Settings"
+msgstr "Настройки"
+
+#: scb/AdminPage.php:257
+msgid "Settings <strong>saved</strong>."
+msgstr "Настройки были <strong>сохранены</strong>."
+
+#: admin.php:158
+msgid "Page Navigation Options"
+msgstr "Параметры навигации страниц"
+
+#: admin.php:153
+msgid "For example, if mutiple is 5, it will show: 5, 10, 15, 20, 25"
+msgstr "Например, если коэффициент равен 5, то список страниц будет выглядеть так: 5, 10, 15, 20, 25"
+
+#: admin.php:148
+msgid "Show Larger Page Numbers In Multiples Of"
+msgstr "Коэффициент для диапазонов страниц"
+
+#: admin.php:144
+msgid "Enter 0 to disable."
+msgstr "Введите 0, чтобы отключить эту функцию."
+
+#: admin.php:143
+msgid "For example, WP-PageNavi will display: Pages 1, 2, 3, 4, 5, 10, 20, 30, 40, 50."
+msgstr "Например, список страниц будет выглядеть так: Страницы 1, 2, 3, 4, 5, 10, 20, 30, 40, 50."
+
+#: admin.php:142
+msgid "Larger page numbers are in addition to the normal page numbers. They are useful when there are many pages of posts."
+msgstr "Диапазон страниц дополняют обычную нумерацию и полезен в тех случаях, когда на Вашем сайте очень много записей."
+
+#: admin.php:137
+msgid "Number Of Larger Page Numbers To Show"
+msgstr "Диапазон страниц для показа"
+
+#: admin.php:130
+msgid "Number Of Pages To Show"
+msgstr "Кол-во страниц для показа"
+
+#: admin.php:126
+msgid "Show navigation even if there's only one page."
+msgstr "Показывать навигацию, даже если есть только одна страница."
+
+#: admin.php:122
+msgid "Always Show Page Navigation"
+msgstr "Всегда показывать список страниц"
+
+#: admin.php:117
+msgid "Drop-down List"
+msgstr "Выпадающий список"
+
+#: admin.php:117
+msgid "Normal"
+msgstr "Обычный"
+
+#: admin.php:114
+msgid "Page Navigation Style"
+msgstr "Стиль навигации по страницам"
+
+#: admin.php:110 admin.php:125
+msgid "No"
+msgstr "Нет"
+
+#: admin.php:110 admin.php:125
+msgid "Yes"
+msgstr "Да"
+
+#: admin.php:107
+msgid "Use pagenavi-css.css"
+msgstr "Использовать стиль pagenavi-css.css"
+
+#: admin.php:101
+msgid "Leaving a field blank will hide that part of the navigation."
+msgstr "Совет: Если Вы оставите какое-то поле пустым, то и в страничной навигации оно не будет отображаться."
+
+#: admin.php:100
+msgid "Page Navigation Text"
+msgstr "Шаблоны списка страниц"
+
+#: admin.php:93
+msgid "Text For Next ..."
+msgstr "Элемент &laquo;Следующие&hellip;&raquo;"
+
+#: admin.php:87
+msgid "Text For Previous ..."
+msgstr "Элемент &laquo;Предыдущие&hellip;&raquo;"
+
+#: admin.php:81
+msgid "Text For Next Page"
+msgstr "Элемент &laquo;Следующая страница&raquo;"
+
+#: admin.php:75
+msgid "Text For Previous Page"
+msgstr "Элемент &laquo;Предыдущая страница&raquo;"
+
+#: admin.php:67
+msgid "Text For Last Page"
+msgstr "Элемент &laquo;Последняя страница&raquo;"
+
+#: admin.php:59
+msgid "Text For First Page"
+msgstr "Элемент &laquo;Первая страница&raquo;"
+
+#: admin.php:51
+msgid "Text For Page"
+msgstr "Элемент &laquo;Страница&raquo;"
+
+#: admin.php:47 admin.php:55
+msgid "The page number."
+msgstr "Номер страницы."
+
+#: admin.php:43
+msgid "Text For Current Page"
+msgstr "Элемент &laquo;Текущая страница&raquo;"
+
+#: admin.php:39 admin.php:63 admin.php:71
+msgid "The total number of pages."
+msgstr "Общее количество страниц."
+
+#: admin.php:38
+msgid "The current page number."
+msgstr "Номер текущей страницы."
+
+#: admin.php:33
+msgid "Text For Number Of Pages"
+msgstr "Шаблон общего списка страниц"
+
+#: admin.php:10
+msgid "PageNavi"
+msgstr "WP-PageNavi"
+
+#: admin.php:9
+msgid "PageNavi Settings"
+msgstr "Настройки плагина WP-PageNavi"

@@ -1,0 +1,13 @@
+<wpml-config>
+    <admin-texts>
+        <key name="the_champ_login">
+            <key name="title" />
+            <key name="scl_title" />
+            <key name="email_popup_text" />
+            <key name="email_error_message" />
+            <key name="privacy_policy_optin_text" />
+            <key name="tc_placeholder" />
+            <key name="ppu_placeholder" />
+        </key>
+    </admin-texts>
+</wpml-config>

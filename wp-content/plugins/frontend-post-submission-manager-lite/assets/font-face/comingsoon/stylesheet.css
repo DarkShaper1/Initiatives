@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: 'Coming Soon';
+    src: url('../comingsoon/ComingSoon-Regular.woff2') format('woff2'),
+    url('../comingsoon/ComingSoon-Regular.woff') format('woff'),
+    url('../comingsoon/ComingSoon-Regular.ttf') format('truetype'),
+    url('../comingsoon/ComingSoon-Regular.svg#ComingSoon-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

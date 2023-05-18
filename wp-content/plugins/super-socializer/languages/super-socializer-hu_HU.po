@@ -1,0 +1,4753 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Super Socializer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-17 15:42+0530\n"
+"PO-Revision-Date: 2021-07-17 15:42+0530\n"
+"Last-Translator: Heateor <hello@heateor.com>\n"
+"Language-Team: The Champ <lordofthechamps@gmail.com>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/general_options.php:7 admin/general_options.php:93
+#: admin/like_buttons.php:6 admin/like_buttons.php:784
+#: admin/social_commenting.php:5 admin/social_commenting.php:404
+#: admin/social_login.php:5 admin/social_login.php:1984
+#: admin/social_sharing.php:5 admin/social_sharing.php:1916
+#, fuzzy, php-format
+msgid ""
+"You can appreciate the effort put in this free plugin by rating it <a href="
+"\"%s\" target=\"_blank\">here</a>"
+msgstr ""
+"Szükséges a Twitter Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a Twitter "
+"API Key beszerzéshez"
+
+#: admin/general_options.php:15 admin/social_commenting.php:47
+#: super_socializer.php:2291
+#, fuzzy
+msgid "General Options"
+msgstr "Megosztási beállítások"
+
+#: admin/general_options.php:20
+msgid "Include Javascript in website footer"
+msgstr "Include Javascript in website footer"
+
+#: admin/general_options.php:30
+msgid ""
+"If enabled (recommended), Javascript files will be included in the footer of "
+"your website."
+msgstr ""
+"Ha engedélyezett (ajánlott), Javascript fájlok szerepelni fog a lábléc az Ön "
+"honlapján."
+
+#: admin/general_options.php:37
+msgid "Load all Javascript files in single file"
+msgstr ""
+
+#: admin/general_options.php:47
+msgid "Loads Javascript in single request."
+msgstr ""
+
+#: admin/general_options.php:54
+msgid "Delete all the options on plugin deletion"
+msgstr "Minden beállítás törlése a plugin törlésekor"
+
+#: admin/general_options.php:64
+msgid ""
+"If enabled, plugin options will get deleted when plugin is deleted/"
+"uninstalled and you will need to reconfigure the options when you install "
+"the plugin next time."
+msgstr ""
+"Bekapcsolva a plugin beállítások törlődnek a plugin törlésekor/"
+"eltávolításakor és újra be kell állítanod mindent, amikor ismét telepíted "
+"azt."
+
+#: admin/general_options.php:71
+#, fuzzy
+msgid "Custom CSS"
+msgstr "Egyedi URL"
+
+#: admin/general_options.php:81
+msgid "You can specify any additional CSS rules (without &lt;style&gt; tag)"
+msgstr ""
+
+#: admin/general_options.php:89 admin/like_buttons.php:780
+#: admin/social_commenting.php:400 admin/social_login.php:1980
+#: admin/social_sharing.php:1912 helper.php:936
+msgid "Save Changes"
+msgstr "Változások Mentése"
+
+#: admin/general_options.php:103 admin/like_buttons.php:790
+#: admin/social_commenting.php:410 admin/social_login.php:1990
+#: admin/social_sharing.php:1922
+#, fuzzy
+msgid "Instagram Shoutout"
+msgstr "Instagram"
+
+#: admin/general_options.php:105 admin/like_buttons.php:792
+#: admin/social_commenting.php:412 admin/social_login.php:1992
+#: admin/social_sharing.php:1924
+msgid ""
+"If you can send (to hello@heateor.com) how this plugin is helping your "
+"business, we would be glad to shoutout on Instagram. You can also send any "
+"relevant hashtags and people to mention in the Instagram post."
+msgstr ""
+
+#: admin/help.php:4
+msgid "About"
+msgstr "Impresszum"
+
+#: admin/help.php:4
+msgid "Version"
+msgstr "Verzió"
+
+#: admin/help.php:6
+msgid "by"
+msgstr "készítette"
+
+#: admin/help.php:17
+#, fuzzy
+msgid "Donate Now"
+msgstr "Adakozás"
+
+#: admin/help.php:23
+msgid "Plugin Demo"
+msgstr "Plugin Demo"
+
+#: admin/help.php:29
+msgid "Translate Plugin"
+msgstr ""
+
+#: admin/help.php:35 admin/social_login.php:57
+#, fuzzy
+msgid "Customize Social Login Icons"
+msgstr "Social Login"
+
+#: admin/help.php:41
+msgid "Integrate with Google Analytics"
+msgstr ""
+
+#: admin/help.php:47
+msgid "Boost sharing by awarding points"
+msgstr "Növelje megosztása odaítélésével pont"
+
+#: admin/help.php:53
+msgid "Award points for Social Login"
+msgstr "Díjat pontokat Szociális Belépés"
+
+#: admin/help.php:59
+#, fuzzy
+msgid "Other Add-ons"
+msgstr "A kiegészítőket"
+
+#: admin/help.php:65
+#, fuzzy
+msgid "Support Forum"
+msgstr "Támogatás"
+
+#: admin/help.php:70
+msgid "Need Help?"
+msgstr "Kell Segítség?"
+
+#: admin/help.php:72
+#, fuzzy
+msgid ""
+"If you <strong>have any query</strong>, need help regarding <strong>plugin "
+"setup</strong>, want <strong>custom features</strong> in the plugin or "
+"<strong>have any suggestion</strong> to improve the plugin, just drop an "
+"email at <a href=\"mailto:support@heateor.com\">support@heateor.com</a>"
+msgstr ""
+"Ha egyedi funkciót szeretnél a plugin-ba, el tudom neked készíteni. Írj "
+"nekem egy e-mailt (angolul) a <a href=\"mailto:support@heateor.com"
+"\">support@heateor.com</a> címre"
+
+#: admin/help.php:77
+msgid "Testimonial"
+msgstr ""
+
+#: admin/help.php:79
+msgid ""
+"You can send us testimonial at <a href=\"mailto:testimonials@heateor.com"
+"\">testimonials@heateor.com</a>"
+msgstr ""
+
+#: admin/help.php:84
+#, fuzzy
+msgid "Support Us"
+msgstr "Támogatás"
+
+#: admin/help.php:87 admin/help.php:90 admin/help.php:91 admin/help.php:92
+#: admin/help.php:93 admin/help.php:94
+msgid "Rate 5-star"
+msgstr "Osztályozz 5-ösre"
+
+#: admin/like_buttons.php:14 admin/social_commenting.php:12
+#: admin/social_login.php:13 admin/social_sharing.php:13
+#, fuzzy
+msgid "Master Control"
+msgstr ""
+"Központi Közösségi Gomb beállítás. Be kell kapcsolnod a Közösségi Gombok "
+"használatához "
+
+#: admin/like_buttons.php:19
+msgid "Enable Like Buttons"
+msgstr "Engedélyezze Like gombok"
+
+#: admin/like_buttons.php:29
+msgid ""
+"Master control for like buttons. It must be checked to enable like buttons "
+"functionality"
+msgstr ""
+"Központi Közösségi Gomb beállítás. Be kell kapcsolnod a Közösségi Gombok "
+"használatához "
+
+#: admin/like_buttons.php:40 admin/social_sharing.php:53
+#, fuzzy
+msgid "Standard Interface"
+msgstr "Megosztási Felület"
+
+#: admin/like_buttons.php:41 admin/social_sharing.php:54
+#, fuzzy
+msgid "Floating Interface"
+msgstr "Megosztási Felület"
+
+#: admin/like_buttons.php:42 admin/social_sharing.php:55
+msgid "Miscellaneous"
+msgstr ""
+
+#: admin/like_buttons.php:46 admin/social_sharing.php:59
+msgid "3rd Party Integration"
+msgstr ""
+
+#: admin/like_buttons.php:50 admin/like_buttons.php:751
+#: admin/social_login.php:45 admin/social_login.php:1946
+#: admin/social_sharing.php:63 admin/social_sharing.php:1837
+#: admin/social_sharing.php:1839
+msgid "Shortcode & Widget"
+msgstr "Shortcode és Widget"
+
+#: admin/like_buttons.php:51 admin/like_buttons.php:764
+#: admin/social_commenting.php:40 admin/social_commenting.php:384
+#: admin/social_login.php:46 admin/social_login.php:1960
+#: admin/social_sharing.php:65 admin/social_sharing.php:1870
+msgid "FAQ"
+msgstr "GYIK"
+
+#: admin/like_buttons.php:59
+#, fuzzy
+msgid "Standard Interface Options"
+msgstr "Vízszintes Megosztási Felület Beállítások"
+
+#: admin/like_buttons.php:64
+#, fuzzy
+msgid "Enable standard interface"
+msgstr "Vízszintes megosztási felület bekapcsolása"
+
+#: admin/like_buttons.php:74
+msgid "Master control to enable horizontal like buttons"
+msgstr "Központi beállítás a vízszintes közösségi gombok bekapcsolásához"
+
+#: admin/like_buttons.php:83 admin/like_buttons.php:326
+#: admin/social_sharing.php:699 admin/social_sharing.php:1120
+msgid "Target Url"
+msgstr "Cél Url"
+
+#: admin/like_buttons.php:87 admin/like_buttons.php:330
+#: admin/social_sharing.php:703 admin/social_sharing.php:1124
+msgid "Url of the webpage where icons are located (default)"
+msgstr "Url, ahol a megosztás ikonok betöltődtek (alapértelmezett)"
+
+#: admin/like_buttons.php:89 admin/like_buttons.php:332
+#: admin/social_sharing.php:705 admin/social_sharing.php:1126
+msgid "Url of the homepage of your website"
+msgstr "A főoldalad Url-je"
+
+#: admin/like_buttons.php:91 admin/like_buttons.php:334
+#: admin/social_sharing.php:707 admin/social_sharing.php:1128
+msgid "Custom url"
+msgstr "Egyedi URL"
+
+#: admin/like_buttons.php:98 admin/like_buttons.php:341
+msgid "Url to like/share/tweet and display like/share/tweet counts"
+msgstr ""
+"Url a like/share/tweet-eléshez és a like/share/tweet számok megjelenítéséhez"
+
+#: admin/like_buttons.php:105 admin/social_login.php:1231
+#: admin/social_login.php:1607 admin/social_sharing.php:721 inc/widget.php:949
+msgid "Title"
+msgstr "Cím"
+
+#: admin/like_buttons.php:115
+msgid "The text to display above the interface"
+msgstr "Szöveg a megosztási felület fölött"
+
+#: admin/like_buttons.php:122 admin/like_buttons.php:348
+msgid "Select and rearrange providers"
+msgstr "Válassz és rendezz sorba szolgáltatókat"
+
+#: admin/like_buttons.php:166 admin/like_buttons.php:391
+msgid "Select the providers for interface. Drag them to rearrange."
+msgstr ""
+"Válassz szolgáltatókat a megosztási felülethez. Húzd őket a sorrend "
+"változtatáshoz."
+
+#: admin/like_buttons.php:173 admin/like_buttons.php:415
+#: admin/social_sharing.php:908 admin/social_sharing.php:1306
+msgid "Horizontal alignment"
+msgstr "Függőleges igazítás"
+
+#: admin/like_buttons.php:177 admin/like_buttons.php:419
+#: admin/social_sharing.php:339 admin/social_sharing.php:637
+#: admin/social_sharing.php:912 admin/social_sharing.php:1310
+#: inc/widget.php:446 inc/widget.php:758
+msgid "Left"
+msgstr "Bal"
+
+#: admin/like_buttons.php:178 admin/social_sharing.php:913
+msgid "Center"
+msgstr "Középen"
+
+#: admin/like_buttons.php:179 admin/like_buttons.php:420
+#: admin/social_sharing.php:343 admin/social_sharing.php:641
+#: admin/social_sharing.php:914 admin/social_sharing.php:1311
+#: inc/widget.php:447 inc/widget.php:759
+msgid "Right"
+msgstr "Jobb"
+
+#: admin/like_buttons.php:187 admin/like_buttons.php:428
+msgid "Horizontal alignment of the interface"
+msgstr "A megosztási felület vízszintes igazítása"
+
+#: admin/like_buttons.php:194 admin/social_sharing.php:929
+msgid "Position with respect to content"
+msgstr "Elhelyezés a tartalomhoz képest"
+
+#: admin/like_buttons.php:198 admin/social_sharing.php:933
+msgid "Top of the content"
+msgstr "Tartalom felett"
+
+#: admin/like_buttons.php:200 admin/social_sharing.php:935
+msgid "Bottom of the content"
+msgstr "Tartalom alatt"
+
+#: admin/like_buttons.php:207
+msgid "Specify position of the interface with respect to the content"
+msgstr ""
+"Határozd meg a megosztási felület elhelyezésének helyét a tartalomhoz képest"
+
+#: admin/like_buttons.php:214 admin/like_buttons.php:490
+msgid "Interface location"
+msgstr "Megosztási helyek"
+
+#: admin/like_buttons.php:218 admin/like_buttons.php:494
+#: admin/social_login.php:1548 admin/social_login.php:1577
+#: admin/social_sharing.php:953 admin/social_sharing.php:1385
+msgid "Homepage"
+msgstr "Kezdő oldal"
+
+#: admin/like_buttons.php:220 admin/like_buttons.php:496
+#: admin/social_sharing.php:955 admin/social_sharing.php:1387
+msgid "Posts"
+msgstr "Bejegyzések"
+
+#: admin/like_buttons.php:222 admin/like_buttons.php:498
+#: admin/social_sharing.php:957 admin/social_sharing.php:1389
+msgid "Pages"
+msgstr "Oldalak"
+
+#: admin/like_buttons.php:224 admin/like_buttons.php:500
+#: admin/social_sharing.php:959 admin/social_sharing.php:1391
+msgid "Excerpts and Posts page"
+msgstr ""
+
+#: admin/like_buttons.php:226 admin/like_buttons.php:502
+#: admin/social_sharing.php:961 admin/social_sharing.php:1393
+msgid "Category Archives"
+msgstr "Kategória Archívum"
+
+#: admin/like_buttons.php:228 admin/like_buttons.php:504
+#: admin/social_sharing.php:963 admin/social_sharing.php:1395
+msgid "Archive Pages (Category, Tag, Author or Date based pages)"
+msgstr "Archívum Pages (Kategória, Tag, Szerző vagy dátum alapján oldalak)"
+
+#: admin/like_buttons.php:244 admin/social_sharing.php:979
+#, fuzzy
+msgid "BuddyPress activity"
+msgstr "BuddyPress tevékenység és csoportok"
+
+#: admin/like_buttons.php:247 admin/social_sharing.php:981
+msgid "BuddyPress group (only at top of content)"
+msgstr ""
+
+#: admin/like_buttons.php:254 admin/like_buttons.php:525
+#: admin/social_sharing.php:987 admin/social_sharing.php:1417
+msgid "BBPress forum"
+msgstr "BBPress fórum"
+
+#: admin/like_buttons.php:257 admin/like_buttons.php:528
+#: admin/social_sharing.php:990 admin/social_sharing.php:1420
+msgid "BBPress topic"
+msgstr "BBPress téma"
+
+#: admin/like_buttons.php:260 admin/social_sharing.php:993
+msgid "BBPress reply"
+msgstr "BBPress válasz"
+
+#: admin/like_buttons.php:267 admin/social_sharing.php:1000
+msgid "After individual product at WooCommerce Shop page"
+msgstr "Miután az egyedi termék WooCommerce Shop oldal"
+
+#: admin/like_buttons.php:270 admin/social_sharing.php:1003
+msgid "WooCommerce Product Page"
+msgstr "WooCommerce Termékek"
+
+#: admin/like_buttons.php:273 admin/social_sharing.php:1006
+msgid "WooCommerce Thankyou Page"
+msgstr "WooCommerce Thankyou oldal"
+
+#: admin/like_buttons.php:284
+msgid "Specify the pages where you want to enable interface"
+msgstr "Add meg az oldalakat, ahol megjelenjen a Közösségi Megosztási felület"
+
+#: admin/like_buttons.php:302
+msgid "Vertical (Floating) like buttons Options"
+msgstr "Függőleges (lebegő) Megosztási Felület Beállítások"
+
+#: admin/like_buttons.php:307
+#, fuzzy
+msgid "Enable floating like buttons"
+msgstr "Függőleges (lebegő) megosztási felület bekapcsolása"
+
+#: admin/like_buttons.php:317
+msgid "Master control to enable vertical (floating) counter widget"
+msgstr ""
+"Központi beállítás a függőleges (lebegő) megosztási widget bekapcsolásához"
+
+#: admin/like_buttons.php:398 admin/social_sharing.php:291
+#: admin/social_sharing.php:590 admin/social_sharing.php:1289
+#: inc/widget.php:460 inc/widget.php:772
+msgid "Background Color"
+msgstr "Háttér Szín"
+
+#: admin/like_buttons.php:408
+msgid ""
+"Specify the color or hex code (example #cc78e0) for the background of "
+"vertical interface. Leave empty for transparent. You can get the hex code of "
+"the required color from <a href=\"http://www.colorpicker.com/\" target="
+"\"_blank\">this link</a>"
+msgstr ""
+"Add meg a színt hexa színkódként (például #cc78e0) a függőleges számláló sáv "
+"hátteréhez. Hagyd üresen, hogy átlátszó maradjon. A hexa színkódot <a href="
+"\"http://www.colorpicker.com/\" target=\"_blank\"> innen</a> tudod kilesni"
+
+#: admin/like_buttons.php:436 admin/social_sharing.php:1327
+msgid "Left offset"
+msgstr "Bal margó"
+
+#: admin/like_buttons.php:446
+msgid ""
+"Specify a number. Increase in number will shift interface towards right and "
+"decrease will shift it towards left. Number can be negative too."
+msgstr ""
+"Adj meg egy számot. A nagyobb szám jobbra tolja el a megosztási felületet."
+
+#: admin/like_buttons.php:455 admin/social_sharing.php:1346
+msgid "Right offset"
+msgstr "Jobb margó"
+
+#: admin/like_buttons.php:465
+msgid ""
+"Specify a number. Increase in number will shift interface towards left and "
+"decrease will shift it towards right. Number can be negative too."
+msgstr ""
+"Adj meg egy számot. A nagyobb szám balra tolja el a megosztási felületet. "
+"Negatív értéket is megadhatsz."
+
+#: admin/like_buttons.php:473 admin/social_sharing.php:1364
+msgid "Top offset"
+msgstr "Felső margó"
+
+#: admin/like_buttons.php:483
+msgid ""
+"Specify a number. Increase in number will shift interface towards bottom and "
+"decrease will shift it towards top."
+msgstr ""
+"Adj meg egy számot. A nagyobb szám lefelé tolja el a megosztási felületet."
+
+#: admin/like_buttons.php:518 admin/social_sharing.php:1409
+#, fuzzy
+msgid "BuddyPress group"
+msgstr "BuddyPress profil oldal"
+
+#: admin/like_buttons.php:538
+msgid "Specify the pages where you want to enable vertical interface"
+msgstr "Add meg, melyik oldalakon jelenjen meg a Megosztási felülez"
+
+#: admin/like_buttons.php:545
+msgid "Hide like buttons on mobile devices"
+msgstr "Elbújni, mint a gombok a mobil eszközök"
+
+#: admin/like_buttons.php:555
+msgid "If enabled, vertical like buttons will not appear on mobile devices"
+msgstr ""
+"Ha engedélyezett, függőleges, mint a gombok nem jelennek meg a "
+"mobileszközökön"
+
+#: admin/like_buttons.php:574 admin/social_sharing.php:1583
+msgid "Url shortener"
+msgstr "Url rövidítő"
+
+#: admin/like_buttons.php:579
+msgid "Use shortlinks already installed, for tweet button"
+msgstr "Használja shortlinks már telepítve van, a tweet gomb"
+
+#: admin/like_buttons.php:589
+msgid ""
+"Allows for shortened URLs to be used when sharing content if a shortening "
+"plugin is installed"
+msgstr ""
+"Lehetővé teszi a rövidített URL-ek is, amikor közös tartalmat, ha a zsiradék "
+"bővítmény telepítése"
+
+#: admin/like_buttons.php:596
+msgid "Enable bit.ly url shortener for tweet button"
+msgstr "A bit.ly url rövidítő bekapcsolása a tweet gombhoz"
+
+#: admin/like_buttons.php:606 admin/social_sharing.php:1615
+msgid "Master control to enable bit.ly url shortening for sharing"
+msgstr ""
+"Központi beállítás a bit.ly url rövidítő megosztásokhoz való bekapcsolásához"
+
+#: admin/like_buttons.php:613 admin/social_sharing.php:1622
+msgid "Bit.ly generic access token"
+msgstr ""
+
+#: admin/like_buttons.php:623 admin/social_sharing.php:1632
+#, php-format
+msgid ""
+"Login to your bit.ly account and navigate to <strong>Profile Settings > "
+"Generic Access Token</strong> (top-right corner) and authenticate to "
+"generate access token. More details at the <a href=\"%s\" target=\"_blank"
+"\">link</a>"
+msgstr ""
+
+#: admin/like_buttons.php:630 admin/social_sharing.php:1639
+msgid "Clear Bitly Cache"
+msgstr ""
+
+#: admin/like_buttons.php:634 admin/social_sharing.php:1643
+#, fuzzy
+msgid "ShortUrl cache cleared successfully."
+msgstr "Fiók kapcsolása sikeres"
+
+#: admin/like_buttons.php:641 admin/social_sharing.php:1650
+msgid ""
+"Use this to delete short urls saved in database. Handy, if urls of your "
+"website have been changed but short urls are still being generated for old "
+"urls."
+msgstr ""
+
+#: admin/like_buttons.php:650 admin/like_buttons.php:655
+#: admin/social_commenting.php:304 admin/social_sharing.php:1712
+#: admin/social_sharing.php:1717
+msgid "Language"
+msgstr "Nyelv"
+
+#: admin/like_buttons.php:665
+#, php-format
+msgid ""
+"Enter the code of the language you want to use to render counters. You can "
+"find the language codes at <a href=\"%s\" target=\"_blank\">this link</a>. "
+"Leave it empty for default language(English)"
+msgstr ""
+"Add meg a nyelv kódját, amit a hozzászólás megjelenítéshez használjunk. A "
+"nyelvi kódot <a href=\"%s\" target=\"_blank\">itt</a> találod. Hagyd üresen "
+"az alapértelmezett (angol) nyelv használatához"
+
+#: admin/like_buttons.php:674
+#, fuzzy
+msgid "Twitter Username"
+msgstr "Twitter felhasználónév a megosztásban"
+
+#: admin/like_buttons.php:679
+#, fuzzy
+msgid "Twitter username for Tweet (without @)"
+msgstr "Twitter felhasználónév (@ nélkül)"
+
+#: admin/like_buttons.php:689
+msgid ""
+"Provided username will be appended after the content being tweeted as \"via "
+"@USERNAME\". Leave empty if you do not want any username."
+msgstr ""
+"A megadott felhasználónév kerül a megosztás szövege után így \"via @USERNAME"
+"\". Hagyd üresen, ha nem akarsz felhasználó név utánfűzést."
+
+#: admin/like_buttons.php:697
+#, fuzzy
+msgid "Twitter username for Buffer sharing (without @)"
+msgstr "Twitter felhasználónév (@ nélkül)"
+
+#: admin/like_buttons.php:707
+#, fuzzy
+msgid ""
+"Provided username will be appended after the content in Buffer sharing as "
+"\"via @USERNAME\". Leave empty if you do not want any username."
+msgstr ""
+"A megadott felhasználónév kerül a megosztás szövege után így \"via @USERNAME"
+"\". Hagyd üresen, ha nem akarsz felhasználó név utánfűzést."
+
+#: admin/like_buttons.php:726 admin/social_sharing.php:1812
+msgid "myCRED"
+msgstr ""
+
+#: admin/like_buttons.php:731 admin/social_sharing.php:1817
+msgid "Append myCRED referral ID to the urls being shared"
+msgstr ""
+
+#: admin/like_buttons.php:753
+#, fuzzy
+msgid "Like Buttons Shortcode & Widget"
+msgstr "Shortcode és Widget"
+
+#: admin/like_buttons.php:766 admin/social_sharing.php:1900
+msgid "Why is there so much space between like buttons?"
+msgstr ""
+
+#: admin/like_buttons.php:767 admin/social_sharing.php:1901
+msgid "Why are floating sharing/like buttons not appearing at homepage?"
+msgstr ""
+
+#: admin/like_buttons.php:768 admin/social_sharing.php:1885
+msgid "How to Place Title and Social Share Icons in the Same Row?"
+msgstr ""
+
+#: admin/social_commenting.php:17
+msgid "Enable Social Commenting"
+msgstr "Közösségi Hozzászólás Belkapcsolása"
+
+#: admin/social_commenting.php:27
+#, fuzzy
+msgid "Master control to enable Social Commenting"
+msgstr "Központi beállítás a vízszintes megosztási felület bekapcsolásához"
+
+#: admin/social_commenting.php:38
+msgid "Social Commenting"
+msgstr "Közösségi Hozzászólás"
+
+#: admin/social_commenting.php:39 admin/social_commenting.php:371
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/social_commenting.php:52
+msgid "Order of tabs in commenting interface"
+msgstr "A fülek sorrendje a hozzászólás felületen"
+
+#: admin/social_commenting.php:62
+#, fuzzy
+msgid ""
+"Order of the tabs shown in social commenting interface. Defaults to "
+"wordpress,facebook,disqus"
+msgstr ""
+"Lapjainak sorrendjét mutatja szociális kommentálva interfész. Alapértékek "
+"wordpress,facebook,googleplus,disqus"
+
+#: admin/social_commenting.php:69
+msgid "Comment area label"
+msgstr "Megjegyzés felület címe"
+
+#: admin/social_commenting.php:79
+#, fuzzy
+msgid "Label for comment area"
+msgstr "Google+ hozzászólás fül címe"
+
+#: admin/social_commenting.php:91
+#, fuzzy
+msgid "Enable Social Commenting at"
+msgstr "Közösségi Hozzászólás Belkapcsolása"
+
+#: admin/social_commenting.php:110
+#, fuzzy
+msgid "Specify the page/post groups where you want to enable Social Commenting"
+msgstr "Add meg az oldalakat, ahol megjelenjen a Közösségi Megosztási felület"
+
+#: admin/social_commenting.php:120
+msgid "HTML ID of comment form container"
+msgstr "HTML ID komment formájában konténer"
+
+#: admin/social_commenting.php:130
+msgid ""
+"HTML ID of container element of the default comment form at front end. Leave "
+"empty for default ID - \"respond\". You need to specify it if default "
+"comment form is appearing and Social Commenting is not getting enabled at "
+"front-end of your website."
+msgstr ""
+"HTML ID konténer eleme az alapértelmezett megjegyzés formájában a front end. "
+"Hagyja üresen az alapértelmezett ID - \"válaszadás\". Meg kell adnod, ha az "
+"alapértelmezett megjegyzést formában megjelenő és Szociális kommentálva nem "
+"kapok engedélyezve front-end weboldalán."
+
+#: admin/social_commenting.php:140
+msgid "Labels"
+msgstr "címkék"
+
+#: admin/social_commenting.php:145
+msgid "Label for WordPress Commenting tab"
+msgstr "WordPress hozzászólás fül címe"
+
+#: admin/social_commenting.php:154
+msgid "Label for Facebook Commenting tab"
+msgstr "Facebook hozzászólás fül címe"
+
+#: admin/social_commenting.php:163
+msgid "Label for Disqus Commenting tab"
+msgstr "Disqus hozzászólás fül címe"
+
+#: admin/social_commenting.php:174
+msgid "Facebook Commenting Options"
+msgstr "Facebook Hozzászólás Beállítások"
+
+#: admin/social_commenting.php:180
+#, fuzzy
+msgid "Enable Facebook Comments notification and moderation"
+msgstr "Facebook Hozzászólás Bekapcsolás"
+
+#: admin/social_commenting.php:187 admin/social_commenting.php:197
+msgid "Enable Facebook Commenting"
+msgstr "Facebook Hozzászólás Bekapcsolás"
+
+#: admin/social_commenting.php:204
+msgid "Url to comment on"
+msgstr "A hozzászólás URL"
+
+#: admin/social_commenting.php:214
+msgid ""
+"The absolute URL that comments posted will be permanently associated with. "
+"Stories on Facebook about comments posted, will link to this URL.<br/>If "
+"left empty <strong>(Recommended)</strong>, url of the webpage will be used "
+"at which commenting is enabled."
+msgstr ""
+"Abszolut URL, amelyhez a hozzászólások végelegesen kapcsolva lesznek. "
+"Stories on Facebook about comments posted, will link to this URL.<br/>If "
+"left empty <strong>(Recommended)</strong>, url of the webpage will be used "
+"at which commenting is enabled."
+
+#: admin/social_commenting.php:222
+#, fuzzy
+msgid "Show Recent Facebook Comments in a Widget"
+msgstr "Csak Facebook Hozzászólás legyen"
+
+#: admin/social_commenting.php:229
+msgid "Width"
+msgstr "Szélesség"
+
+#: admin/social_commenting.php:239
+msgid ""
+"Leave empty to auto-adjust the width. The width (in pixels) of the Comments "
+"block."
+msgstr ""
+"Hagyja üresen automata beállítás szélességét. A szélessége (pixel) a "
+"hozzászólások blokk."
+
+#: admin/social_commenting.php:246
+msgid "Color Scheme"
+msgstr "Szín Sablon"
+
+#: admin/social_commenting.php:250
+msgid "Light"
+msgstr "Világos"
+
+#: admin/social_commenting.php:251
+msgid "Dark"
+msgstr "Sötét"
+
+#: admin/social_commenting.php:259
+msgid "The color scheme used by the plugin. Can be \"light\" or \"dark\"."
+msgstr "A plugin által használt színsablon. \"Világos\" vagy \"sötét\" lehet."
+
+#: admin/social_commenting.php:266
+msgid "Number of comments"
+msgstr "Hozzászólások száma"
+
+#: admin/social_commenting.php:276
+msgid ""
+"The number of comments to show by default. The minimum value is 1. Defaults "
+"to 10"
+msgstr ""
+"Az elsőre látható hozzászólások száma. A minimum 1, az alapértelmezés 10."
+
+#: admin/social_commenting.php:283
+msgid "Order by"
+msgstr "Rendezés"
+
+#: admin/social_commenting.php:287
+msgid "Social"
+msgstr "Közösségi"
+
+#: admin/social_commenting.php:288
+msgid "Reverse Time"
+msgstr "Fordított Sorrend"
+
+#: admin/social_commenting.php:289
+msgid "Time"
+msgstr "Időrend"
+
+#: admin/social_commenting.php:297
+msgid "The order to use when displaying comments."
+msgstr "A hozzászólás megjelenésének sorrendje."
+
+#: admin/social_commenting.php:314
+#, php-format
+msgid ""
+"Enter the code of the language you want to use to display commenting. You "
+"can find the language codes at <a href=\"%s\" target=\"_blank\">this link</"
+"a>. Leave it empty for default language(English)"
+msgstr ""
+"Add meg a nyelv kódját, amit a hozzászólás megjelenítéshez használjunk. A "
+"nyelvi kódot <a href=\"%s\" target=\"_blank\">itt</a> találod. Hagyd üresen "
+"az alapértelmezett (angol) nyelv használatához "
+
+#: admin/social_commenting.php:323
+msgid "Disqus Commenting Options"
+msgstr "Disqus Hozzászólás Beállítások"
+
+#: admin/social_commenting.php:328 admin/social_commenting.php:338
+msgid "Enable Disqus Commenting"
+msgstr "Disqus Hozzászólás Bekapcsolása"
+
+#: admin/social_commenting.php:345
+msgid "Disqus Shortname"
+msgstr "Disqus Shortname"
+
+#: admin/social_commenting.php:355
+msgid ""
+"<strong>Required to use Disqus commenting.</strong> For more info on "
+"shortname, visit following link."
+msgstr ""
+"<strong>Szükséges a Disqus hozzászólás használatához.</strong> További "
+"információkért nézd meg ezt a linket."
+
+#: admin/social_commenting.php:373
+#, fuzzy
+msgid "Social Commenting Shortcode"
+msgstr "Közösségi Hozzászólás"
+
+#: admin/social_commenting.php:386 admin/social_login.php:1962
+#: admin/social_sharing.php:1872
+msgid ""
+"<strong>Note:</strong> Plugin will not work on local server. You should have "
+"an online website for the plugin to function properly."
+msgstr ""
+
+#: admin/social_commenting.php:387
+msgid ""
+"How to show recent Facebook Comments from all over the website in a widget?"
+msgstr ""
+
+#: admin/social_commenting.php:388
+msgid ""
+"How to recover the Facebook Comments lost after moving my website to SSL/"
+"Https?"
+msgstr ""
+
+#: admin/social_commenting.php:389 admin/social_login.php:1969
+#: admin/social_sharing.php:1887
+msgid "Why is my browser blocking some features of the plugin?"
+msgstr ""
+
+#: admin/social_commenting.php:390
+msgid "How can I disable Social Commenting at individual page/post?"
+msgstr ""
+"Hogyan kapcsolhatom ki a Közösségi Hozzászólást az egyes oldalak/bejegyzések "
+"esetében?"
+
+#: admin/social_commenting.php:391
+msgid "How to disable default comment form from Social Commenting?"
+msgstr ""
+"Hogyan lehet letiltani alapértelmezett megjegyzés formájában a Social "
+"kommentálva?"
+
+#: admin/social_login.php:18
+msgid "Enable Social Login"
+msgstr "Közösségi Belépés Belkapcsolása"
+
+#: admin/social_login.php:28
+msgid ""
+"Master control for Social Login. It must be checked to enable Social Login "
+"functionality"
+msgstr ""
+"Központi Közösségi Belépés beállítás. Be kell kapcsolnod a Közösségi Belépés "
+"használatához "
+
+#: admin/social_login.php:39 admin/social_login.php:53
+msgid "Basic Configuration"
+msgstr "Alap Beállítások"
+
+#: admin/social_login.php:40
+#, fuzzy
+msgid "Advanced Configuration"
+msgstr "Alap Beállítások"
+
+#: admin/social_login.php:41 admin/social_login.php:1746
+#: super_socializer.php:2359
+msgid "GDPR"
+msgstr ""
+
+#: admin/social_login.php:43 admin/social_login.php:1897
+msgid "XProfile Integration"
+msgstr ""
+
+#: admin/social_login.php:62
+msgid "Disable user registration via Social Login"
+msgstr "Letilthatja a felhasználói regisztráció útján Szociális Belépés"
+
+#: admin/social_login.php:72
+msgid ""
+"After enabling this option, new users will not be able to login through "
+"social login. Only existing users will be able to social login."
+msgstr ""
+"Miután ezt az opciót, az új felhasználók nem lesznek képesek bejelentkezni a "
+"szociális bejelentkezést. Csak meglévő felhasználók képesek lesznek a "
+"társadalmi bejelentkezést."
+
+#: admin/social_login.php:80
+#, fuzzy
+msgid "Redirection url"
+msgstr "Átirányítás Belépés után"
+
+#: admin/social_login.php:90
+msgid ""
+"User will be redirected to this page after unsuccessful registration attempt "
+"via Social Login. You can specify the url of registration form or of a page "
+"showing message regarding disabled registration through Social Login."
+msgstr ""
+"Felhasználót átirányítja erre az oldalra, miután sikertelen regisztrációs "
+"kísérlet útján Szociális Belépés. Megadhatja a url regisztrációs űrlapot, "
+"vagy egy oldal bemutatását üzenetet a regisztráció kikapcsolásra keresztül "
+"Szociális Belépés."
+
+#: admin/social_login.php:98
+#, fuzzy
+msgid "Disable Social Login for admin accounts"
+msgstr "Social Login"
+
+#: admin/social_login.php:108
+#, fuzzy
+msgid ""
+"After enabling this option, administrator users will not be able to login "
+"through social login. Other users will be able to login via social login."
+msgstr ""
+"Miután ezt az opciót, az új felhasználók nem lesznek képesek bejelentkezni a "
+"szociális bejelentkezést. Csak meglévő felhasználók képesek lesznek a "
+"társadalmi bejelentkezést."
+
+#: admin/social_login.php:115
+#, fuzzy
+msgid "Select Social Networks"
+msgstr "elsődleges szociális háló"
+
+#: admin/social_login.php:120
+msgid "Facebook"
+msgstr "Facebook"
+
+#: admin/social_login.php:124
+msgid "Twitter"
+msgstr "Twitter"
+
+#: admin/social_login.php:128
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: admin/social_login.php:132
+#, fuzzy
+msgid "Google"
+msgstr "Google+"
+
+#: admin/social_login.php:136
+msgid "Vkontakte"
+msgstr "Vkontakte"
+
+#: admin/social_login.php:140
+msgid "Instagram"
+msgstr "Instagram"
+
+#: admin/social_login.php:144
+msgid "Steam"
+msgstr ""
+
+#: admin/social_login.php:148
+msgid "Line"
+msgstr ""
+
+#: admin/social_login.php:152
+msgid "Wordpress"
+msgstr ""
+
+#: admin/social_login.php:156
+msgid "Windows Live"
+msgstr ""
+
+#: admin/social_login.php:160
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#: admin/social_login.php:164
+msgid "Discord"
+msgstr ""
+
+#: admin/social_login.php:168
+msgid "Amazon"
+msgstr ""
+
+#: admin/social_login.php:172
+#, fuzzy
+msgid "Stack Overflow"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:176
+msgid "Spotify"
+msgstr ""
+
+#: admin/social_login.php:179
+msgid "Dribbble"
+msgstr ""
+
+#: admin/social_login.php:183
+#, fuzzy
+msgid "Twitch"
+msgstr "Twitter"
+
+#: admin/social_login.php:187
+#, fuzzy
+msgid "Foursquare"
+msgstr "szögletes"
+
+#: admin/social_login.php:191
+msgid "Dropbox"
+msgstr ""
+
+#: admin/social_login.php:195
+#, fuzzy
+msgid "Disqus"
+msgstr "Disqus hozzászólás fül címe"
+
+#: admin/social_login.php:199
+msgid "Reddit"
+msgstr "Reddit"
+
+#: admin/social_login.php:203
+msgid "Mail.ru"
+msgstr ""
+
+#: admin/social_login.php:207
+msgid "Github"
+msgstr ""
+
+#: admin/social_login.php:211
+msgid "Kakao"
+msgstr ""
+
+#: admin/social_login.php:219
+msgid "Select Social ID provider to enable in Social Login"
+msgstr "Válassz Közösségi ID szolgáltatót a Közösségi Belépéshez"
+
+#: admin/social_login.php:226
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: admin/social_login.php:236
+#, php-format
+msgid ""
+"Required for Facebook Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Facebook App ID"
+msgstr ""
+"Szükséges a Facebook Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a Facebook "
+"App ID beszerzéshez"
+
+#: admin/social_login.php:238 admin/social_login.php:259
+#, fuzzy
+msgid ""
+"Paste following url in <strong>Site URL</strong> option mentioned at the link"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Site URL</strong> mezőbe a fenti "
+"linken"
+
+#: admin/social_login.php:247
+#, fuzzy
+msgid "Facebook App Secret"
+msgstr "Facebook App ID"
+
+#: admin/social_login.php:257
+#, fuzzy, php-format
+msgid ""
+"Required for Facebook Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Facebook App Secret"
+msgstr ""
+"Szükséges a Facebook Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a Facebook "
+"App ID beszerzéshez"
+
+#: admin/social_login.php:268
+msgid "Twitter API Key"
+msgstr "Twitter API Key"
+
+#: admin/social_login.php:278
+#, php-format
+msgid ""
+"Required for Twitter Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Twitter API Key"
+msgstr ""
+"Szükséges a Twitter Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a Twitter "
+"API Key beszerzéshez"
+
+#: admin/social_login.php:280 admin/social_login.php:305
+#, fuzzy
+msgid ""
+"Paste following url in <strong>Website</strong> option mentioned at the link"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Website URL</strong> mezőbe a fenti "
+"linken"
+
+#: admin/social_login.php:284 admin/social_login.php:309
+#: admin/social_login.php:497 admin/social_login.php:517
+#: admin/social_login.php:852 admin/social_login.php:872
+#: admin/social_login.php:893 admin/social_login.php:913
+#: admin/social_login.php:1018 admin/social_login.php:1038
+#: admin/social_login.php:1146 admin/social_login.php:1166
+#: admin/social_login.php:1188 admin/social_login.php:1208
+#, fuzzy
+msgid ""
+"Paste following url in <strong>Callback URL</strong> option mentioned at the "
+"link"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Callback domain</strong> mezőbe a "
+"fenti linken"
+
+#: admin/social_login.php:293
+msgid "Twitter API Secret"
+msgstr "Twitter API Secret"
+
+#: admin/social_login.php:303
+#, php-format
+msgid ""
+"Required for Twitter Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Twitter API Secret"
+msgstr ""
+"Szükséges a Twitter Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a Twitter "
+"API Secret beszerzéséhez"
+
+#: admin/social_login.php:318
+#, fuzzy
+msgid "LinkedIn Client ID"
+msgstr "LinkedIn"
+
+#: admin/social_login.php:328
+#, fuzzy, php-format
+msgid ""
+"Required for LinkedIn Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get LinkedIn Client ID"
+msgstr ""
+"Szükséges a LinkedIn Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a LinkedIn "
+"API Key beszerzéshez"
+
+#: admin/social_login.php:330 admin/social_login.php:351
+#: admin/social_login.php:537 admin/social_login.php:557
+#, fuzzy
+msgid ""
+"Paste following url in <strong>Redirect URLs</strong> option mentioned at "
+"the link"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Site URL</strong> mezőbe a fenti "
+"linken"
+
+#: admin/social_login.php:339
+#, fuzzy
+msgid "LinkedIn Client Secret"
+msgstr "LinkedIn"
+
+#: admin/social_login.php:349
+#, fuzzy, php-format
+msgid ""
+"Required for LinkedIn Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get LinkedIn Client "
+"Secret"
+msgstr ""
+"Szükséges a LinkedIn Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a LinkedIn "
+"API Key beszerzéshez"
+
+#: admin/social_login.php:360
+#, fuzzy
+msgid "Google Client ID"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:370
+#, fuzzy, php-format
+msgid ""
+"Required for Google Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Google Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:372 admin/social_login.php:393
+#, fuzzy
+msgid ""
+"Paste following url in <strong>AUTHORIZED REDIRECT URI</strong> option "
+"mentioned at the link"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Site URL</strong> mezőbe a fenti "
+"linken"
+
+#: admin/social_login.php:381
+#, fuzzy
+msgid "Google Client Secret"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:391
+#, fuzzy, php-format
+msgid ""
+"Required for Google Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Google Client Secret"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:402
+msgid "Vkontakte Application ID"
+msgstr "Vkontakte Application ID"
+
+#: admin/social_login.php:412 admin/social_login.php:433
+#, php-format
+msgid ""
+"Required for Vkontakte Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Vkontakte "
+"Application ID"
+msgstr ""
+"Szükséges a Vkontakte Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a Vkontakte "
+"Application ID beszerzéshez"
+
+#: admin/social_login.php:414 admin/social_login.php:435
+#, fuzzy
+msgid ""
+"Paste following url in <strong>Site address</strong> option mentioned at the "
+"link"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Site address</strong> mezőbe a fenti "
+"linken"
+
+#: admin/social_login.php:423
+#, fuzzy
+msgid "Vkontakte Secure key"
+msgstr "Vkontakte"
+
+#: admin/social_login.php:444
+#, fuzzy
+msgid "Instagram App ID"
+msgstr "Instagram Client ID"
+
+#: admin/social_login.php:454
+#, fuzzy, php-format
+msgid ""
+"Required for Instagram Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Instagram App ID"
+msgstr ""
+"Szükséges a Instagram Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> az "
+"Instagram Client ID beszerzéshez"
+
+#: admin/social_login.php:456 admin/social_login.php:477
+#, fuzzy
+msgid ""
+"Paste following url in <strong>Valid OAuth Redirect URIs</strong> option "
+"mentioned at the link"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Site URL</strong> mezőbe a fenti "
+"linken"
+
+#: admin/social_login.php:465
+#, fuzzy
+msgid "Instagram App Secret"
+msgstr "Instagram"
+
+#: admin/social_login.php:475
+#, fuzzy, php-format
+msgid ""
+"Required for Instagram Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Instagram App Secret"
+msgstr ""
+"Szükséges a Instagram Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> az "
+"Instagram Client ID beszerzéshez"
+
+#: admin/social_login.php:486
+msgid "Line Channel ID"
+msgstr ""
+
+#: admin/social_login.php:495
+#, fuzzy, php-format
+msgid ""
+"Required for Line Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Line Channel ID"
+msgstr ""
+"Szükséges a LinkedIn Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a LinkedIn "
+"API Key beszerzéshez"
+
+#: admin/social_login.php:506
+#, fuzzy
+msgid "Line Channel Secret"
+msgstr "LinkedIn"
+
+#: admin/social_login.php:515
+#, fuzzy, php-format
+msgid ""
+"Required for Line Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Line Channel Secret"
+msgstr ""
+"Szükséges a LinkedIn Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a LinkedIn "
+"API Key beszerzéshez"
+
+#: admin/social_login.php:526
+#, fuzzy
+msgid "Wordpress Client ID"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:535
+#, fuzzy, php-format
+msgid ""
+"Required for Wordpress Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Wordpress Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:546
+#, fuzzy
+msgid "Wordpress Client Secret"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:555
+#, fuzzy, php-format
+msgid ""
+"Required for Wordpress Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Wordpress Client "
+"Secret"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:566
+#, fuzzy
+msgid "Microsoft Client ID"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:575
+#, fuzzy, php-format
+msgid ""
+"Required for Live Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Microsoft Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:577 admin/social_login.php:597
+#: admin/social_login.php:810 admin/social_login.php:830
+#: admin/social_login.php:975 admin/social_login.php:995
+#, fuzzy
+msgid ""
+"Paste following url in <strong>Redirect URIs</strong> option mentioned at "
+"the link"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Site URL</strong> mezőbe a fenti "
+"linken"
+
+#: admin/social_login.php:586
+#, fuzzy
+msgid "Microsoft Client Secret"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:595
+#, fuzzy, php-format
+msgid ""
+"Required for Live Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Microsoft Client "
+"Secret key"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:605
+#, fuzzy
+msgid "Steam API Key"
+msgstr "Twitter API Key"
+
+#: admin/social_login.php:614
+#, fuzzy, php-format
+msgid ""
+"Required for Steam Social Login to work. Get it at <a href=\"%s\" target="
+"\"_blank\">this link</a>"
+msgstr ""
+"Szükséges a Twitter Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a Twitter "
+"API Key beszerzéshez"
+
+#: admin/social_login.php:615
+#, fuzzy
+msgid "Save following <strong>domain</strong> to get the key"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Callback domain</strong> mezőbe a "
+"fenti linken"
+
+#: admin/social_login.php:624
+#, fuzzy
+msgid "Yahoo Client ID"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:633
+#, fuzzy, php-format
+msgid ""
+"Required for Yahoo Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Yahoo Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:635 admin/social_login.php:655
+#, fuzzy
+msgid ""
+"Paste following url in the <strong>Redirect URI(s)</strong> option mentioned "
+"at the link"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Site URL</strong> mezőbe a fenti "
+"linken"
+
+#: admin/social_login.php:644
+#, fuzzy
+msgid "Yahoo Client Secret"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:653
+#, fuzzy, php-format
+msgid ""
+"Required for Yahoo Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Yahoo Client Secret key"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:666
+#, fuzzy
+msgid "Discord Client ID"
+msgstr "Instagram Client ID"
+
+#: admin/social_login.php:675
+#, fuzzy, php-format
+msgid ""
+"Required for Discord Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Discord Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:677 admin/social_login.php:697
+#, fuzzy
+msgid ""
+"Paste following url in the <strong>Redirects</strong> option mentioned at "
+"the link"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Site URL</strong> mezőbe a fenti "
+"linken"
+
+#: admin/social_login.php:686
+#, fuzzy
+msgid "Discord Client Secret"
+msgstr "Instagram Client ID"
+
+#: admin/social_login.php:695
+#, fuzzy, php-format
+msgid ""
+"Required for Discord Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Discord Client "
+"Secret key"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:708
+#, fuzzy
+msgid "Amazon Client ID"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:717
+#, fuzzy, php-format
+msgid ""
+"Required for Amazon Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Amazon Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:719 admin/social_login.php:739
+#, fuzzy
+msgid ""
+"Paste following url in the <strong>Allowed Return URLs</strong> option "
+"mentioned at the link"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Site URL</strong> mezőbe a fenti "
+"linken"
+
+#: admin/social_login.php:728
+#, fuzzy
+msgid "Amazon Client Secret"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:737
+#, fuzzy, php-format
+msgid ""
+"Required for Amazon Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Amazon Client Secret "
+"key"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:750
+#, fuzzy
+msgid "Stack Overflow Client ID"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:759
+#, fuzzy, php-format
+msgid ""
+"Required for Stack Overflow Social Login to work. Please follow the "
+"documentation at <a href=\"%s\" target=\"_blank\">this link</a> to get Stack "
+"Overflow Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:765
+#, fuzzy
+msgid "Stack Overflow Client Secret"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:774
+#, fuzzy, php-format
+msgid ""
+"Required for Stack Overflow Social Login to work. Please follow the "
+"documentation at <a href=\"%s\" target=\"_blank\">this link</a> to get Stack "
+"Overflow Client Secret key"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:780
+#, fuzzy
+msgid "Stack Overflow Key"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:790
+#, fuzzy, php-format
+msgid ""
+"Required for Stack Overflow Social Login to work. Please follow the "
+"documentation at <a href=\"%s\" target=\"_blank\">this link</a> to get Stack "
+"Overflow Key"
+msgstr ""
+"Szükséges a Twitter Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a Twitter "
+"API Key beszerzéshez"
+
+#: admin/social_login.php:799
+#, fuzzy
+msgid "Spotify Client ID"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:808
+#, fuzzy, php-format
+msgid ""
+"Required for Spotify Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Spotify Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:819
+#, fuzzy
+msgid "Spotify Client Secret"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:828
+#, fuzzy, php-format
+msgid ""
+"Required for Spotify Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Spotify Client "
+"Secret"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:841
+#, fuzzy
+msgid "Dribbble Client ID"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:850
+#, fuzzy, php-format
+msgid ""
+"Required for Dribbble Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Dribbble Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:861
+#, fuzzy
+msgid "Dribbble Client Secret"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:870
+#, fuzzy, php-format
+msgid ""
+"Required for Dribbble Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Dribbble Client "
+"Secret"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:882
+#, fuzzy
+msgid "Twitch Client ID"
+msgstr "Instagram Client ID"
+
+#: admin/social_login.php:891
+#, fuzzy, php-format
+msgid ""
+"Required for Twitch Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Twitch Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:902
+#, fuzzy
+msgid "Twitch Client Secret"
+msgstr "Instagram Client ID"
+
+#: admin/social_login.php:911
+#, fuzzy, php-format
+msgid ""
+"Required for Twitch Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Twitch Client Secret"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:924
+#, fuzzy
+msgid "Foursquare Client ID"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:933
+#, fuzzy, php-format
+msgid ""
+"Required for Foursquare Social Login to work. Please follow the "
+"documentation at <a href=\"%s\" target=\"_blank\">this link</a> to get "
+"Foursquare Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:935 admin/social_login.php:955
+#, fuzzy
+msgid ""
+"Paste following url in <strong>Redirect URL</strong> option mentioned at the "
+"link"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Site URL</strong> mezőbe a fenti "
+"linken"
+
+#: admin/social_login.php:944
+#, fuzzy
+msgid "Foursquare Client Secret"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:953
+#, fuzzy, php-format
+msgid ""
+"Required for Foursquare Social Login to work. Please follow the "
+"documentation at <a href=\"%s\" target=\"_blank\">this link</a> to get "
+"Foursquare Client Secret"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:964
+msgid "Dropbox App Key"
+msgstr ""
+
+#: admin/social_login.php:973
+#, fuzzy, php-format
+msgid ""
+"Required for Dropbox Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Dropbox App Key"
+msgstr ""
+"Szükséges a Facebook Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a Facebook "
+"App ID beszerzéshez"
+
+#: admin/social_login.php:984
+#, fuzzy
+msgid "Dropbox App Secret"
+msgstr "Facebook App ID"
+
+#: admin/social_login.php:993
+#, fuzzy, php-format
+msgid ""
+"Required for Dropbox Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Dropbox App Secret"
+msgstr ""
+"Szükséges a Facebook Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a Facebook "
+"App ID beszerzéshez"
+
+#: admin/social_login.php:1007
+msgid "Disqus Public Key"
+msgstr ""
+
+#: admin/social_login.php:1016
+#, fuzzy, php-format
+msgid ""
+"Required for Disqus Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Disqus Public Key"
+msgstr ""
+"Szükséges a Xing Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a Xing "
+"Consumer Key beszerzéshez"
+
+#: admin/social_login.php:1027
+#, fuzzy
+msgid "Disqus Secret Key"
+msgstr "Disqus Shortname"
+
+#: admin/social_login.php:1036
+#, fuzzy, php-format
+msgid ""
+"Required for Disqus Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Disqus Secret Key"
+msgstr ""
+"Szükséges a Xing Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a Xing "
+"Consumer Key beszerzéshez"
+
+#: admin/social_login.php:1049
+#, fuzzy
+msgid "Reddit Client ID"
+msgstr "Instagram Client ID"
+
+#: admin/social_login.php:1058
+#, fuzzy, php-format
+msgid ""
+"Required for Reddit Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Reddit Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:1060 admin/social_login.php:1080
+#, fuzzy
+msgid ""
+"Paste following url in <strong>Redirect Uri</strong> option mentioned at the "
+"link"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Site URL</strong> mezőbe a fenti "
+"linken"
+
+#: admin/social_login.php:1069
+#, fuzzy
+msgid "Reddit Client Secret"
+msgstr "Instagram Client ID"
+
+#: admin/social_login.php:1078
+#, fuzzy, php-format
+msgid ""
+"Required for Reddit Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Reddit Client Secret"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:1092
+#, fuzzy
+msgid "Mail.ru Client ID"
+msgstr "Instagram Client ID"
+
+#: admin/social_login.php:1101
+#, fuzzy, php-format
+msgid ""
+"Required for Mail.ru Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Mail.ru Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:1103 admin/social_login.php:1123
+#, fuzzy
+msgid ""
+"Paste following url in <strong>All redirect_uri</strong> option mentioned at "
+"the link"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Site URL</strong> mezőbe a fenti "
+"linken"
+
+#: admin/social_login.php:1112
+#, fuzzy
+msgid "Mail.ru Client Secret"
+msgstr "Instagram Client ID"
+
+#: admin/social_login.php:1121
+#, fuzzy, php-format
+msgid ""
+"Required for Mail.ru Social Login to work. Please follow the documentation "
+"at <a href=\"%s\" target=\"_blank\">this link</a> to get Mail.ru Client "
+"Secret"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:1135
+#, fuzzy
+msgid "Github Client ID"
+msgstr "Instagram Client ID"
+
+#: admin/social_login.php:1144
+#, fuzzy, php-format
+msgid ""
+"Required for Github Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Github Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:1155
+#, fuzzy
+msgid "Github Client Secret"
+msgstr "Instagram Client ID"
+
+#: admin/social_login.php:1164
+#, fuzzy, php-format
+msgid ""
+"Required for Github Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Github Client Secret"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:1177
+#, fuzzy
+msgid "Kakao Client ID"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:1186
+#, fuzzy, php-format
+msgid ""
+"Required for Kakao Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Kakao Client ID"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:1197
+#, fuzzy
+msgid "Kakao Client Secret"
+msgstr "Google+ Client ID"
+
+#: admin/social_login.php:1206
+#, fuzzy, php-format
+msgid ""
+"Required for Kakao Social Login to work. Please follow the documentation at "
+"<a href=\"%s\" target=\"_blank\">this link</a> to get Kakao Client Secret"
+msgstr ""
+"Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+"dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+"GooglePlus Client ID beszerzéshez"
+
+#: admin/social_login.php:1226
+#, fuzzy
+msgid "Social Login Options"
+msgstr "Social Login"
+
+#: admin/social_login.php:1241
+msgid "Text to display above the Social Login interface"
+msgstr "Szöveg a Közösségi Belépés felett"
+
+#: admin/social_login.php:1249
+msgid "Trigger social login in the same browser tab"
+msgstr ""
+
+#: admin/social_login.php:1259
+msgid "Trigger social login in the same browser tab instead of a popup window"
+msgstr ""
+
+#: admin/social_login.php:1266
+#, fuzzy
+msgid "Center align icons"
+msgstr "Ikonsorrend beállítás"
+
+#: admin/social_login.php:1276
+#, fuzzy
+msgid "Center align social login icons"
+msgstr "Social Login"
+
+#: admin/social_login.php:1283
+msgid "Enable at login page"
+msgstr "Bekapcsolás a belépés oldalon"
+
+#: admin/social_login.php:1293
+msgid ""
+"Social Login interface will get enabled at the login page of your website"
+msgstr "Közösségi Belépés megjelenítése a weboldal belépési oldalán"
+
+#: admin/social_login.php:1300
+msgid "Enable at register page"
+msgstr "Bekapcsolás a regisztráció oldalon"
+
+#: admin/social_login.php:1310
+msgid ""
+"Social Login interface will get enabled at the registration page of your "
+"website"
+msgstr "Közösségi Belépés megjelenítése a weboldal regisztrációs oldalán"
+
+#: admin/social_login.php:1317
+msgid "Enable at comment form"
+msgstr "Bekapcsolás a hozászólásoknál"
+
+#: admin/social_login.php:1327
+msgid "Social Login interface will get enabled at your Wordpress Comment form"
+msgstr "Közösségi Belépés megjelenítése a Wordpress hozzászólás küldésnél"
+
+#: admin/social_login.php:1341
+msgid "Enable before WooCommerce Customer Login Form"
+msgstr "Engedélyezze előtt WooCommerce Megrendelő Bejelentkezés"
+
+#: admin/social_login.php:1351
+#, fuzzy
+msgid ""
+"Social Login Interface will get enabled before the customer login form at "
+"WooCommerce My Account page"
+msgstr "Közösségi Belépés megjelenítése a weboldal belépési oldalán"
+
+#: admin/social_login.php:1358
+#, fuzzy
+msgid "Enable at WooCommerce Customer Login Form"
+msgstr "Engedélyezze előtt WooCommerce Megrendelő Bejelentkezés"
+
+#: admin/social_login.php:1368
+#, fuzzy
+msgid ""
+"Integrate Social Login Interface with the customer login form at WooCommerce "
+"My Account page"
+msgstr "Közösségi Belépés megjelenítése a weboldal belépési oldalán"
+
+#: admin/social_login.php:1375
+#, fuzzy
+msgid "Enable at WooCommerce Customer Register Form"
+msgstr "Engedélyezze után WooCommerce Megrendelő Bejelentkezés"
+
+#: admin/social_login.php:1385
+#, fuzzy
+msgid ""
+"Integrate Social Login Interface with the customer register form at "
+"WooCommerce My Account page"
+msgstr "Közösségi Belépés megjelenítése a weboldal belépési oldalán"
+
+#: admin/social_login.php:1392
+#, fuzzy
+msgid "Enable at WooCommerce checkout page"
+msgstr "Bekapcsolás a regisztráció oldalon"
+
+#: admin/social_login.php:1402
+#, fuzzy
+msgid "Social Login Interface will get enabled at WooCommerce checkout page"
+msgstr "Közösségi Belépés megjelenítése a Wordpress hozzászólás küldésnél"
+
+#: admin/social_login.php:1412
+msgid "Auto-approve comments made by Social Login users"
+msgstr "Közösségi Belépéses hozzászólások automatikus elfogadása"
+
+#: admin/social_login.php:1422
+msgid ""
+"If this option is enabled, and WordPress comment is made by Social Login "
+"user, comment will get approved immediately without keeping in moderation."
+msgstr ""
+"Ha ez be van kapcsolva, és egy Közösségi Belépéssel bejelentkezett "
+"felhasználó Wordpress hozzászólást küld, ez azonnal, moderáció nélkül "
+"megjelenik az oldalon."
+
+#: admin/social_login.php:1423
+msgid "Note: This is not related to Facebook comments"
+msgstr "Megjegyzés: Ez nem kapcsolódik a Facebook hozzászólásokhoz"
+
+#: admin/social_login.php:1432
+msgid "Enable social avatar"
+msgstr "Közösségi avatar bekapcsolás"
+
+#: admin/social_login.php:1442
+msgid ""
+"Social profile pictures of the logged in user will be displayed as profile "
+"avatar"
+msgstr "A közösségi profil képe lesz megjelenítve avatarként a weboldalon"
+
+#: admin/social_login.php:1451
+msgid "Avatar quality"
+msgstr " Avatar képminőség"
+
+#: admin/social_login.php:1454
+msgid "Average"
+msgstr "Átlagos"
+
+#: admin/social_login.php:1455
+msgid "Best"
+msgstr "legjobb"
+
+#: admin/social_login.php:1462
+msgid "Choose avatar quality"
+msgstr "Válassz Avatar képminőséget"
+
+#: admin/social_login.php:1470
+#, fuzzy
+msgid ""
+"Show option for users to update social avatar at BuddyPress profile page"
+msgstr ""
+"Engedélyezze ezt a lehetőséget, hogy a szociális számla összekötő interfész "
+"BuddyPress profil oldal"
+
+#: admin/social_login.php:1480
+msgid ""
+"If enabled, users would be able to update their social avatar from \"Profile "
+"photo\" section in BuddyPress profile at front-end"
+msgstr ""
+
+#: admin/social_login.php:1490 super_socializer.php:1958
+msgid "Email required"
+msgstr "E-mail cím szükséges"
+
+#: admin/social_login.php:1500
+msgid ""
+"If enabled and Social ID provider does not provide user's email address on "
+"login, user will be asked to provide his/her email address. Otherwise, a "
+"dummy email will be generated"
+msgstr ""
+"Ha be van kapcsolva, és a Közösségi ID szolgáltató nem biztosít e-mail címet "
+"a belépéskor, a felhasználótól elkérjük e-mail címét. Egyébként egy "
+"véletlenszerű e-mail címet generálunk"
+
+#: admin/social_login.php:1508
+msgid "Send post-registration email to user to set account password"
+msgstr ""
+
+#: admin/social_login.php:1518
+msgid ""
+"If enabled, an email will be sent to user after registration through Social "
+"Login, regarding his/her login credentials (username-password to be able to "
+"login via traditional login form)"
+msgstr ""
+"Ha be van kapcsolva, egy e-mailt küldünk a felhasználónak, amikor Közösségi "
+"Belépéssel regisztrál az oldalon. Az email tartalmazza a belépési adatokat: "
+"Felhasználói név, Jelszó, melyek segítségével hagyományos módon is beléphet "
+"az oldalra."
+
+#: admin/social_login.php:1525
+#, fuzzy
+msgid "Send new user registration notification email to admin"
+msgstr "Letilthatja a felhasználói regisztráció útján Szociális Belépés"
+
+#: admin/social_login.php:1535
+#, fuzzy
+msgid ""
+"If enabled, an email will be sent to admin after new user registers through "
+"Social Login, notifying admin about the new user registration"
+msgstr ""
+"Ha be van kapcsolva, egy e-mailt küldünk a felhasználónak, amikor Közösségi "
+"Belépéssel regisztrál az oldalon. Az email tartalmazza a belépési adatokat: "
+"Felhasználói név, Jelszó, melyek segítségével hagyományos módon is beléphet "
+"az oldalra."
+
+#: admin/social_login.php:1542
+msgid "Login redirection"
+msgstr "Átirányítás Belépés után"
+
+#: admin/social_login.php:1546
+msgid "Same page where user logged in"
+msgstr "Az az oldal, ahol a felhasználó belépett"
+
+#: admin/social_login.php:1550 admin/social_login.php:1579
+msgid "Account dashboard"
+msgstr "Felhasználói Irányítópult"
+
+#: admin/social_login.php:1553 admin/social_login.php:1582
+msgid "BuddyPress profile page"
+msgstr "BuddyPress profil oldal"
+
+#: admin/social_login.php:1556 admin/social_login.php:1585
+msgid "Custom Url"
+msgstr "Egyedi URL"
+
+#: admin/social_login.php:1564
+msgid "User will be redirected to the selected page after Social Login"
+msgstr ""
+"A felhasználót a kiválasztott oldalra irányítjuk a Közösségi Belépés után"
+
+#: admin/social_login.php:1571
+msgid "Registration redirection"
+msgstr "Átirányítás Regisztráció után"
+
+#: admin/social_login.php:1575
+msgid "Same page from where user registered"
+msgstr "Az az oldal, ahol a felhasználó regisztrált"
+
+#: admin/social_login.php:1593
+msgid ""
+"User will be redirected to the selected page after registration (first "
+"Social Login) through Social Login"
+msgstr ""
+"A felhasználó a kiválasztott oldalra lesz átirányítva a regisztráció (első "
+"Közösségi belépés) után"
+
+#: admin/social_login.php:1602
+#, fuzzy
+msgid "Social Account Linking Options"
+msgstr "Közösségi Hozzászólás"
+
+#: admin/social_login.php:1617
+#, fuzzy
+msgid "Text to display above the Social Account Linking interface"
+msgstr "Szöveg a Közösségi Belépés felett"
+
+#: admin/social_login.php:1624
+#, fuzzy
+msgid ""
+"Link social account to already existing account, if email address matches"
+msgstr "Kapcsold össze közösségi fiókod, hogy belépj erre az oldalra"
+
+#: admin/social_login.php:1634
+msgid ""
+"If email address of the user's Social Account matches with an already "
+"existing account at your website, that social account will be linked to "
+"existing account. User would be able to manage this from Social Account "
+"Linking interface at their profile page."
+msgstr ""
+
+#: admin/social_login.php:1642
+msgid "Enable social account linking at BuddyPress profile page"
+msgstr ""
+"Engedélyezze a szociális számla összekapcsolása a BuddyPress profil oldal"
+
+#: admin/social_login.php:1652
+msgid ""
+"Enable this option to show social account linking interface at BuddyPress "
+"profile page"
+msgstr ""
+"Engedélyezze ezt a lehetőséget, hogy a szociális számla összekötő interfész "
+"BuddyPress profil oldal"
+
+#: admin/social_login.php:1663
+msgid "Email popup options"
+msgstr "Email felugró ablak beállítások"
+
+#: admin/social_login.php:1668
+msgid "Text on 'Email required' popup"
+msgstr "Szöveg az  'E-mail cím szükséges' felugró ablakban"
+
+#: admin/social_login.php:1678
+msgid ""
+"This text will be displayed on email required popup. Leave empty if not "
+"required."
+msgstr ""
+"Ez a szöveg jelenik meg az e-mail cím bekérő felugró ablakban. Üresen "
+"hagyhatod, ha nem kéred be az e-mail címet."
+
+#: admin/social_login.php:1686
+msgid "Error message for 'Email required' popup"
+msgstr "Hibaüzenet az 'E-mail cím szükséges' felugró ablakban"
+
+#: admin/social_login.php:1696
+msgid ""
+"This message will be displayed to user if it provides invalid or already "
+"registered email"
+msgstr ""
+"Ez az üzenet jelenik meg, ha a felhasználó helytelen, vagy már regisztrált e-"
+"mail címet ad meg "
+
+#: admin/social_login.php:1704
+msgid "Email popup height"
+msgstr "Email felugró ablak magassága"
+
+#: admin/social_login.php:1714
+msgid ""
+"If you are seeing vertical scrollbar in the \"Email required\" popup, you "
+"can increase the height of popup by specifying in this option. Leave empty "
+"for default."
+msgstr ""
+"Ha függőleges görgetősávot látsz az \"E-mail bekérő\" felugró ablakban, itt "
+"megnövelheted az ablak magasságát. Egyébként üresen hagyható."
+
+#: admin/social_login.php:1721
+msgid "Enable email verification"
+msgstr "E-mail ellenőrzés bekapcsolása"
+
+#: admin/social_login.php:1731
+msgid ""
+"If enabled, email provided by the user will be verified by sending a "
+"confirmation link to that email. User would not be able to login without "
+"verifying his/her email"
+msgstr ""
+"Ha be van kapcsolva, a felhasználó által megadott e-mailcímre ellenőrző "
+"üzenetet küldünk egy megerősítő linkkel. A felhasználó nem tud belépni, amíg "
+"nem erősítette meg e-mailcímét "
+
+#: admin/social_login.php:1751
+#, fuzzy
+msgid "Enable GDPR opt-in"
+msgstr "Disqus Hozzászólás Bekapcsolása"
+
+#: admin/social_login.php:1761
+msgid ""
+"Enable it to show GDPR opt-in for social login and social account linking"
+msgstr ""
+
+#: admin/social_login.php:1769
+#, fuzzy
+msgid "Placement of GDPR opt-in"
+msgstr "Disqus Hozzászólás Bekapcsolása"
+
+#: admin/social_login.php:1773
+#, fuzzy
+msgid "Above Social Login icons"
+msgstr "Social Login"
+
+#: admin/social_login.php:1775
+#, fuzzy
+msgid "Below Social Login icons"
+msgstr "Social Login"
+
+#: admin/social_login.php:1781
+#, fuzzy
+msgid "Placement of GDPR opt-in above or below the social login icons"
+msgstr "Szöveg a Közösségi Belépés felett"
+
+#: admin/social_login.php:1788
+msgid "Opt-in text"
+msgstr ""
+
+#: admin/social_login.php:1798
+#, fuzzy
+msgid "Text for the GDPR opt-in"
+msgstr "Disqus Hozzászólás Bekapcsolása"
+
+#: admin/social_login.php:1805
+msgid "Text to link to Terms-Conditions page"
+msgstr ""
+
+#: admin/social_login.php:1815
+msgid "Word(s) in the opt-in text to be linked to terms-conditions page"
+msgstr ""
+
+#: admin/social_login.php:1822
+msgid "Terms-Conditions Url"
+msgstr ""
+
+#: admin/social_login.php:1832
+#, fuzzy
+msgid "Url of the terms-conditions page of your website"
+msgstr "A főoldalad Url-je"
+
+#: admin/social_login.php:1839
+msgid "Text to link to Privacy Policy page"
+msgstr ""
+
+#: admin/social_login.php:1849
+msgid "Word(s) in the opt-in text to be linked to privacy policy page"
+msgstr ""
+
+#: admin/social_login.php:1856
+msgid "Privacy Policy Url"
+msgstr ""
+
+#: admin/social_login.php:1866
+#, fuzzy
+msgid "Url of the privacy policy page of your website"
+msgstr "A főoldalad Url-je"
+
+#: admin/social_login.php:1917 inc/widget.php:260 inc/widget.php:438
+#: inc/widget.php:602 inc/widget.php:750
+msgid "Select"
+msgstr "Válassz"
+
+#: admin/social_login.php:1948
+#, fuzzy
+msgid "Social Login Shortcode & Widget"
+msgstr "Shortcode és Widget"
+
+#: admin/social_login.php:1949
+msgid "Social Linking Shortcode"
+msgstr ""
+
+#: admin/social_login.php:1964
+msgid "Why is social login not working?"
+msgstr ""
+
+#: admin/social_login.php:1965
+msgid ""
+"Make sure that App ID and Secret (Client ID and Secret) keys you have saved, "
+"belong to the same app"
+msgstr ""
+
+#: admin/social_login.php:1967
+msgid "Social Login not working with Varnish enabled"
+msgstr ""
+
+#: admin/social_login.php:1968
+msgid ""
+"Why the user is not appearing logged in even after Social Login until the "
+"webpage is refreshed manually?"
+msgstr ""
+
+#: admin/social_sharing.php:18
+msgid "Enable Social Sharing"
+msgstr "Közösségi Megosztás Bekapcsolás"
+
+#: admin/social_sharing.php:27
+#, fuzzy
+msgid "Master control to enable Social Sharing"
+msgstr "Központi beállítás a vízszintes megosztási felület bekapcsolásához"
+
+#: admin/social_sharing.php:37
+msgid "Recover Social Share Counts Lost After Moving to SSL/Https"
+msgstr ""
+
+#: admin/social_sharing.php:52
+msgid "Theme Selection"
+msgstr ""
+
+#: admin/social_sharing.php:64
+msgid "Troubleshooter"
+msgstr "Hibamegoldó"
+
+#: admin/social_sharing.php:73
+msgid "Standard interface theme"
+msgstr ""
+
+#: admin/social_sharing.php:78 admin/social_sharing.php:376
+msgid "Icon Preview"
+msgstr "icon Preview"
+
+#: admin/social_sharing.php:150 admin/social_sharing.php:449
+msgid ""
+"Do not forget to save the configuration after making changes by clicking the "
+"save button below"
+msgstr ""
+"Ne felejtsd el menteni a konfigurációs változtatások után, kattintson a "
+"Mentés gombra"
+
+#: admin/social_sharing.php:156 admin/social_sharing.php:455
+msgid "Shape"
+msgstr "alak"
+
+#: admin/social_sharing.php:160 admin/social_sharing.php:459 inc/widget.php:955
+msgid "Round"
+msgstr "kerek"
+
+#: admin/social_sharing.php:162 admin/social_sharing.php:461 inc/widget.php:956
+msgid "Square"
+msgstr "szögletes"
+
+#: admin/social_sharing.php:164 admin/social_sharing.php:463
+msgid "Rectangle"
+msgstr ""
+
+#: admin/social_sharing.php:171 admin/social_sharing.php:470
+msgid "Shape of the sharing icons"
+msgstr "Megosztás ikonok formája"
+
+#: admin/social_sharing.php:179 admin/social_sharing.php:478
+msgid "Size (in pixels)"
+msgstr "Méret (pixel)"
+
+#: admin/social_sharing.php:195 admin/social_sharing.php:494
+msgid "Size of the sharing icons"
+msgstr "Megosztási ikonok mérete"
+
+#: admin/social_sharing.php:204 admin/social_sharing.php:503
+#, fuzzy
+msgid "Width (in pixels)"
+msgstr "Méret (pixel)"
+
+#: admin/social_sharing.php:220 admin/social_sharing.php:519
+#, fuzzy
+msgid "Width of the sharing icons"
+msgstr "Megosztási ikonok mérete"
+
+#: admin/social_sharing.php:227 admin/social_sharing.php:526
+#, fuzzy
+msgid "Height (in pixels)"
+msgstr "Méret (pixel)"
+
+#: admin/social_sharing.php:243 admin/social_sharing.php:542
+#, fuzzy
+msgid "Height of the sharing icons"
+msgstr "Megosztási ikonok mérete"
+
+#: admin/social_sharing.php:252 admin/social_sharing.php:551
+#, fuzzy
+msgid "Border radius (in pixels)"
+msgstr "Méret (pixel)"
+
+#: admin/social_sharing.php:262 admin/social_sharing.php:561
+msgid ""
+"Specify a value for rounded corners. More the value, more rounded will the "
+"corners be. Leave empty for sharp corners."
+msgstr ""
+
+#: admin/social_sharing.php:270 admin/social_sharing.php:569
+#, fuzzy
+msgid "Logo Color"
+msgstr "Háttér Szín"
+
+#: admin/social_sharing.php:274 admin/social_sharing.php:294
+#: admin/social_sharing.php:313 admin/social_sharing.php:573
+#: admin/social_sharing.php:593 admin/social_sharing.php:611
+#, fuzzy
+msgid "Default"
+msgstr ""
+"Az elsőre látható hozzászólások száma. A minimum 1, az alapértelmezés 10."
+
+#: admin/social_sharing.php:276 admin/social_sharing.php:295
+#: admin/social_sharing.php:318 admin/social_sharing.php:575
+#: admin/social_sharing.php:594 admin/social_sharing.php:616
+msgid "On Hover"
+msgstr ""
+
+#: admin/social_sharing.php:284 admin/social_sharing.php:583
+#, fuzzy
+msgid ""
+"Specify the color or hex code (example #cc78e0) for the logo of icon. Leave "
+"empty for default. You can get the hex code of the required color from <a "
+"href=\"http://www.colorpicker.com/\" target=\"_blank\">this link</a>"
+msgstr ""
+"Add meg a színt hexa színkódként (például #cc78e0) a függőleges számláló sáv "
+"hátteréhez. Hagyd üresen, hogy átlátszó maradjon. A hexa színkódot <a href="
+"\"http://www.colorpicker.com/\" target=\"_blank\"> innen</a> tudod kilesni"
+
+#: admin/social_sharing.php:302 admin/social_sharing.php:601
+#, fuzzy
+msgid ""
+"Specify the color or hex code (example #cc78e0) for icon background. Save "
+"\"transparent\" for transparent background. Leave empty for default. You can "
+"get the hex code of the required color from <a href=\"http://www.colorpicker."
+"com/\" target=\"_blank\">this link</a>"
+msgstr ""
+"Add meg a színt hexa színkódként (például #cc78e0) a függőleges megosztó sáv "
+"hátteréhez. Hagyd üresen, hogy átlátszó maradjon. A hexa színkódot <a href="
+"\"http://www.colorpicker.com/\" target=\"_blank\"> innen</a> tudod kilesni "
+
+#: admin/social_sharing.php:309 admin/social_sharing.php:608
+msgid "Border"
+msgstr ""
+
+#: admin/social_sharing.php:315 admin/social_sharing.php:320
+#: admin/social_sharing.php:613 admin/social_sharing.php:618
+#, fuzzy
+msgid "Border Width"
+msgstr "Shortcode és Widget"
+
+#: admin/social_sharing.php:316 admin/social_sharing.php:321
+#: admin/social_sharing.php:614 admin/social_sharing.php:619
+#, fuzzy
+msgid "Border Color"
+msgstr "Háttér Szín"
+
+#: admin/social_sharing.php:328 admin/social_sharing.php:626
+#, fuzzy
+msgid "Icon border"
+msgstr "icon Preview"
+
+#: admin/social_sharing.php:335 admin/social_sharing.php:633
+msgid "Counter Position"
+msgstr ""
+
+#: admin/social_sharing.php:335 admin/social_sharing.php:633
+msgid "(applies, if counter enabled)"
+msgstr ""
+
+#: admin/social_sharing.php:341 admin/social_sharing.php:639
+msgid "Top"
+msgstr ""
+
+#: admin/social_sharing.php:345 admin/social_sharing.php:643
+msgid "Bottom"
+msgstr ""
+
+#: admin/social_sharing.php:347 admin/social_sharing.php:645
+msgid "Inner Left"
+msgstr ""
+
+#: admin/social_sharing.php:349 admin/social_sharing.php:647
+msgid "Inner Top"
+msgstr ""
+
+#: admin/social_sharing.php:351 admin/social_sharing.php:649
+#, fuzzy
+msgid "Inner Right"
+msgstr "Jobb"
+
+#: admin/social_sharing.php:353 admin/social_sharing.php:651
+msgid "Inner Bottom"
+msgstr ""
+
+#: admin/social_sharing.php:361 admin/social_sharing.php:659
+#, fuzzy
+msgid "Position of share counter"
+msgstr "Tartalom alatt"
+
+#: admin/social_sharing.php:371
+#, fuzzy
+msgid "Floating interface theme"
+msgstr "Megosztási Felület"
+
+#: admin/social_sharing.php:675
+#, fuzzy
+msgid "Standard Sharing Interface Options"
+msgstr "Vízszintes Megosztási Felület Beállítások"
+
+#: admin/social_sharing.php:680
+#, fuzzy
+msgid "Enable Standard sharing interface"
+msgstr "Vízszintes megosztási felület bekapcsolása"
+
+#: admin/social_sharing.php:690
+#, fuzzy
+msgid "Master control to enable standard sharing"
+msgstr "Központi beállítás a vízszintes megosztási felület bekapcsolásához"
+
+#: admin/social_sharing.php:714 admin/social_sharing.php:1135
+msgid "Url to share"
+msgstr "Megosztás Url-je"
+
+#: admin/social_sharing.php:731
+msgid "The text to display above the sharing interface"
+msgstr "Szöveg a megosztási felület fölött"
+
+#: admin/social_sharing.php:755 admin/social_sharing.php:1143
+#, fuzzy
+msgid "Instagram username"
+msgstr "Instagram"
+
+#: admin/social_sharing.php:765 admin/social_sharing.php:1153
+msgid ""
+"Username of the Instagram account you want to redirect users to, on clicking "
+"the icon"
+msgstr ""
+
+#: admin/social_sharing.php:774 admin/social_sharing.php:1162
+#, fuzzy
+msgid "HTML ID of container element of comment form"
+msgstr "HTML ID komment formájában konténer"
+
+#: admin/social_sharing.php:784 admin/social_sharing.php:1172
+msgid ""
+"HTML ID of the element you want to focus on the webpage, on click of Comment "
+"icon."
+msgstr ""
+
+#: admin/social_sharing.php:797 admin/social_sharing.php:1180
+msgid "Rearrange icons"
+msgstr "Ikonsorrend beállítás"
+
+#: admin/social_sharing.php:858 admin/social_sharing.php:1239
+msgid "Drag the icons to rearrange in desired order"
+msgstr "Fogd meg az ikont a megfelelő sorrend beállításához"
+
+#: admin/social_sharing.php:865 admin/social_sharing.php:1246
+#, fuzzy
+msgid "Select Sharing Services"
+msgstr "Válassz és rendezz sorba szolgáltatókat"
+
+#: admin/social_sharing.php:872 admin/social_sharing.php:1253
+msgid "Select sharing services to show in social share bar"
+msgstr ""
+
+#: admin/social_sharing.php:890 admin/social_sharing.php:1271
+#, fuzzy
+msgid "Search social network"
+msgstr "elsődleges szociális háló"
+
+#: admin/social_sharing.php:922 admin/social_sharing.php:1319
+msgid "Horizontal alignment of the sharing interface"
+msgstr "A megosztási felület függőleges igazítása"
+
+#: admin/social_sharing.php:942
+msgid "Specify position of the sharing interface with respect to the content"
+msgstr ""
+"Határozd meg a megosztási felület elhelyezésének helyét a tartalomhoz képest"
+
+#: admin/social_sharing.php:949 admin/social_sharing.php:1381
+msgid "Placement"
+msgstr ""
+
+#: admin/social_sharing.php:1017
+msgid "Specify the pages where you want to enable Sharing interface"
+msgstr "Add meg az oldalakat, ahol megjelenjen a Közösségi Megosztási felület"
+
+#: admin/social_sharing.php:1024 admin/social_sharing.php:1437
+msgid "Show share counts"
+msgstr "Megosztás számok mutatása"
+
+#: admin/social_sharing.php:1029 admin/social_sharing.php:1442
+msgid ""
+"Share counts are supported for Twitter, Buffer, Reddit, Pinterest, "
+"Odnoklassniki, Fintel and Vkontakte"
+msgstr ""
+
+#: admin/social_sharing.php:1030 admin/social_sharing.php:1443
+#, php-format
+msgid ""
+"To show Twitter share count, you have to click \"Give me my Twitter counts "
+"back\" button at <a href=\"%s\" target=\"_blank\">TwitCount.com</a> and "
+"register your website %s with them. No need to copy-paste any code from "
+"their website."
+msgstr ""
+
+#: admin/social_sharing.php:1037 admin/social_sharing.php:1450
+msgid "If enabled, share counts are displayed above sharing icons."
+msgstr "Bekapcsolva a megosztások száma megjelenik a megosztás ikonok felett."
+
+#: admin/social_sharing.php:1045 admin/social_sharing.php:1458
+#: admin/social_sharing.php:1659
+msgid "Track Social Shares for Every Social Network"
+msgstr ""
+
+#: admin/social_sharing.php:1051 admin/social_sharing.php:1464
+#, fuzzy
+msgid "Show total shares"
+msgstr "Megosztás számok mutatása"
+
+#: admin/social_sharing.php:1061 admin/social_sharing.php:1474
+#, fuzzy
+msgid "If enabled, total shares will be displayed with sharing icons"
+msgstr "Bekapcsolva a megosztások száma megjelenik a megosztás ikonok felett."
+
+#: admin/social_sharing.php:1069 admin/social_sharing.php:1482
+msgid "Enable 'More' icon"
+msgstr "'Még több' ikon bekapcsolása"
+
+#: admin/social_sharing.php:1079 admin/social_sharing.php:1492
+msgid ""
+"If enabled, \"More\" icon will be displayed after selected sharing icons "
+"which shows additional sharing networks in popup"
+msgstr ""
+"Ha engedélyezve van, \"More \" ikon jelenik meg, miután a kiválasztott "
+"megosztás ikonok ami azt mutatja, további fájlcserélő hálózatok popup"
+
+#: admin/social_sharing.php:1096
+#, fuzzy
+msgid "Floating Sharing Interface Options"
+msgstr "Függőleges (lebegő) Megosztási Felület Beállítások"
+
+#: admin/social_sharing.php:1101
+#, fuzzy
+msgid "Enable Floating sharing interface"
+msgstr "Függőleges (lebegő) megosztási felület bekapcsolása"
+
+#: admin/social_sharing.php:1111
+#, fuzzy
+msgid "Master control to enable floating sharing widget"
+msgstr ""
+"Központi beállítás a függőleges (lebegő) megosztási widget bekapcsolásához"
+
+#: admin/social_sharing.php:1299
+msgid ""
+"Specify the color or hex code (example #cc78e0) for the background of "
+"vertical sharing bar. Leave empty for transparent. You can get the hex code "
+"of the required color from <a href=\"http://www.colorpicker.com/\" target="
+"\"_blank\">this link</a>"
+msgstr ""
+"Add meg a színt hexa színkódként (például #cc78e0) a függőleges megosztó sáv "
+"hátteréhez. Hagyd üresen, hogy átlátszó maradjon. A hexa színkódot <a href="
+"\"http://www.colorpicker.com/\" target=\"_blank\"> innen</a> tudod kilesni "
+
+#: admin/social_sharing.php:1337
+msgid ""
+"Specify a number. Increase in number will shift sharing interface towards "
+"right and decrease will shift it towards left. Number can be negative too."
+msgstr ""
+"Adj meg egy számot. A nagyobb szám jobbra tolja el a megosztási felületet. "
+"Megadhatsz negatív értéket is."
+
+#: admin/social_sharing.php:1356
+msgid ""
+"Specify a number. Increase in number will shift sharing interface towards "
+"left and decrease will shift it towards right. Number can be negative too."
+msgstr ""
+"Adj meg egy számot. A nagyobb szám balra tolja el a megosztási felületet. "
+"Megadhatsz negatív értéket is."
+
+#: admin/social_sharing.php:1374
+msgid ""
+"Specify a number. Increase in number will shift sharing interface towards "
+"bottom and decrease will shift it towards top."
+msgstr ""
+"Adj meg egy számot. A nagyobb szám lefelé tolja el a megosztási felületet."
+
+#: admin/social_sharing.php:1430
+msgid "Specify the pages where you want to enable vertical Sharing interface"
+msgstr "Add meg, melyik oldalakon jelenjen meg a Megosztási felület"
+
+#: admin/social_sharing.php:1499
+#, fuzzy
+msgid "Hide floating slider"
+msgstr "Bejelentkezettek számára elrejtve:"
+
+#: admin/social_sharing.php:1509
+msgid "Hides the slider arrow present below the floating share bar"
+msgstr ""
+
+#: admin/social_sharing.php:1516
+#, fuzzy
+msgid "Vertical floating bar responsiveness"
+msgstr "Függőleges (lebegő) Megosztási Felület Beállítások"
+
+#: admin/social_sharing.php:1519
+#, php-format
+msgid "Display vertical interface only when screen is wider than %s pixels"
+msgstr ""
+
+#: admin/social_sharing.php:1526
+msgid ""
+"Display vertical interface only when screen is wider than the width "
+"specified."
+msgstr ""
+
+#: admin/social_sharing.php:1533
+msgid "Horizontal floating bar responsiveness"
+msgstr ""
+
+#: admin/social_sharing.php:1536
+#, fuzzy, php-format
+msgid ""
+"Stick vertical floating interface horizontally at bottom only when screen is "
+"narrower than %s pixels"
+msgstr ""
+"Ha engedélyezett, függőleges megosztó felület nem fog megjelenni a mobil "
+"eszközök"
+
+#: admin/social_sharing.php:1543
+msgid ""
+"Stick vertical floating interface horizontally at bottom only when screen is "
+"narrower than the width specified"
+msgstr ""
+
+#: admin/social_sharing.php:1552
+#, fuzzy
+msgid "Horizontal floating bar position"
+msgstr "Vízszintes Megosztási Felület Beállítások"
+
+#: admin/social_sharing.php:1555
+#, php-format
+msgid "%s pixels from %s"
+msgstr ""
+
+#: admin/social_sharing.php:1556
+msgid "Auto-adjust according to screen width (responsive)"
+msgstr ""
+
+#: admin/social_sharing.php:1563
+msgid "Alignment of horizontal floating interface. Number can be negative too."
+msgstr ""
+
+#: admin/social_sharing.php:1588
+msgid "Use shortlinks already installed"
+msgstr "Használja shortlinks már telepítve"
+
+#: admin/social_sharing.php:1598
+msgid "Uses default short url permalinks without using any additional plugin"
+msgstr ""
+
+#: admin/social_sharing.php:1605
+msgid "Enable bit.ly url shortener for sharing"
+msgstr "A bit.ly url rövidítő bekapcsolása a megosztáshoz"
+
+#: admin/social_sharing.php:1664
+msgid "Share Count Cache"
+msgstr ""
+
+#: admin/social_sharing.php:1669
+msgid "Refresh Share Count cache every"
+msgstr ""
+
+#: admin/social_sharing.php:1674
+msgid "Second(s)"
+msgstr ""
+
+#: admin/social_sharing.php:1675
+msgid "Minute(s)"
+msgstr ""
+
+#: admin/social_sharing.php:1676
+msgid "Hour(s)"
+msgstr ""
+
+#: admin/social_sharing.php:1677
+msgid "Day(s)"
+msgstr ""
+
+#: admin/social_sharing.php:1685
+#, php-format
+msgid ""
+"Frequent cache refreshing results in slower loading of pages with share "
+"counts enabled. Leave empty to disable cache. More info <a href=\"%s\" "
+"target=\"_blank\">here</a>"
+msgstr ""
+
+#: admin/social_sharing.php:1692
+msgid "Clear Share Counts Cache"
+msgstr ""
+
+#: admin/social_sharing.php:1696
+#, fuzzy
+msgid "Share Counts cache cleared successfully."
+msgstr "Fiók kapcsolása sikeres"
+
+#: admin/social_sharing.php:1703
+msgid "Use this to clear cached share counts"
+msgstr ""
+
+#: admin/social_sharing.php:1727
+#, fuzzy, php-format
+msgid ""
+"Enter the code of the language you want to use for like buttons. You can "
+"find the language codes at <a href=\"%s\" target=\"_blank\">this link</a>. "
+"Leave it empty for default language(English)"
+msgstr ""
+"Add meg a nyelv kódját, amit a hozzászólás megjelenítéshez használjunk. A "
+"nyelvi kódot <a href=\"%s\" target=\"_blank\">itt</a> találod. Hagyd üresen "
+"az alapértelmezett (angol) nyelv használatához"
+
+#: admin/social_sharing.php:1736
+#, fuzzy
+msgid "Username in sharing"
+msgstr "Twitter felhasználónév a megosztásban"
+
+#: admin/social_sharing.php:1741
+msgid "Twitter username (without @)"
+msgstr "Twitter felhasználónév (@ nélkül)"
+
+#: admin/social_sharing.php:1751 admin/social_sharing.php:1769
+msgid ""
+"Provided username will be appended after the content being shared as \"via "
+"@USERNAME\". Leave empty if you do not want any username in the content "
+"being shared."
+msgstr ""
+"A megadott felhasználónév kerül a megosztás szövege után így \"via @USERNAME"
+"\". Hagyd üresen, ha nem akarsz felhasználó név utánfűzést."
+
+#: admin/social_sharing.php:1759
+#, fuzzy
+msgid "Buffer username (without @)"
+msgstr "Twitter felhasználónév (@ nélkül)"
+
+#: admin/social_sharing.php:1778
+msgid "AMP"
+msgstr ""
+
+#: admin/social_sharing.php:1783
+#, fuzzy
+msgid "Enable sharing on AMP pages"
+msgstr "Bekapcsolás a belépés oldalon"
+
+#: admin/social_sharing.php:1793
+msgid "Enable this option to render sharing icons on AMP pages"
+msgstr ""
+
+#: admin/social_sharing.php:1850
+msgid "Facebook Sharing Troubleshooter"
+msgstr "Facebook Megosztás Hibaelhárító"
+
+#: admin/social_sharing.php:1855
+#, fuzzy
+msgid ""
+"If Facebook sharing is not working fine, click at the following link and "
+"enter the problematic url (where Facebook sharing is not working properly) "
+"of your website in the text field. Click \"Debug\" button."
+msgstr ""
+"Ha a Facebook megosztás nem működik helyesen, kattints a következő linkre, "
+"és add meg a problémás url-t (ahol a Facebook megosztás nem működik "
+"tökéletesen) a szöveges mezőben:"
+
+#: admin/social_sharing.php:1873
+msgid ""
+"Why is sharer not showing the correct image, title and other meta tags "
+"content?"
+msgstr ""
+
+#: admin/social_sharing.php:1874
+msgid "Why is Facebook share count not working?"
+msgstr ""
+
+#: admin/social_sharing.php:1875 super_socializer.php:3094
+#, php-format
+msgid ""
+"After the recent changes introduced in the Facebook graph API, it's not "
+"possible to track Facebook shares using it. <a href='%s' "
+"target='_blank'>Social Shares Tracker</a> add-on allows you to track shares "
+"not just for Facebook but for all the social networks"
+msgstr ""
+
+#: admin/social_sharing.php:1877
+msgid "Why is Instagram icon redirecting to Instagram website?"
+msgstr ""
+
+#: admin/social_sharing.php:1878
+msgid ""
+"Instagram icon is there to send website visitors to the Instagram page of "
+"your choice. You can save the desired Instagram handle in \"Instagram "
+"Username\" option in \"Standard Interface\" and \"Floating Interface\" "
+"sections."
+msgstr ""
+
+#: admin/social_sharing.php:1881
+#, fuzzy
+msgid "How to customize the url being shared?"
+msgstr "Megosztás számok mutatása:"
+
+#: admin/social_sharing.php:1882
+msgid ""
+"Why are Twitter shares not appearing even after registering at Twitcount.com?"
+msgstr ""
+
+#: admin/social_sharing.php:1883
+msgid ""
+"It takes some time for their service to track the shares made on Twitter "
+"from your website. If you still feel it's taking too long you can contact "
+"their support directly from their website."
+msgstr ""
+
+#: admin/social_sharing.php:1886
+msgid ""
+"How to restore Social Share counts lost after moving my website to SSL/Https?"
+msgstr ""
+
+#: admin/social_sharing.php:1888
+msgid "Why the color of share icons is not being updated?"
+msgstr ""
+
+#: admin/social_sharing.php:1889
+msgid "Why Facebook share counts are not appearing?"
+msgstr ""
+
+#: admin/social_sharing.php:1890
+msgid ""
+"How can I show share counts of my website rather than of individual pages/"
+"posts?"
+msgstr ""
+"Hogyan jeleníthetem meg a megosztások számát az oldal/bejegyzés oldalakon "
+"kívül is?"
+
+#: admin/social_sharing.php:1891
+msgid "How can I disable sharing on particular page/post?"
+msgstr ""
+"Hogyan kapcsolhatom ki a megosztást egy adott oldal/bejegyzés esetében?"
+
+#: admin/social_sharing.php:1892
+msgid "How can I specify minimum sharing count for sharing networks?"
+msgstr "Hogyan adhatok meg minimum megosztása száma a fájlcserélő hálózatokat?"
+
+#: admin/social_sharing.php:1893
+msgid "How to share specific page?"
+msgstr ""
+
+#: admin/social_sharing.php:1894
+msgid "How to integrate Google Analytics with sharing?"
+msgstr ""
+
+#: admin/social_sharing.php:1895
+msgid "How to customize the look of total share counts?"
+msgstr ""
+
+#: admin/social_sharing.php:1896
+#, fuzzy
+msgid "How to customize the look of individual share counts?"
+msgstr "Megosztás számok mutatása:"
+
+#: admin/social_sharing.php:1897
+#, fuzzy
+msgid "How to show Whatsapp icon only on mobile devices?"
+msgstr "Hide megosztása mobil eszközökön"
+
+#: admin/social_sharing.php:1898
+msgid "How to hide arrow after floating sharing bar?"
+msgstr ""
+
+#: admin/social_sharing.php:1899
+msgid "Why is share count not getting updated?"
+msgstr ""
+
+#: helper.php:7
+#, fuzzy
+msgid "Settings saved"
+msgstr "Beállítások"
+
+#: helper.php:197
+#, fuzzy
+msgid "Click to toggle help"
+msgstr "Elrejtéséhez kattintson segítség"
+
+#: helper.php:294
+#, fuzzy
+msgid "Add-Ons"
+msgstr "A kiegészítőket"
+
+#: helper.php:295
+msgid "Support Documentation"
+msgstr ""
+
+#: helper.php:296
+msgid "Settings"
+msgstr "Beállítások"
+
+#: helper.php:572
+msgid "Account linked successfully"
+msgstr "Fiók kapcsolása sikeres"
+
+#: helper.php:576
+msgid "Account already exists or linked"
+msgstr "Fiók már létezik, vagy össze van kötve"
+
+#: helper.php:612 helper.php:614
+#, fuzzy
+msgid "Login with"
+msgstr "Díjat pontokat Szociális Belépés"
+
+#: helper.php:649 helper.php:655
+msgid "Currently"
+msgstr "Jelenleg"
+
+#: helper.php:649 helper.php:655
+msgid "Connected with"
+msgstr ""
+
+#: helper.php:649 helper.php:655
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: helper.php:727
+#, fuzzy
+msgid "Social Account Linking"
+msgstr ""
+"Engedélyezze ezt a lehetőséget, hogy a szociális számla összekötő interfész "
+"BuddyPress profil oldal"
+
+#: helper.php:777
+#, fuzzy
+msgid "Disable Standard Social Sharing on this "
+msgstr "Függőleges Közösségi Megosztás kikapcsolása"
+
+#: helper.php:782
+#, fuzzy
+msgid "Disable Floating Social Sharing on this "
+msgstr "Vízszintes Közösségi Megosztás kikapcsolása"
+
+#: helper.php:787
+#, fuzzy
+msgid "Disable Standard like buttons on this "
+msgstr "Függőleges Közösségi Gombok kikapcsolása"
+
+#: helper.php:792
+#, fuzzy
+msgid "Disable Floating like buttons on this "
+msgstr "Vízszintes Közösségi Gombok kikapcsolása"
+
+#: helper.php:797
+msgid "Disable Social Commenting on this "
+msgstr "Közösségi Hozzászólás kikapcsolása ennél"
+
+#: helper.php:806
+#, fuzzy
+msgid "Standard Sharing Interface"
+msgstr "Megosztási Felület"
+
+#: helper.php:812 helper.php:831
+msgid "Starting share count for "
+msgstr "Megosztás számok kezdése ehhez"
+
+#: helper.php:825
+#, fuzzy
+msgid "Floating Sharing Interface"
+msgstr "Megosztási Felület"
+
+#: helper.php:921 super_socializer.php:2375
+#, fuzzy
+msgid "Social Avatar"
+msgstr "Közösségi avatar bekapcsolás"
+
+#: helper.php:924 super_socializer.php:2386
+msgid ""
+"Do not fetch and update social avatar from my profile, next time I Social "
+"Login"
+msgstr ""
+
+#: helper.php:925 super_socializer.php:2390
+msgid "Update social avatar, next time I Social Login"
+msgstr ""
+
+#: helper.php:928
+#, fuzzy
+msgid "Small Avatar"
+msgstr "Kis Avatar URL"
+
+#: helper.php:932
+#, fuzzy
+msgid "Large Avatar"
+msgstr "Cél Url"
+
+#: helper.php:992 super_socializer.php:1936
+msgid "Please verify your email address to login."
+msgstr "Kérjük, ellenőrizd e-mail címed a belépéshez."
+
+#: helper.php:1029
+msgid "Click to delete social profile data"
+msgstr ""
+
+#: helper.php:1058
+#, fuzzy
+msgid "Deleting"
+msgstr "Beállítások"
+
+#: helper.php:1068
+msgid "Deleted"
+msgstr ""
+
+#: helper.php:1070
+msgid "Something bad happened"
+msgstr ""
+
+#: inc/shortcode.php:214 inc/widget.php:47
+msgid "Log Out"
+msgstr "Kilépés"
+
+#: inc/shortcode.php:295
+#, fuzzy
+msgid ""
+"Enable Social Login from \"Basic Configuration\" section at \"Super "
+"Socializer > Social Login\" page in admin panel"
+msgstr ""
+"Győződjön meg arról, Szociális Login engedélyezve van az \"Super Socializer "
+"> Social Login\" oldalon."
+
+#: inc/social_login.php:1034
+msgid "Email"
+msgstr "Email"
+
+#: inc/social_login.php:1035
+msgid "Confirm email"
+msgstr ""
+
+#: inc/social_login.php:1037
+msgid "Save"
+msgstr ""
+
+#: inc/social_login.php:1038
+msgid "Cancel"
+msgstr ""
+
+#: inc/social_login.php:1112
+#, fuzzy
+msgid "Email Verification"
+msgstr "E-mail ellenőrzés bekapcsolása"
+
+#: inc/social_login.php:1114
+msgid ""
+"Please click on the following link or paste it in browser to verify your "
+"email"
+msgstr ""
+
+#: inc/social_sharing.php:31 inc/social_sharing.php:340
+msgid "Search for"
+msgstr ""
+
+#: inc/social_sharing.php:36 inc/social_sharing.php:38
+#: inc/social_sharing.php:40 inc/social_sharing.php:345
+#: inc/social_sharing.php:347 inc/social_sharing.php:349
+#, fuzzy
+msgid "Archives"
+msgstr "Kategória Archívum"
+
+#: inc/social_sharing.php:225
+msgid "More"
+msgstr ""
+
+#: inc/social_sharing.php:241 super_socializer.php:2046
+#, fuzzy
+msgid "Share"
+msgstr "Megosztás számok mutatása"
+
+#: inc/social_sharing.php:241 super_socializer.php:2046
+msgid "Shares"
+msgstr ""
+
+#: inc/social_sharing.php:931 inc/social_sharing.php:1169
+msgid "Invalid request"
+msgstr "Hibás kérés"
+
+#: inc/social_sharing.php:938
+msgid "Providers not selected"
+msgstr "Nincs kiválasztott szolgáltató"
+
+#: inc/social_sharing_networks.php:58
+msgid "Copy Link"
+msgstr ""
+
+#: inc/widget.php:11
+msgid "Super Socializer - Login"
+msgstr "Super Socializer - Belépés"
+
+#: inc/widget.php:13
+#, fuzzy
+msgid ""
+"Let your website users login/register using their favorite Social ID "
+"Provider, such as Facebook, Twitter, Google, LinkedIn"
+msgstr ""
+"Léptesd be oldalad látogatóit kedvenc Közösségi Hálózatok használatával, "
+"mint a Facebook, Twitter, Google+, vagy a LinkedIn"
+
+#: inc/widget.php:71
+msgid "Login with your Social Account"
+msgstr ""
+
+#: inc/widget.php:82
+#, fuzzy
+msgid ""
+"Make sure Social Login is enabled at \"Super Socializer > Social Login\" "
+"page."
+msgstr ""
+"Győződjön meg arról, Szociális Login engedélyezve van az \"Super Socializer "
+"> Social Login\" oldalon."
+
+#: inc/widget.php:83
+msgid "Title (before login):"
+msgstr ""
+
+#: inc/widget.php:85
+msgid "Title (after login):"
+msgstr ""
+
+#: inc/widget.php:87 inc/widget.php:266 inc/widget.php:608 inc/widget.php:947
+msgid "Before widget content:"
+msgstr "Widget tartalom előtt:"
+
+#: inc/widget.php:89 inc/widget.php:268 inc/widget.php:610 inc/widget.php:1027
+msgid "After widget content:"
+msgstr "Widget tartalom után:"
+
+#: inc/widget.php:92 inc/widget.php:270 inc/widget.php:463 inc/widget.php:612
+#: inc/widget.php:775
+msgid "Hide for logged in users:"
+msgstr "Bejelentkezettek számára elrejtve:"
+
+#: inc/widget.php:111
+#, fuzzy
+msgid ""
+"Standard sharing widget. Let your website users share content on popular "
+"Social networks like Facebook, Twitter, Tumblr, Whatsapp and many more"
+msgstr ""
+"Vízszíntes megosztás widget. Legyen látogatóidnak egyszerű a megosztás a "
+"Közösségi Hálózatokon, mint a Facebook, Twitter, Google+, és még sok másik"
+
+#: inc/widget.php:251
+#, fuzzy
+msgid ""
+"Make sure \"Standard Social Sharing\" is enabled at \"Super Socializer > "
+"Social Sharing\" page."
+msgstr ""
+"Győződjön meg arról, \"horizontális szociális Sharing\" engedélyezve az "
+"\"Super Socializer > Social Sharing\" oldalon...."
+
+#: inc/widget.php:252 inc/widget.php:598
+msgid "Title:"
+msgstr "Cím:"
+
+#: inc/widget.php:254 inc/widget.php:432
+#, fuzzy
+msgid "Show individual share counts:"
+msgstr "Megosztás számok mutatása:"
+
+#: inc/widget.php:256 inc/widget.php:434
+#, fuzzy
+msgid "Show total shares:"
+msgstr "Megosztás számok mutatása:"
+
+#: inc/widget.php:258 inc/widget.php:436 inc/widget.php:600 inc/widget.php:748
+msgid "Target Url:"
+msgstr "Cél Url:"
+
+#: inc/widget.php:289
+#, fuzzy
+msgid ""
+"Floating sharing widget. Let your website users share content on popular "
+"Social networks like Facebook, Twitter, Tumblr, Whatsapp and many more"
+msgstr ""
+"Függőleges lebegő widget. Legyen látogatóidnak egyszerű a megosztás a "
+"Közösségi Hálózatokon, mint a Facebook, Twitter, Google+, és még sok másik"
+
+#: inc/widget.php:431
+#, fuzzy
+msgid ""
+"Make sure \"Floating Social Sharing\" is enabled at \"Super Socializer > "
+"Social Sharing\" page."
+msgstr ""
+"Győződjön meg arról, \"horizontális szociális Sharing\" engedélyezve az "
+"\"Super Socializer > Social Sharing\" oldalon."
+
+#: inc/widget.php:444 inc/widget.php:756
+msgid "Alignment"
+msgstr "Igazítás"
+
+#: inc/widget.php:450 inc/widget.php:762
+msgid "Left Offset"
+msgstr "Bal margó"
+
+#: inc/widget.php:454 inc/widget.php:766
+msgid "Right Offset"
+msgstr "Jobb margó"
+
+#: inc/widget.php:457 inc/widget.php:769
+msgid "Top Offset"
+msgstr "Felső margó"
+
+#: inc/widget.php:482
+#, fuzzy
+msgid ""
+"Standard like buttons widget. Let your website users share/like content on "
+"popular Social networks like Facebook, Twitter, Pinterest and many more"
+msgstr ""
+"Vízszíntes közösségi gomb widget. Legyen látogatóidnak egyszerű a megosztás "
+"a Közösségi Hálózatokon, mint a Facebook, Twitter, Google+, és még sok másik"
+
+#: inc/widget.php:597
+#, fuzzy
+msgid ""
+"Make sure \"Standard Like Buttons\" are enabled from \"Super Socializer > "
+"Like Buttons\" page."
+msgstr ""
+"Győződjön meg arról, \"Vertical Like gombok\" engedélyezve az \"Super "
+"Socializer > Like gombok\" oldalon."
+
+#: inc/widget.php:631
+#, fuzzy
+msgid ""
+"Floating like buttons widget. Let your website users share/like content on "
+"popular Social networks like Facebook, Twitter, Pinterest and many more"
+msgstr ""
+"Függőleges lebegő közösségi gomb widget. Legyen látogatóidnak egyszerű a "
+"megosztás a Közösségi Hálózatokon, mint a Facebook, Twitter, Google+, és még "
+"sok másik"
+
+#: inc/widget.php:747
+#, fuzzy
+msgid ""
+"Make sure \"Floating Like Buttons\" are enabled from \"Super Socializer > "
+"Like Buttons\" page."
+msgstr ""
+"Győződjön meg arról, \"Vízszintes Like gombok\" engedélyezve az \"Super "
+"Socializer > Like gombok\" oldalon."
+
+#: inc/widget.php:791
+#, fuzzy
+msgid "Super Socializer - Follow Icons"
+msgstr "Super Socializer - Belépés"
+
+#: inc/widget.php:793
+msgid "These icons link to your Social Media accounts"
+msgstr ""
+
+#: inc/widget.php:951
+#, fuzzy
+msgid "Size of icons"
+msgstr "Megosztási ikonok mérete"
+
+#: inc/widget.php:953
+#, fuzzy
+msgid "Icon Shape"
+msgstr "alak"
+
+#: inc/widget.php:958
+#, fuzzy
+msgid "Facebook URL:"
+msgstr "Facebook App ID"
+
+#: inc/widget.php:961
+#, fuzzy
+msgid "Twitter URL:"
+msgstr "Twitter"
+
+#: inc/widget.php:964
+#, fuzzy
+msgid "Parler URL:"
+msgstr "Instagram"
+
+#: inc/widget.php:967
+#, fuzzy
+msgid "Instagram URL:"
+msgstr "Instagram"
+
+#: inc/widget.php:970
+#, fuzzy
+msgid "Pinterest URL:"
+msgstr "Pinterest"
+
+#: inc/widget.php:973
+msgid "Behance URL:"
+msgstr ""
+
+#: inc/widget.php:976
+msgid "Flickr URL:"
+msgstr ""
+
+#: inc/widget.php:979
+msgid "Foursquare URL:"
+msgstr ""
+
+#: inc/widget.php:982
+msgid "Github URL:"
+msgstr ""
+
+#: inc/widget.php:985
+#, fuzzy
+msgid "LinkedIn URL:"
+msgstr "LinkedIn"
+
+#: inc/widget.php:988
+#, fuzzy
+msgid "LinkedIn Company URL:"
+msgstr "LinkedIn"
+
+#: inc/widget.php:991
+#, fuzzy
+msgid "Medium URL:"
+msgstr "Tumblr"
+
+#: inc/widget.php:994
+#, fuzzy
+msgid "MeWe URL:"
+msgstr "Tumblr"
+
+#: inc/widget.php:997
+msgid "Odnoklassniki URL:"
+msgstr ""
+
+#: inc/widget.php:1000
+msgid "Snapchat URL:"
+msgstr ""
+
+#: inc/widget.php:1003
+#, fuzzy
+msgid "Telegram URL:"
+msgstr "Instagram"
+
+#: inc/widget.php:1006
+#, fuzzy
+msgid "Tumblr URL:"
+msgstr "Tumblr"
+
+#: inc/widget.php:1009
+msgid "Vimeo URL:"
+msgstr ""
+
+#: inc/widget.php:1012
+#, fuzzy
+msgid "Vkontakte URL:"
+msgstr "Vkontakte"
+
+#: inc/widget.php:1015
+#, fuzzy
+msgid "Xing URL:"
+msgstr "LinkedIn"
+
+#: inc/widget.php:1018
+msgid "Youtube URL:"
+msgstr ""
+
+#: inc/widget.php:1021
+msgid "Youtube Channel URL:"
+msgstr ""
+
+#: inc/widget.php:1024
+msgid "RSS Feed URL:"
+msgstr ""
+
+#: super_socializer.php:429
+msgid "Enable CURL at your website server to use Mail.ru Social Login."
+msgstr ""
+
+#: super_socializer.php:1718
+#, fuzzy
+msgid ""
+"cURL is not enabled at your website server. Please contact your website "
+"server administrator to enable it."
+msgstr ""
+"Ellenőrizd, hogy a cURL be van kapcsolva a szervereden. Lehetséges, hogy "
+"ehhez fel kell keresned a szerver adminisztrátorát, a tárhelyszolgáltatódat"
+
+#: super_socializer.php:1746
+#, fuzzy, php-format
+msgid ""
+"Enter exactly the following url in <strong>Website</strong> option in your "
+"Twitter app (see step 3 %s)"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Website</strong> és a "
+"<strong>Callback Url</strong> mezőbe a Twitter alkalmazásodban  lásd 3. "
+"lépés %s)"
+
+#: super_socializer.php:1749
+#, fuzzy, php-format
+msgid ""
+"Enter exactly the following url in <strong>Callback URLs</strong> option in "
+"your Twitter app (see step 3 %s)"
+msgstr ""
+"Illeszd be a következő url-t a <strong>Website</strong> és a "
+"<strong>Callback Url</strong> mezőbe a Twitter alkalmazásodban  lásd 3. "
+"lépés %s)"
+
+#: super_socializer.php:1752
+msgid ""
+"Make sure cURL is enabled at your website server. You may need to contact "
+"the server administrator of your website to verify this"
+msgstr ""
+"Ellenőrizd, hogy a cURL be van kapcsolva a szervereden. Lehetséges, hogy "
+"ehhez fel kell keresned a szerver adminisztrátorát, a tárhelyszolgáltatódat"
+
+#: super_socializer.php:1914
+msgid "Search"
+msgstr ""
+
+#: super_socializer.php:1936
+msgid "Your email has been verified. Now you can login to your account"
+msgstr "E-mail címed ellenőrzése sikeres. Most már beléphetsz fiókodba"
+
+#: super_socializer.php:1940
+msgid "Notification"
+msgstr "Értesítés"
+
+#: super_socializer.php:1961
+msgid "Please check your email inbox to complete the registration."
+msgstr "Kérjük, nézd meg e-mail címed a regisztráció befejezéséhez."
+
+#: super_socializer.php:2030
+msgid "Leave a reply"
+msgstr "Válaszolj"
+
+#: super_socializer.php:2046
+#, fuzzy
+msgid "Link copied."
+msgstr "LinkedIn"
+
+#: super_socializer.php:2291
+#, fuzzy
+msgid "Super Socializer - General Options"
+msgstr "Super Socializer - Belépés"
+
+#: super_socializer.php:2362
+msgid ""
+"I agree to my personal data being stored and used as per Privacy Policy and "
+"Terms and Conditions"
+msgstr ""
+
+#: super_socializer.php:2366
+msgid ""
+"I revoke my consent to store and use my personal data. Kindly delete my "
+"personal data saved in this website."
+msgstr ""
+
+#: super_socializer.php:2378
+msgid "Small Avatar Url"
+msgstr "Kis Avatar URL"
+
+#: super_socializer.php:2382
+#, fuzzy
+msgid "Large Avatar Url"
+msgstr "Cél Url"
+
+#: super_socializer.php:2484
+msgid "Login with your Social ID"
+msgstr ""
+
+#: super_socializer.php:2485
+msgid "Email you entered is already registered or invalid"
+msgstr "A megadott e-mail már regisztrálva van, vagy hibás"
+
+#: super_socializer.php:2492
+msgid "Please enter a valid email address. You might be required to verify it"
+msgstr "Kérlek, érvényes e-mail címet adj meg. Ezt később ellenőrizhetjük"
+
+#: super_socializer.php:2496 super_socializer.php:3250
+msgid "Link your social account to login to your account at this website"
+msgstr "Kapcsold össze közösségi fiókod, hogy belépj erre az oldalra"
+
+#: super_socializer.php:2753
+msgid "Thanks for installing Super Socializer plugin"
+msgstr ""
+
+#: super_socializer.php:2755
+msgid "Configure the Plugin"
+msgstr ""
+
+#: super_socializer.php:2766
+msgid ""
+"Update \"Facebook Comments Moderation\" add-on for compatibility with "
+"current version of Super Socializer"
+msgstr ""
+
+#: super_socializer.php:2775
+msgid ""
+"Update \"Facebook Comments Notifier\" add-on for compatibility with current "
+"version of Super Socializer"
+msgstr ""
+
+#: super_socializer.php:2784
+msgid ""
+"Update \"Social Login Buttons\" add-on to version 1.2.9 or above for "
+"compatibility with the current version of Super Socializer"
+msgstr ""
+
+#: super_socializer.php:2793
+msgid ""
+"Update \"Social Share myCRED Integration\" add-on for maximum compatibility "
+"with current version of Super Socializer"
+msgstr ""
+
+#: super_socializer.php:2802
+msgid ""
+"Update \"Social Login myCRED Integration\" add-on for maximum compatibility "
+"with current version of Super Socializer"
+msgstr ""
+
+#: super_socializer.php:2813
+#, php-format
+msgid ""
+"To continue using Steam login save Steam API key <a href=\"%s\">here</a>"
+msgstr ""
+
+#: super_socializer.php:2822
+#, php-format
+msgid ""
+"To continue using Instagram login create a new Instagram App as described <a "
+"href=\"%s\" target=\"_blank\">here</a> and save Instagram App ID and "
+"Instagram App Secret <a href=\"%s\">here</a>"
+msgstr ""
+
+#: super_socializer.php:2831 super_socializer.php:2840
+#, php-format
+msgid ""
+"To continue using bitly url shortener, login to your bit.ly account and "
+"navigate to <strong>Profile Settings > Generic Access Token</strong> (top-"
+"right corner), authenticate to generate access token and save it <a href=\"%s"
+"\">here</a>. More details at the <a href=\"%s\" target=\"_blank\">link</a>"
+msgstr ""
+
+#: super_socializer.php:2856
+#, php-format
+msgid ""
+"To continue using Social Login, save the secret keys <a href=\"%s\">here</a>"
+msgstr ""
+
+#: super_socializer.php:2880
+#, php-format
+msgid ""
+"Add %s in \"Valid OAuth redirect URIs\" option in your Facebook app settings "
+"for Facebook login to work. For more details, check step 9 <a href=\"%s\" "
+"target=\"_blank\">here</a>"
+msgstr ""
+
+#: super_socializer.php:2880 super_socializer.php:2905
+#: super_socializer.php:2930 super_socializer.php:2955
+#: super_socializer.php:2988 super_socializer.php:3016
+#: super_socializer.php:3043
+msgid "Okay"
+msgstr ""
+
+#: super_socializer.php:2905
+#, php-format
+msgid ""
+"Add %s in \"Callback URLs\" option in your Twitter app settings for Twitter "
+"login to work. For more details, check step 4 <a href=\"%s\" target=\"_blank"
+"\">here</a>"
+msgstr ""
+
+#: super_socializer.php:2930
+#, php-format
+msgid ""
+"Add %s in \"Authorized Redirect URLs\" option in your Linkedin app settings "
+"for Linkedin login to work. For more details, check step 4 <a href=\"%s\" "
+"target=\"_blank\">here</a>"
+msgstr ""
+
+#: super_socializer.php:2955
+#, php-format
+msgid ""
+"Add %s in \"Authorized redirect URIs\" option in your Google client settings "
+"for Google login to work. For more details, check step 11 <a href=\"%s\" "
+"target=\"_blank\">here</a>"
+msgstr ""
+
+#: super_socializer.php:2966
+#, php-format
+msgid ""
+"Save the url of privacy policy page of your website <a href=\"%s\">here</a>"
+msgstr ""
+
+#: super_socializer.php:2988
+#, php-format
+msgid ""
+"This plugin is GDPR compliant. You need to update the privacy policy of your "
+"website regarding the personal data this plugin saves, as mentioned <a href="
+"\"%s\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: super_socializer.php:3016
+#, php-format
+msgid ""
+"Now plugin supports a new service Twitcount.com to show Twitter shares. To "
+"continue showing the Twitter shares, click \"Give me my Twitter counts back"
+"\" button at <a href=\"%s\" target=\"_blank\">their website</a> and register "
+"your website %s with them. No need to copy-paste any code from their website."
+msgstr ""
+
+#: super_socializer.php:3043
+#, php-format
+msgid ""
+"Replace url saved in \"Callback URLs\" option in your Twitter app settings "
+"from %s for Twitter login to work. For more details, check step 4 <a href="
+"\"%s\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: super_socializer.php:3068
+#, php-format
+msgid ""
+"If you cannot get Linkedin login to work after updating the plugin, replace "
+"url saved in \"Redirect URLs\" option in your Linkedin app settings with %s. "
+"For more details, check step 6 <a href=\"%s\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: super_socializer.php:3068 super_socializer.php:3095
+msgid "Dismiss"
+msgstr ""
+
+#: super_socializer.php:3326
+msgid ""
+"Your browser is blocking some features of this website. Please follow the "
+"instructions at {support_url} to unblock these."
+msgstr ""
+
+#~ msgid "Dismiss this notice"
+#~ msgstr "Utasítsa el ezt az értesítést"
+
+#, fuzzy
+#~ msgid "Facebook Share Count"
+#~ msgstr "Comentarios Facebook"
+
+#, fuzzy
+#~ msgid ""
+#~ "Required for Facebook share count to work. Please follow the "
+#~ "documentation at <a href=\"%s\" target=\"_blank\">this link</a> to get "
+#~ "Facebook App ID"
+#~ msgstr ""
+#~ "Szükséges a Facebook Közösségi Belépés működéséhez. Kérlek, kövesd a "
+#~ "dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+#~ "Facebook App ID beszerzéshez"
+
+#, fuzzy
+#~ msgid ""
+#~ "Required for Facebook share count to work. Please follow the "
+#~ "documentation at <a href=\"%s\" target=\"_blank\">this link</a> to get "
+#~ "Facebook App Secret"
+#~ msgstr ""
+#~ "Szükséges a Facebook Közösségi Belépés működéséhez. Kérlek, kövesd a "
+#~ "dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+#~ "Facebook App ID beszerzéshez"
+
+#, fuzzy
+#~ msgid ""
+#~ "Required for Dropbox Social Login to work. Please follow the "
+#~ "documentation at <a href=\"%s\" target=\"_blank\">this link</a> to get "
+#~ "Dropbox Client ID"
+#~ msgstr ""
+#~ "Szükséges a GooglePlus Közösségi Belépés működéséhez. Kérlek, kövesd a "
+#~ "dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+#~ "GooglePlus Client ID beszerzéshez"
+
+#~ msgid "Click to show help"
+#~ msgstr "Kattintson megmutatni segítség"
+
+#, fuzzy
+#~ msgid ""
+#~ "More details on how to get it <a href=\"%s\" target=\"_blank\">here</a>"
+#~ msgstr ""
+#~ "Szükséges a Twitter Közösségi Belépés működéséhez. Kérlek, kövesd a "
+#~ "dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+#~ "Twitter API Key beszerzéshez"
+
+#~ msgid "bit.ly API Key"
+#~ msgstr "bit.ly API Key"
+
+#, fuzzy
+#~ msgid ""
+#~ "Paste following url in <strong>Website URL</strong> option mentioned at "
+#~ "the link"
+#~ msgstr ""
+#~ "Illeszd be a következő url-t a <strong>Website URL</strong> mezőbe a "
+#~ "fenti linken"
+
+#~ msgid "bit.ly username"
+#~ msgstr "bit.ly felhasználónév"
+
+#~ msgid ""
+#~ "Login to your bit.ly account and navigate to <a href=\"%s\" target="
+#~ "\"_blank\">this link</a> to get bit.ly username"
+#~ msgstr ""
+#~ "Jelentkezz be a bit.ly fiókodba és keresd fel <a href=\"%s\" target="
+#~ "\"_blank\">ezt a linket</a> a bit.ly felhasználói név megtekintéséhez"
+
+#~ msgid ""
+#~ "Login to your bit.ly account and navigate to <a href=\"%s\" target="
+#~ "\"_blank\">this link</a> to get your API key"
+#~ msgstr ""
+#~ "Jelentkezz be a bit.ly fiókodba és keresd fel <a href=\"%s\" target="
+#~ "\"_blank\">ezt a linket</a> a bit.ly API Key beszerzéséhez"
+
+#~ msgid "Xing"
+#~ msgstr "Xing"
+
+#~ msgid "Xing Consumer Key"
+#~ msgstr "Xing Consumer Key"
+
+#, fuzzy
+#~ msgid ""
+#~ "Paste following url in <strong>Callback domain</strong> option mentioned "
+#~ "at the link"
+#~ msgstr ""
+#~ "Illeszd be a következő url-t a <strong>Callback domain</strong> mezőbe a "
+#~ "fenti linken"
+
+#~ msgid "Xing Consumer Secret"
+#~ msgstr "Xing Consumer Secret"
+
+#~ msgid ""
+#~ "Required for Xing Social Login to work. Please follow the documentation "
+#~ "at <a href=\"%s\" target=\"_blank\">this link</a> to get Xing Consumer "
+#~ "Secret"
+#~ msgstr ""
+#~ "Szükséges a Xing Közösségi Belépés működéséhez. Kérlek, kövesd a "
+#~ "dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a Xing "
+#~ "Consumer Secret beszerzéséhez"
+
+#, fuzzy
+#~ msgid ""
+#~ "Required for Twitch Social Login to work. Please follow the documentation "
+#~ "at <a href=\"%s\" target=\"_blank\">this link</a> to get it"
+#~ msgstr ""
+#~ "Szükséges a Twitter Közösségi Belépés működéséhez. Kérlek, kövesd a "
+#~ "dokumentációt <a href=\"%s\" target=\"_blank\">ezen a linken</a> a "
+#~ "Twitter API Key beszerzéshez"
+
+#~ msgid "Label for G+ Commenting tab"
+#~ msgstr "Google+ hozzászólás fül címe"
+
+#~ msgid "Google Plus Commenting Options"
+#~ msgstr "Google+ Hozzászólás Beállítások"
+
+#~ msgid "Enable Google Plus Commenting"
+#~ msgstr "Google+ Hozzászólás Bekapcsolása"
+
+#~ msgid ""
+#~ "Width of GooglePlus Commenting interface. Leave empty for auto adjust"
+#~ msgstr ""
+#~ "Google+ hozzászólás felület szélessége. Hagyd üresen az automatikus "
+#~ "beállításhoz"
+
+#~ msgid ""
+#~ "The absolute URL that comments posted will be permanently associated "
+#~ "with. Stories on Google Plus about comments posted, will link to this URL."
+#~ "<br/>If left empty <strong>(Recommended)</strong>, url of the webpage "
+#~ "will be used at which commenting is enabled."
+#~ msgstr ""
+#~ "Abszolut URL, amelyhez a hozzászólások végelegesen kapcsolva lesznek. A "
+#~ "Google Plus-on lévő hozzászólások is ehhez az URL-hez kapcsolódnak majd."
+#~ "<br/>Ha üresen hagyod <strong>(Erősen ajánlott)</strong>, azt az URL-t "
+#~ "használjuk, melyhez a hozzászólás érkezett."
+
+#, fuzzy
+#~ msgid "Google+ URL:"
+#~ msgstr "Google+"
+
+#~ msgid ""
+#~ "We are a creative team with unique ideas in mind and service in heart. We "
+#~ "love what we do. For more info join us at"
+#~ msgstr ""
+#~ "Mi egy kreatív csapat, egyedi elképzeléseit szem előtt tartva és a "
+#~ "szolgáltatás szívében. Szeretjük, amit csinálunk. További info "
+#~ "csatlakozzon hozzánk"
+
+#, fuzzy
+#~ msgid ""
+#~ "For this to work, you have to enter your website url %s and sign in using "
+#~ "Twitter at <a href=\"%s\" target=\"_blank\">their website</a>"
+#~ msgstr ""
+#~ "Ezen lehetőség használatához kövesd <a href=\"%s\" target=\"_blank\">ezen "
+#~ "leírás</a> lépéseit"
+
+#, fuzzy
+#~ msgid ""
+#~ "For this to work, you have to sign up and register your website url %s at "
+#~ "<a href=\"%s\" target=\"_blank\">their website</a>"
+#~ msgstr ""
+#~ "Ezen lehetőség használatához kövesd <a href=\"%s\" target=\"_blank\">ezen "
+#~ "leírás</a> lépéseit"
+
+#~ msgid ""
+#~ "Paste following url in <strong>Website</strong> and <strong>Callback URL</"
+#~ "strong> options at the link mentioned"
+#~ msgstr ""
+#~ "Illeszd be a következő url-t a <strong>Website</strong> és a "
+#~ "<strong>Callback URL</strong> mezőbe a fenti linken"
+
+#, fuzzy
+#~ msgid ""
+#~ "Login to your bit.ly account and navigate to <a href=\"%s\" target="
+#~ "\"_blank\">this link</a> to get bit.ly login"
+#~ msgstr ""
+#~ "Jelentkezz be a bit.ly fiókodba és keresd fel <a href=\"%s\" target="
+#~ "\"_blank\">ezt a linket</a> a bit.ly felhasználói név megtekintéséhez"
+
+#~ msgid ""
+#~ "Paste following url in <strong>AUTHORIZED JAVASCRIPT ORIGINS</strong> and "
+#~ "<strong>AUTHORIZED REDIRECT URI</strong> options at the link mentioned"
+#~ msgstr ""
+#~ "Illeszd be a következő url-t a <strong>AUTHORIZED JAVASCRIPT ORIGINS</"
+#~ "strong> és a <strong>AUTHORIZED REDIRECT URI</strong> mezőbe a fenti "
+#~ "linken"
+
+#~ msgid ""
+#~ "Follow steps 11 and 12 at GooglePlus app configuration page, about to open"
+#~ msgstr ""
+#~ "Kövesd a 11-ik és 12-ik lépést GooglePlus alkalmazás beállítás oldalon, a "
+#~ "megnyitáshoz"
+
+#~ msgid "LinkedIn API Key"
+#~ msgstr "LinkedIn API Key"
+
+#~ msgid "Donate"
+#~ msgstr "Adakozás"
+
+#~ msgid "Select providers"
+#~ msgstr "Válassz szolgáltatókat"
+
+#~ msgid "You are already connected with"
+#~ msgstr "Már kapcsolódtál ezzel"
+
+#, fuzzy
+#~ msgid "Please specify a vaild reason"
+#~ msgstr "Kérjük, ellenőrizd e-mail címed a belépéshez."
+
+#~ msgid "Welcome"
+#~ msgstr "Üdvözöllek"
+
+#~ msgid "You are ready to Socialize your website."
+#~ msgstr "Készen állsz weboldalad \"Közösségesítésére\"."
+
+#~ msgid "Getting Started"
+#~ msgstr "Első Lépések"
+
+#~ msgid ""
+#~ "Start configuring the options in the sections below the <strong>Super "
+#~ "Socializer</strong> menu in the left sidebar. <strong>Social Sharing</"
+#~ "strong> is enabled at your website by default."
+#~ msgstr ""
+#~ "Kezdd el a beállítást a <strong>Super Socializer</strong> menu alatti "
+#~ "menüpontokban a bal oldalon. A <strong>Közösségi Megosztás</strong> már "
+#~ "be is van kapcsolva oldaladon."
+
+#~ msgid ""
+#~ "In <strong>Social Commenting</strong> section, you can configure Social "
+#~ "Commenting."
+#~ msgstr ""
+#~ "A <strong>Facebook</strong> részen, a Facebook Hozzászólások és Feed "
+#~ "beállításait állíthatod be."
+
+#~ msgid ""
+#~ "In <strong>Social Login</strong> section, you can select Social ID "
+#~ "provders and configure the Social Login options."
+#~ msgstr ""
+#~ "A <strong>Közösségi Belépés</strong> részben, beállíthatod a Közösségi ID "
+#~ "szolgáltatókat és a belépési lehetőségeket."
+
+#~ msgid ""
+#~ "In <strong>Social Sharing</strong> section, you can choose the Social "
+#~ "Networks for Sharing and configure the options for sharing."
+#~ msgstr ""
+#~ "A <strong>Közösségi Megosztás</strong> részben, kiválaszthatod, mely "
+#~ "Közösségi Hálózatokon legyen megosztás, és finomíthatod a megosztás "
+#~ "beállításait."
+
+#~ msgid ""
+#~ "In <strong>Like Buttons</strong> section, you can choose the like/+1 "
+#~ "buttons and configure the options for the same"
+#~ msgstr ""
+#~ "A <strong>Közösségi Gombok</strong> részben, kiválaszthatod, a Like és +1 "
+#~ "gombokat, és elvégezheted beállításukat."
+
+#, fuzzy
+#~ msgid "Super Socializer - Social Avatar"
+#~ msgstr "Super Socializer - Belépés"
+
+#~ msgid "Excerpts"
+#~ msgstr "Kivonatok"
+
+#~ msgid "Send username-password after user registration"
+#~ msgstr "Felhasználói név és jelszó küldése a regisztrációt követően"
+
+#~ msgid "Horizontal sharing"
+#~ msgstr "Vízszintes megosztás"
+
+#~ msgid "Vertical sharing"
+#~ msgstr "Függőleges Megosztás"
+
+#~ msgid "Sharing Options"
+#~ msgstr "Megosztási beállítások"
+
+#~ msgid ""
+#~ "Master control for Social Sharing. It must be checked to enable Social "
+#~ "Sharing functionality"
+#~ msgstr ""
+#~ "Központi beállítás a Közösségi Megosztáshoz. Be kell kapcsolnod a "
+#~ "Közösségi Megosztás funkció működéséhez"
+
+#~ msgid "Horizontal interface options"
+#~ msgstr "Vízszintes Felület Beállítások"
+
+#~ msgid "Vertical interface options"
+#~ msgstr "Függőleges (lebegő) Felület Beállítások"
+
+#~ msgid "Do not load Modernizr JS"
+#~ msgstr "Ne töltsön Modernizr JS"
+
+#~ msgid ""
+#~ "If you find the plugin breaking your theme, you can try enabling this "
+#~ "option"
+#~ msgstr ""
+#~ "Ha úgy találja, a plugin elszakadna a téma, akkor próbáljon meg az opció "
+#~ "engedélyezése"
+
+#~ msgid "Print"
+#~ msgstr "Nyomtatás"
+
+#~ msgid "Digg"
+#~ msgstr "Digg"
+
+#~ msgid "Delicious"
+#~ msgstr "Delicious"
+
+#~ msgid "StumbleUpon"
+#~ msgstr "StumbleUpon"
+
+#~ msgid "Float it"
+#~ msgstr "Float it"
+
+#~ msgid "Whatsapp"
+#~ msgstr "Whatsapp"
+
+#~ msgid "Select the providers for sharing interface"
+#~ msgstr "Válassz szolgáltatókat a megosztási felülethez"
+
+#~ msgid "Sharing location"
+#~ msgstr "Megosztási helyek"
+
+#, fuzzy
+#~ msgid "Stick sharing bar horizontally at bottom on mobile devices"
+#~ msgstr "Hide megosztása mobil eszközökön"
+
+#~ msgid ""
+#~ "If enabled, vertical sharing interface will not appear on mobile devices"
+#~ msgstr ""
+#~ "Ha engedélyezett, függőleges megosztó felület nem fog megjelenni a mobil "
+#~ "eszközök"
+
+#, fuzzy
+#~ msgid "Social Sharing Shortcode & Widget"
+#~ msgstr "Shortcode és Widget"
+
+#~ msgid "Like Buttons"
+#~ msgstr "Like gombok"
+
+#~ msgid "Options saved successfully"
+#~ msgstr "A beállítások mentése sikeres"
+
+#~ msgid "Better"
+#~ msgstr "Jobb"
+
+#~ msgid "You can see the plugin in action at following link"
+#~ msgstr "A Plugin-t itt tudod működés közben kipróbálni"
+
+#~ msgid ""
+#~ "If you like the plugin or have any query, drop an email at <a href="
+#~ "\"mailto:support@heateor.com\">support@heateor.com</a>, like our "
+#~ "<strong>Facebook</strong> page and follow us at <strong>Twitter</strong>."
+#~ msgstr ""
+#~ "Ha tetszik a plugin, vagy kérdésed van, írhatsz nekem (angolul) <a href="
+#~ "\"mailto:support@heateor.com\">support@heateor.com</a> címen, megtalálsz "
+#~ "a <strong>Facebook</strong> oldalaimon és követhetsz a <strong>Twitter-"
+#~ "en</strong>."
+
+#~ msgid "Want plugin customization?"
+#~ msgstr "Szeretnél egyedi funkciókat?"
+
+#~ msgid "Twitter username in tweet button"
+#~ msgstr "Twitter felhasználónév a tweet gombon "
+
+#~ msgid ""
+#~ "<strong>Note:</strong> Drop us an email at support@heateor.com to enable "
+#~ "Facebook Comments notification and moderation."
+#~ msgstr ""
+#~ "<strong>Megjegyzés:</strong> Írj egy e-mailt nekünk a support@heateor.com "
+#~ "címre, a Facebook Hozzászólások érdesítéseinek és moderációjának "
+#~ "bekapcsolásához."
+
+#~ msgid "Mobile"
+#~ msgstr "Mobil"
+
+#~ msgid "Auto Detect"
+#~ msgstr "Automata Érzékelés"
+
+#~ msgid "True"
+#~ msgstr "Igaz"
+
+#~ msgid "False"
+#~ msgstr "Hamis"
+
+#~ msgid ""
+#~ "A boolean value that specifies whether to show the mobile-optimized "
+#~ "version or not."
+#~ msgstr ""
+#~ "Logikai érték, mely meghatározza, hogy mobilra optimalizált legyen-e a "
+#~ "megjelenés."
+
+#~ msgid ""
+#~ "Paste following url in <strong>Website</strong> and <strong>OAuth "
+#~ "redirect_uri</strong> options at the link mentioned"
+#~ msgstr ""
+#~ "Paste following url in <strong>Website</strong> and <strong>OAuth "
+#~ "redirect_uri</strong> options at the link mentioned"
+
+#~ msgid ""
+#~ "I am a tech enthusiast. I like to play with code and build great stuff "
+#~ "(and like to call myself - The Champ....:) ). You can connect with me "
+#~ "(and my upcoming work) via:"
+#~ msgstr ""
+#~ "A technólógia rajongója vagyok. Szeretek játszani a kóddal és valami nagy "
+#~ "dolgot készíteni (és szeretem magam - The Champ-nek nevezni... :) ). "
+#~ "Kapcsolatba léphetsz velem (és a készülő munkáimmal) így:"
+
+#~ msgid "Plugin Fan Page"
+#~ msgstr "Plugin Rajongói Oldal"
+
+#~ msgid "My Fan Page"
+#~ msgstr "Személyes Oldal"
+
+#~ msgid "Social Counter"
+#~ msgstr "Social Counter"
+
+#, fuzzy
+#~ msgid ""
+#~ "Master control for Social Counter. It must be checked to enable Social "
+#~ "Counter functionality"
+#~ msgstr ""
+#~ "Központi Közösségi Belépés beállítás. Be kell kapcsolnod a Közösségi "
+#~ "Belépés használatához "
+
+#, fuzzy
+#~ msgid ""
+#~ "<strong>Note:</strong> To disable counter on particular page/post, edit "
+#~ "that page/post and check the options at the bottom in <strong>\"Super "
+#~ "Socializer\"</strong> section"
+#~ msgstr ""
+#~ "<strong>Megjegyzés:</strong> Az egyes bejegyzéseknél/oldalaknál ki tudod "
+#~ "kapcsolni a megosztást a szerkesztési felület <strong>\"Super Socializer"
+#~ "\"</strong> részében"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can use <strong>[TheChamp-Counter]</strong> Shortcode in the content "
+#~ "of required page/post where you want to display Social Counter interface."
+#~ msgstr ""
+#~ "Használhatod a <strong>[TheChamp-Sharing]</strong> Shortcode-ot a "
+#~ "megfelelő bejegyzés/oldalon tartalmi részében, ahol a Közösségi Megosztás "
+#~ "felületet meg akarod jeleníteni."
+
+#~ msgid "Example"
+#~ msgstr "Példa"
+
+#~ msgid "You can use following attributes in the Shortcode"
+#~ msgstr "A következő attributumokat tudod használni a Shortcode-ban"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use <strong>style</strong> attribute to style the rendered Social Counter "
+#~ "interface"
+#~ msgstr ""
+#~ "Használd a <strong>style</strong> attributumot a Közösségi Megosztás "
+#~ "felület formázásához"
+
+#~ msgid ""
+#~ "Use <strong>type</strong> attribute to specify the type (\"horizontal\" "
+#~ "or \"vertical\") of Social Counter interface. Default type is \"horizontal"
+#~ "\"."
+#~ msgstr ""
+#~ "Használd a <strong>type</strong> attributumot a típus (\"horizontal\" "
+#~ "vagy \"vertical\") Közösségi Megosztás felület választásához. Az "
+#~ "alapértelmezett \"horizontal\"."
+
+#~ msgid "Left (Works with \"Vertical\" type interface only)"
+#~ msgstr "Left (csak a \"Függőleges\" típusú felülettel működik)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use <strong>left</strong> attribute to specify the left offset (distance "
+#~ "form the left side of the screen) of Social Counter interface."
+#~ msgstr ""
+#~ "Használd a <strong>left</strong> attributumot a Közösségi Megosztási "
+#~ "felület bal oldali margójának meghatározásához (távolság a képernyő bal "
+#~ "szélétől)."
+
+#~ msgid "Top (Works with \"Vertical\" type interface only)"
+#~ msgstr "Top (csak a \"Függőleges\" típusú felülettel működik)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use <strong>top</strong> attribute to specify the top offset (distance "
+#~ "form the top of the screen) of Social Counter interface."
+#~ msgstr ""
+#~ "Használd a <strong>top</strong> attributumot a Közösségi Megosztási "
+#~ "felület felső margójának meghatározásához (távolság a képernyő felső "
+#~ "szélétől)."
+
+#, fuzzy
+#~ msgid "Use <strong>url</strong> attribute to specify the url to be liked"
+#~ msgstr ""
+#~ "Használd a <strong>style</strong> attributumot a Közösségi Megosztás "
+#~ "felület formázásához"
+
+#~ msgid "You can use shortcode in PHP file as following"
+#~ msgstr "A shortcode-ot PHP fájlban így használhatod"
+
+#, fuzzy
+#~ msgid ""
+#~ "Replace <strong>SHORTCODE</strong> in above code with the required "
+#~ "shortcode like <strong>[TheChamp-Counter style=\"background-color:#000;"
+#~ "\"]</strong>, so the final code looks like following"
+#~ msgstr ""
+#~ "Cseréld ki a <strong>SHORTCODE</strong>-ot a fenti kódban az éppen "
+#~ "szükségesre, mint pl. <strong>[TheChamp-Login style=\"background-color:"
+#~ "#000;\"]</strong>, így a végleges kód így fog kinézni"
+
+#~ msgid "Widget"
+#~ msgstr "Widget"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can navigate to the <strong>Appearance</strong> > <strong>Widgets</"
+#~ "strong> section in the left pan and drag <strong>Super Socializer - "
+#~ "Counter (Horizontal Widget)</strong> and <strong>Super Socializer - "
+#~ "Counter (Vertical Floating Widget)</strong> widgets in the required area."
+#~ msgstr ""
+#~ "A bal oldali menü <strong>Megjelenés</strong> > <strong>Widgetek</strong> "
+#~ "részében megfoghatod a <strong>Super Socializer - Megosztás (Vízszintes "
+#~ "Widget)</strong> és <strong>Super Socializer - Megosztás (Függőleges "
+#~ "Widget)</strong>widgetet és a kívánt helyre húzhatod."
+
+#, fuzzy
+#~ msgid ""
+#~ "How can I show like counts of my website rather than of individual pages/"
+#~ "posts?"
+#~ msgstr ""
+#~ "Hogyan jeleníthetem meg a megosztások számát az oldal/bejegyzés oldalakon "
+#~ "kívül is?"
+
+#, fuzzy
+#~ msgid ""
+#~ "Choose \"Url of the homepage of your website\" in \"Target Url\" option"
+#~ msgstr ""
+#~ "Válasszon \"URL a honlapján a honlapon \" a \"cél URL-t \" opciót, és "
+#~ "lehetővé teszi \"Show részesedése számít \" opciót"
+
+#, fuzzy
+#~ msgid "How can I disable social counter on particular page/post?"
+#~ msgstr ""
+#~ "Hogyan jeleníthetem meg a megosztások számát az oldal/bejegyzés oldalakon "
+#~ "kívül is?"
+
+#, fuzzy
+#~ msgid ""
+#~ "Edit that page/post and check the options at the bottom in \"Super "
+#~ "Socializer\" section"
+#~ msgstr ""
+#~ "Szerkeszteni, hogy az oldal / post, és ellenőrizze a lehetőséget, "
+#~ "\"Disable Facebook hozzászólásokról / oldal \" alul \"Super Socializer \" "
+#~ "fejezetben"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Közösségi Megosztás"
+
+#, fuzzy
+#~ msgid ""
+#~ "<strong>Note:</strong> To disable sharing and specify minimum share "
+#~ "counts per social network on particular page/post, edit that page/post "
+#~ "and check the options at the bottom in <strong>\"Super Socializer\"</"
+#~ "strong> section"
+#~ msgstr ""
+#~ "<strong>Megjegyzés:</strong> Az egyes bejegyzéseknél/oldalaknál ki tudod "
+#~ "kapcsolni a megosztást a szerkesztési felület <strong>\"Super Socializer"
+#~ "\"</strong> részében"
+
+#~ msgid ""
+#~ "You can use <strong>[TheChamp-Sharing]</strong> Shortcode in the content "
+#~ "of required page/post where you want to display Social Sharing interface."
+#~ msgstr ""
+#~ "Használhatod a <strong>[TheChamp-Sharing]</strong> Shortcode-ot a "
+#~ "megfelelő bejegyzés/oldalon tartalmi részében, ahol a Közösségi Megosztás "
+#~ "felületet meg akarod jeleníteni."
+
+#~ msgid ""
+#~ "Use <strong>style</strong> attribute to style the rendered Social Sharing "
+#~ "interface"
+#~ msgstr ""
+#~ "Használd a <strong>style</strong> attributumot a Közösségi Megosztás "
+#~ "felület formázásához"
+
+#~ msgid ""
+#~ "Use <strong>type</strong> attribute to specify the type (\"horizontal\" "
+#~ "or \"vertical\") of Social Sharing interface. Default type is \"horizontal"
+#~ "\"."
+#~ msgstr ""
+#~ "Használd a <strong>type</strong> attributumot a típus (\"horizontal\" "
+#~ "vagy \"vertical\") Közösségi Megosztás felület választásához. Az "
+#~ "alapértelmezett \"horizontal\"."
+
+#, fuzzy
+#~ msgid ""
+#~ "Use <strong>count</strong> attribute to enable the share counts on Social "
+#~ "Sharing interface"
+#~ msgstr ""
+#~ "Használd a <strong>style</strong> attributumot a Közösségi Megosztás "
+#~ "felület formázásához"
+
+#, fuzzy
+#~ msgid "left (Works with \"Vertical\" type interface only)"
+#~ msgstr "Left (csak a \"Függőleges\" típusú felülettel működik)"
+
+#~ msgid ""
+#~ "Use <strong>left</strong> attribute to specify the left offset (distance "
+#~ "form the left side of the screen) of Social Sharing interface."
+#~ msgstr ""
+#~ "Használd a <strong>left</strong> attributumot a Közösségi Megosztási "
+#~ "felület bal oldali margójának meghatározásához (távolság a képernyő bal "
+#~ "szélétől)."
+
+#, fuzzy
+#~ msgid "top (Works with \"Vertical\" type interface only)"
+#~ msgstr "Top (csak a \"Függőleges\" típusú felülettel működik)"
+
+#~ msgid ""
+#~ "Use <strong>top</strong> attribute to specify the top offset (distance "
+#~ "form the top of the screen) of Social Sharing interface."
+#~ msgstr ""
+#~ "Használd a <strong>top</strong> attributumot a Közösségi Megosztási "
+#~ "felület felső margójának meghatározásához (távolság a képernyő felső "
+#~ "szélétől)."
+
+#, fuzzy
+#~ msgid "Use <strong>url</strong> attribute to specify the url to be shared"
+#~ msgstr ""
+#~ "Használd a <strong>style</strong> attributumot a Közösségi Megosztás "
+#~ "felület formázásához"
+
+#~ msgid ""
+#~ "Replace <strong>SHORTCODE</strong> in above code with the required "
+#~ "shortcode like <strong>[TheChamp-Sharing style=\"background-color:#000;"
+#~ "\"]</strong>, so the final code looks like following"
+#~ msgstr ""
+#~ "Cseréld ki a <strong>SHORTCODE</strong>-ot a fenti kódban az éppen "
+#~ "szükségesre, mint pl. <strong>[TheChamp-Sharing style=\"background-color:"
+#~ "#000;\"</strong>, így a végleges kód így fog kinézni"
+
+#~ msgid ""
+#~ "You can navigate to the <strong>Appearance</strong> > <strong>Widgets</"
+#~ "strong> section in the left pan and drag <strong>Super Socializer - "
+#~ "Sharing (Horizontal Widget)</strong> and <strong>Super Socializer - "
+#~ "Sharing (Vertical Floating Widget)</strong> widgets in the required area."
+#~ msgstr ""
+#~ "A bal oldali menü <strong>Megjelenés</strong> > <strong>Widgetek</strong> "
+#~ "részében megfoghatod a <strong>Super Socializer - Megosztás (Vízszintes "
+#~ "Widget)</strong> és <strong>Super Socializer - Megosztás (Függőleges "
+#~ "Widget)</strong>widgetet és a kívánt helyre húzhatod."
+
+#~ msgid ""
+#~ "Choose \"Url of the homepage of your website\" in \"Target Url\" option "
+#~ "and enable \"Show share counts\" option"
+#~ msgstr ""
+#~ "Válasszon \"URL a honlapján a honlapon \" a \"cél URL-t \" opciót, és "
+#~ "lehetővé teszi \"Show részesedése számít \" opciót"
+
+#, fuzzy
+#~ msgid ""
+#~ "After enabling this option, Facebook commenting will appear before "
+#~ "Wordpress comment form at your website"
+#~ msgstr ""
+#~ "Bekapcsolás esetén, a Facebook hozzászólások a Wordpress hozzászólások "
+#~ "helyén jelennek meg az oldalon"
+
+#, fuzzy
+#~ msgid ""
+#~ "If enabled, only Facebook commenting would be visible without default "
+#~ "comment form"
+#~ msgstr ""
+#~ "Bekapcsolás esetén, csak Facebook hozzászólás lesz látható, és nem lehet "
+#~ "visszakapcsolni a WordPress hozzászólásokra"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can use <strong>[TheChamp-FB-Comments]</strong> Shortcode in the "
+#~ "content of required page/post where you want to display Facebook "
+#~ "Commenting interface."
+#~ msgstr ""
+#~ "Használhatod a <strong>[TheChamp-Sharing]</strong> Shortcode-ot a "
+#~ "megfelelő bejegyzés/oldalon tartalmi részében, ahol a Közösségi Megosztás "
+#~ "felületet meg akarod jeleníteni."
+
+#, fuzzy
+#~ msgid ""
+#~ "Use <strong>style</strong> attribute to style the rendered commenting "
+#~ "interface"
+#~ msgstr ""
+#~ "Használd a <strong>style</strong> attributumot a Közösségi Megosztás "
+#~ "felület formázásához"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use <strong>url</strong> attribute to specify the target url for "
+#~ "comments. This defaults  to the page where shortcode is used."
+#~ msgstr ""
+#~ "Használd a <strong>left</strong> attributumot a Közösségi Megosztási "
+#~ "felület bal oldali margójának meghatározásához (távolság a képernyő bal "
+#~ "szélétől)."
+
+#, fuzzy
+#~ msgid ""
+#~ "Use <strong>num_posts</strong> attribute to specify the number of "
+#~ "comments to display."
+#~ msgstr ""
+#~ "Használd a <strong>style</strong> attributumot a Közösségi Megosztás "
+#~ "felület formázásához"
+
+#, fuzzy
+#~ msgid "width"
+#~ msgstr "Szélesség"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use <strong>width</strong> attribute to specify the width of commenting "
+#~ "interface. Omit it for fluid width"
+#~ msgstr ""
+#~ "Használd a <strong>top</strong> attributumot a Közösségi Megosztási "
+#~ "felület felső margójának meghatározásához (távolság a képernyő felső "
+#~ "szélétől)."
+
+#, fuzzy
+#~ msgid ""
+#~ "Replace <strong>SHORTCODE</strong> in above code with the required "
+#~ "shortcode like <strong>[TheChamp-FB-Comments style=\"background-color:"
+#~ "#000;\"]</strong>, so the final code looks like following"
+#~ msgstr ""
+#~ "Cseréld ki a <strong>SHORTCODE</strong>-ot a fenti kódban az éppen "
+#~ "szükségesre, mint pl. <strong>[TheChamp-Login style=\"background-color:"
+#~ "#000;\"]</strong>, így a végleges kód így fog kinézni"
+
+#~ msgid ""
+#~ "Edit that page/post and check the option \"Disable Facebook Comments on "
+#~ "this post/page\" at the bottom in \"Super Socializer\" section"
+#~ msgstr ""
+#~ "Szerkeszteni, hogy az oldal / post, és ellenőrizze a lehetőséget, "
+#~ "\"Disable Facebook hozzászólásokról / oldal \" alul \"Super Socializer \" "
+#~ "fejezetben"
+
+#~ msgid ""
+#~ "How to enable only Facebook Comments without enabling default comment "
+#~ "form?"
+#~ msgstr ""
+#~ "Hogyan kell engedélyezni csak Facebook-hozzászólások engedélyezése nélkül "
+#~ "alapértelmezett comment formájában?"
+
+#~ msgid ""
+#~ "Enable \"Keep only Facebook Commenting\" option from \"Facebook Commenting"
+#~ "\" section."
+#~ msgstr ""
+#~ "Engedélyezze a \"Ne csak Facebook kommentálta\" opciót \"Facebook "
+#~ "kommentálta\" fejezetben."
+
+#~ msgid ""
+#~ "Use <strong>[TheChamp-Login]</strong> Shortcode in the content of "
+#~ "required page/post where you want to display Social Login interface."
+#~ msgstr ""
+#~ "Használd a <strong>[TheChamp-Login]</strong> Shortcode-ot a bejegyzés/"
+#~ "oldal tartalomban, ahol a Közösségi Belépés felületet meg akarod "
+#~ "jeleníteni."
+
+#~ msgid ""
+#~ "You can use \"style\" attribute in the Shortcode to style the rendered "
+#~ "Social Login interface."
+#~ msgstr ""
+#~ "Használhatod a \"style\" attributumot a Shortcode-ban a Közösségi Belépés "
+#~ "felület formázásához."
+
+#~ msgid ""
+#~ "Replace <strong>SHORTCODE</strong> in above code with the required "
+#~ "shortcode like <strong>[TheChamp-Login style=\"background-color:#000;\"]</"
+#~ "strong>, so the final code looks like following"
+#~ msgstr ""
+#~ "Cseréld ki a <strong>SHORTCODE</strong>-ot a fenti kódban az éppen "
+#~ "szükségesre, mint pl. <strong>[TheChamp-Login style=\"background-color:"
+#~ "#000;\"]</strong>, így a végleges kód így fog kinézni"
+
+#~ msgid ""
+#~ "You can navigate to the <strong>Appearance</strong> > <strong>Widgets</"
+#~ "strong> section in the left pan and drag <strong>Super Socializer - "
+#~ "Login</strong> widget in the required area."
+#~ msgstr ""
+#~ "A bal oldali menü <strong>Megjelenés</strong> > <strong>Widgetek</strong> "
+#~ "részében megfoghatod a <strong>Super Socializer - Belépés</strong> "
+#~ "widgetet és a kívánt helyre húzhatod."
+
+#~ msgid "White-Label"
+#~ msgstr "White-Label"
+
+#~ msgid ""
+#~ "Remove the plugin credit links (\"Super Socializer by The Champ\") in "
+#~ "just $15. Interested? Email me: <a href=\"mailto:lordofthechamps@gmail.com"
+#~ "\">lordofthechamps@gmail.com</a>"
+#~ msgstr ""
+#~ "Tűntesd el a plugin készítőinek linkjét (\"Super Socializer by The Champ"
+#~ "\") mindössze $15 dolcsiért. Érdekel? Írj nekem e-mailtl (angolul): <a "
+#~ "href=\"mailto:lordofthechamps@gmail.com\">lordofthechamps@gmail.com</a>"
+
+#~ msgid "Feed"
+#~ msgstr "Feed"
+
+#~ msgid "Important note"
+#~ msgstr "Fontos megjegyzés"
+
+#~ msgid "Publish feed on user's timeline on Facebook login"
+#~ msgstr ""
+#~ "Esemény közzététele a felhasználó Facebook hírfolyamán bejelentkezéskor "
+
+#~ msgid ""
+#~ "If enabled, a post will be published on the timeline of the user logging "
+#~ "in"
+#~ msgstr ""
+#~ "Bekapcsolásával, a bejelentkezéskor a felhasználó hírfolyamára kikerül, "
+#~ "hogy belépett oldalunkra "
+
+#~ msgid "Facebook Feed Options"
+#~ msgstr "Facebook Hírfolyam Beállítások"
+
+#~ msgid "Message"
+#~ msgstr "Üzenet"
+
+#~ msgid ""
+#~ "Message for the feed post. %website-name% will be replaced with your "
+#~ "website name in actual message."
+#~ msgstr ""
+#~ "A hírfolyam bejegyzés tartalma. A %website-name% helyén a weboldalad neve "
+#~ "fog megjelenni."
+
+#~ msgid "Link (required)"
+#~ msgstr "Link (kötelező)"
+
+#~ msgid ""
+#~ "The link attached to this feed (required parameter for this functionality "
+#~ "to work)"
+#~ msgstr "A társított link (kötelező megadni a funkció működéséhez)"
+
+#~ msgid "Picture"
+#~ msgstr "Kép"
+
+#~ msgid ""
+#~ "The URL of a picture attached to this post. The picture must be at least "
+#~ "200px by 200px. (if this url is not specified, image from the url "
+#~ "specified in Link parameter will be displayed in the post)"
+#~ msgstr ""
+#~ "A bejgyezéshez tartozó kép URL-je. Minimum 200px x 200px méretűnek kell "
+#~ "lennie. (ha nincs megadva, link értéknél megadott URL-hez tartozó kép "
+#~ "jelenik majd meg)"
+
+#~ msgid "Source"
+#~ msgstr "Forrás"
+
+#~ msgid ""
+#~ "The URL of a media file (either SWF or MP3) attached to this post. If "
+#~ "SWF, you must also specify picture (in \"Picture\" parameter) to provide "
+#~ "a thumbnail for the video."
+#~ msgstr ""
+#~ "Társított média fájl URL (SWF vagy MP3). Ha SWF, kötelező megadnod a kép "
+#~ "URL-t is (\"Kép\"), mely a videó előképeként jelenik meg."
+
+#~ msgid "Name"
+#~ msgstr "Név"
+
+#~ msgid "The name of the link attachment"
+#~ msgstr "A társított link szövege"
+
+#~ msgid "Caption"
+#~ msgstr "Felirat"
+
+#~ msgid ""
+#~ "The caption of the link (appears beneath the link name). If not "
+#~ "specified, this field is automatically populated with the URL of the link."
+#~ msgstr ""
+#~ "Ez a link szövege lesz (a link alatt jelenik meg). Ha nem adod meg, "
+#~ "automatikusan a link URL lesz a szöveg is."
+
+#~ msgid "Description"
+#~ msgstr "Leírás"
+
+#~ msgid ""
+#~ "The description of the link (appears beneath the link caption). If not "
+#~ "specified, this field is automatically populated by information scraped "
+#~ "from the link, typically the title of the page."
+#~ msgstr ""
+#~ "Ez a link leírása lesz (a link szövege alatt jelenik meg). Ha nem adod "
+#~ "meg, automatikusan a link URL-ből generálódik, általában az oldal címe "
+#~ "lesz."
+
+#~ msgid ""
+#~ "If enabled (recommended), all the Javascript code will be included in the "
+#~ "footer of your website.<br/><strong>\"wp_footer\" and \"login_footer\" "
+#~ "hooks should be there in your Wordpress theme for this to work, if you "
+#~ "are not sure about this, keep this option unchecked.</strong>"
+#~ msgstr ""
+#~ "Ha be van kapcsolva (javasolt), minden Javascript kód az oldalad "
+#~ "láblécében töltődik be.<br/><strong>A \"wp_footer\" és \"login_footer\" "
+#~ "hook-oknak a Wordpress sablonban a szabványos helyen kell lennie a helyes "
+#~ "működéshez. Ha nem vagy biztos benne, maradjon ez a lehetőség kikapcsolva."
+#~ "</strong>"
+
+#~ msgid ""
+#~ "Leave empty to auto-adjust the width. <br/>The width (in pixels) of the "
+#~ "Comments block. The mobile version of the Comments block ignores the "
+#~ "width parameter, and instead has a fluid width of 100%."
+#~ msgstr ""
+#~ "Hagy üresen a szélesség automatikus beállításához. <br/>A Hozzászólások "
+#~ "blokk szélessége (pixelekben). A mobil verzió nem veszi figyelembe ezt az "
+#~ "értéket, 100%-os szélességet alkalmaz."
+
+#~ msgid ""
+#~ "Navigate to Appearance > Widgets section in the admin panel of your "
+#~ "website and activate \"Super Socializer - Sharing\" widget in the desired "
+#~ "area. This will display the sharing counts of the home/index page of your "
+#~ "website. Do not forget to turn on the sharing counts in widget options."
+#~ msgstr ""
+#~ "Az oldalad Megjelenés > Widgetek menüjében helyezd a \"Super Socializer - "
+#~ "Sharing\" widgetet a megfelelő widget helyre. Ez a home/index oldalon "
+#~ "megjeleníti a megosztások számát. Ne felejtsd el a widget beállításnál "
+#~ "bekapcsolni a számláló megjelenítést."
+
+#~ msgid ""
+#~ "If you like the plugin, want to get it improved and want to see it at the "
+#~ "top of other plugins, please consider making a donation."
+#~ msgstr ""
+#~ "Ha tetszik a plugin, szeretnéd, hogy fejlesztésének köszönhetően a "
+#~ "legjibb lehessen, kérlek fontold meg támogatását. "
+
+#~ msgid "Load first"
+#~ msgstr "Elsőként betöltött"
+
+#~ msgid "Selected commenting will be loaded first on the page"
+#~ msgstr "A kiválasztott hozzászólás típus töltődik be először az oldalon"
+
+#~ msgid "Text on \"Switch to WordPress Commenting\" button"
+#~ msgstr "Szöveg a \"Váltás Facebook Hozzászólásokra\" gombon"
+
+#~ msgid ""
+#~ "This text will be display on the button to switch to WordPress comments"
+#~ msgstr ""
+#~ "Ez a szöveg jelenik meg a gombon a WordPress hozzászólásra váltáshoz"
+
+#~ msgid "Text on \"Switch to Facebook Commenting\" button"
+#~ msgstr "Szöveg a \"Váltás Facebook Hozzászólásokra\" gombon"
+
+#~ msgid ""
+#~ "This text will be displayed on the button to switch to Facebook comments"
+#~ msgstr "Ez a szöveg jelenik meg a gombon a Facebook hozzászólásra váltáshoz"
+
+#~ msgid "Specify a title for commenting"
+#~ msgstr "Egyedi cím a hozzászólásokhoz"
+
+#~ msgid ""
+#~ "Social Login interface will get enabled at your Wordpress Comment form<br/"
+#~ "><strong>Note: Social Login at comment form of your website will not get "
+#~ "enabled if Facebook commenting is enabled.</strong>"
+#~ msgstr ""
+#~ "La interfaz Social Login se activará en tu formulario de Comentario "
+#~ "Wordpress Nota: Social Login en el formulario de comentarios de su sitio "
+#~ "web no se habilitará si Comentario Facebook está habilitado"
